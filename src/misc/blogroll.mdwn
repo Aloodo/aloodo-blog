@@ -1,0 +1,64 @@
+[[!meta title="Blogroll"]]
+[[!meta date="Sun Jun  5 06:49:08 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Blogs that cover the targeted advertising problem,
+from many points of view.
+
+* [The Ad
+  Contrarian](http://adcontrarian.blogspot.com/)
+<a class="blogfeed" href="https://feeds.feedburner.com/blogspot/aDYs">(feed)</a>
+
+* [copyranter](http://copyranter.blogspot.com/)
+<a class="blogfeed" href="http://copyranter.blogspot.com/feeds/posts/default?alt=rss">(feed)</a>
+
+* [Darren Herman](http://www.darrenherman.com/)
+<a class="blogfeed"
+href="https://feeds.feedburner.com/hermanshead76">(feed)</a>
+
+* [Dave Carroll](https://medium.com/@profcarroll/)
+<a class="blogfeed"
+href="https://medium.com/feed/@profcarroll/">(feed)</a>
+
+* [The Cog Blog](http://www.bjanda.com/blog/industry-arrives-at-a-consensus-on-online-advertising/)
+<a class="blogfeed"
+href="http://www.bjanda.com/blog/feed/">(feed)</a>
+
+* [Digital Content Next](https://digitalcontentnext.org/blog/) 
+<a class="blogfeed" href="https://digitalcontentnext.org/feed/">(feed)</a>
+
+* [Doc Searls
+  Weblog](http://blogs.law.harvard.edu/doc/)
+<a class="blogfeed" href="http://blogs.law.harvard.edu/doc/feed/">(feed)</a>
+
+* [Don Marti](http://zgp.org/~dmarti/)
+<a class="blogfeed" href="http://zgp.org/~dmarti/index.rss">(feed)</a>
+
+* [dotcoma](http://www.dotcoma.it/)
+<a class="blogfeed" href="http://www.dotcoma.it/rss-feed">(feed)</a>
+
+* [François Marier](https://feeding.cloud.geek.nz/)
+<a class="blogfeed" href="https://feeding.cloud.geek.nz/index.rss">(feed)</a>
+
+* [Jason Kint](https://digitalcontentnext.org/blog/author/jason-kint/)
+<a class="blogfeed" href="https://digitalcontentnext.org/blog/author/jason-kint/feed/">(feed)</a>
+
+* [Lion in a sidecar](https://lioninasidecar.wordpress.com/) <a class="blogfeed"
+href="https://lioninasidecar.wordpress.com/feed/">(feed)</a>
+
+* [Monica at Mozilla](http://monica-at-mozilla.blogspot.com/) <a
+  class="blogfeed"
+  href="http://monica-at-mozilla.blogspot.com/feeds/posts/default?alt=rss">(feed)</a>
+
+* [Murphy Apps](http://murphyapps.co/) <a class="blogfeed"
+  href="http://murphyapps.co/blog?format=RSS">(feed)</a>
+
+* [My heart’s in
+  Accra](http://www.ethanzuckerman.com/blog/) <a class="blogfeed"
+  href="http://www.ethanzuckerman.com/blog/feed/">(feed)</a>
+
+* [Never get out of the
+  boat](http://www.eaonpritchard.blogspot.com/) <a class="blogfeed"
+  href="http://eaonpritchard.blogspot.com/feeds/posts/default?alt=rss">(feed)</a>
+

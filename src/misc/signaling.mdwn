@@ -1,0 +1,183 @@
+[[!meta title="Where's the signal?"]]
+[[!meta date="Fri Aug 14 07:38:02 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Philosopher Thomas Wells, in an
+[essay for the Australian Broadcasting Corporation](http://www.abc.net.au/religion/articles/2015/07/14/4273200.htm),
+makes the case that advertising is an example of market
+failure.
+
+> The advertising industry consists of the buying and selling of your attention between third parties without your consent. That means that the cost of producing the good - access to your attention - doesn't reflect its full social cost.
+
+...
+
+> Since advertisers pay less to access your attention than your attention is worth to you, an excessive (inefficient) amount of advertising is produced. 
+
+Wells makes some good points that apply to
+some problematic forms of advertising.  But much
+advertising does have value.  And for those of us who
+work on the web, the medium is new enough that we can
+still make web advertising into a net positive,
+if we fix a few things.
+
+The main reason we have advertising in the
+first place is help deal with
+an information asymmetry problem.
+Nobel Prize-winning economist George Akerlof
+[wrote](http://zgp.org/targeted-advertising-considered-harmful/),
+<q>Dishonest dealings tend to drive honest dealings
+out of the market.</q> In a market where low-quality
+and high-quality sellers compete, and sellers know
+their products better than buyers do, high-quality
+sellers have trouble staying in business.  When the
+buyer can't tell a low-quality car, a <q>lemon</q>,
+from a high-quality car, no buyer can justify paying more
+than a lemon's value for any car, so the high-quality 
+seller can't compete.
+
+Many institutions, norms, laws, and habits have popped
+up over thousands of years to deal with Akerlof's
+<q>market for lemons</q> problem.  Licensing and
+regulation of sellers, product reviews, and protecting
+trademark rights, are all ways to give some advantage
+to high reputation sellers.
+
+Advertising is another piece of the solution.  Tom Goodwin
+compares advertising expenditure to 
+impressive stone buildings for banks, and
+[writes](https://www.linkedin.com/pulse/i-miss-days-expensive-advertising-tom-goodwin),
+
+> Old world advertising used to be the same, the very act of investing in TV, buying a premium billboard, taking an ad in Vogue, became brand building element because of the cost, not despite. The general public doesn't know rate cards, but there was a tacit, enduring, innate feeling that companies that advertised were companies of quality.
+
+Perceived advertising costs do
+matter to users.  In [The Waste in Advertising Is the Part That
+Works](http://econpapers.repec.org/article/cupjadres/v_3a44_3ay_3a2004_3ai_3a04_3ap_3a375-389_5f04.htm),
+Tim Ambler and E. Ann Hollier describe a signaling
+test based on showing "expensive" and "degraded"
+versions of the same TV commercials to experimental
+subjects.  The audience's estimation of advertising
+expense had an effect on brand preferences.
+
+> [P]erceived expense rarely is an important direct predictor of brand choice.  However, there is a very consistent, though largely indirect link between the two because perceived expense influences perceptions of brand quality, which in turn is the most critical predictor of a participant's inclination to purchase a brand.
+
+Ambler and Hollier split out the effects
+of familiarity, information, and persuasion from
+signaling.  "[H]owever much attention, recall,
+and persuasion an advertisement may garner, the
+effectiveness of the advertisement, and thus brand
+performance, will depend on the perceived advertising
+expenditure."
+
+Wells, however, argues that signaling is a waste.  He writes,
+
+> Like banks housed in grand marbled buildings, companies which pour vast amounts of money into advertising campaigns must be supremely confident about the quality of their products and its long-term sales. Otherwise they couldn't afford to burn so much money on ridiculous Super Bowl ads.  This argument rather reminds me of John Maynard Keynes's suggestion that in a recession caused by a collapse of aggregate demand one could solve the problem by burying bottles filled with bank notes and then leaving it to private enterprise to dig them up again.
+
+The missing part in that argument, though, is that
+signaling by advertising isn't just based on the
+production values of the ad.  Ambler and Hollier
+tested ads in isolation, but in the real world,
+ads appear attached to content.  The signal is
+proportional to the value of the content, not just the
+ad itself.  Although Wells suggests that cultural
+works do not require advertising, and can be paid for
+by other funding mechanisms such as subscriptions and
+patronage, some cultural works that would not exist
+otherwise are still funded by advertising.
+
+When those works go on to other uses, whether it's in
+a book of William Gibson stories originally paid for
+by _Omni_ advertisers in the 1980s, or a boxed DVD set
+of _Star Trek_ DVDs paid for by TV advertisers in the
+1960s, then advertising doesn't just pay its way, but
+creates positive externalities.
+
+An ad pays for content, of course, but it also
+<q>pays for</q> the user attention is consumes by
+sending an economic signal about the advertiser's
+intent in the marketplace.  The more obviously
+expensive the content, the stronger the signal.
+Users tolerate ads in signal-carrying media such as
+magazines, and a positive feedback loop can emerge.
+Valuable signal-carrying ads make more money available
+to fund content, whose quality and perceived cost
+increases signaling power and therefore ad rates, and
+so on. All of this makes a signal-carrying medium a
+great business to be in once the feedback gets going.
+
+But when advertisers try to
+"efficiently" [target some users and not
+others](http://radar.oreilly.com/2014/12/how-browsers-get-to-know-you-in-milliseconds.html),
+though, signaling breaks down.  Targeting turns an ad
+into the digital version of a cold call.  With all
+the information on the seller's side, the cold call
+is of no value to the recipient.  The same users who
+willingly look at magazine ads choose to block email
+spam.
+
+As web ads get more and more targeted, they're
+steadily moving away from magazine-style,
+with signaling value, toward spam-style, with
+no signaling value.  Targeted ads tend to "burn
+out" the medium in which they appear, through a
+[Peak Advertising](http://peakads.org/) effect.
+While magazine ads continue to plug away, pulling
+in CPMs that would be headline news in any digital 
+medium, each new targetable medium falls in value
+and popularity as users figure it out, filter it,
+or get their governments to restrict it.  Remember
+junk faxes?
+
+Even when a web ad appears on expensive content,
+it fails to carry the signal that it would convey
+in a less targetable medium. Users are aware that
+ads "follow them around," so instead of viewing an
+ad as part of an expensive, signal-carrying ad buy,
+even a well-designed ad on high-quality content could
+be an example of cheap targeting.  (Are they really
+still supporting that product, or am I the one poor
+loser who they're targeting with the last obsolete
+machine in the warehouse?)  The better that users
+understand how targeted ads find them, the less well
+those ads work.
+
+
+Solutions
+---------
+
+Two extremes dominate the conversation about what
+do to about online ads.  The first is to deploy
+general-purpose ad blockers everywhere and eliminate
+ad-supported content in favor of other business
+models.  This is clearly suboptimal.  The existence
+of magazines that people voluntarily subscribe to is
+proof that there is some level of advertising that
+can works.
+
+The other extreme is to advocate that
+users run in a completely unprotected and
+targetable state. This doesn't work, not just
+because of the ongoing data leakage, ad fraud and
+[malvertising](http://blog.aloodo.org/posts/end-user-security/)
+problems, which make some protection a necessity, but
+because of signaling failure.  No positive feedback
+from signaling, no cheddar for publishers.
+
+A third way is needed.   Fortunately, new [tracking
+protection tools](http://www.aloodo.org/protection/)
+are able to block the low-value, cold-call-like
+targeted ads while permitting signal-carrying ads, the
+ones that respect users' choices not to be tracked.
+Tracking protection gets web sites out of the peak
+advertising cycle and into the signaling business.
+
+Instead of waiting for more and more users to
+give up on advertising and go get an ad blocker,
+publishers can help and encourage users to run
+tracking protection tools instead.  There are lots of
+low-impact, easy ways to get started.  But if sites
+fail to turn the web into a signal-carrying medium,
+web ads could slide into a no-win struggle like email
+spam/anti-spam, and anti-advertising philosophy could
+turn out to be right after all.
+

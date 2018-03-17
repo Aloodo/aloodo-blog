@@ -1,0 +1,99 @@
+[[!meta title="Predicting the future"]]
+[[!meta date="Sun Aug 14 06:49:08 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+[Doc Searls](https://blogs.harvard.edu/doc/), on
+Twitter, links to some [predictions for the future of
+marketing](http://www.tintup.com/blog/future-of-advertising-and-marketing/).
+
+If you read that, it looks like the future will
+be...basically, copied from a white paper about
+retargeting.
+
+Yawn slash eeew.
+
+You can't just predict that the future is like today
+but more so.  That would have gotten us "interactive
+TV" instead of the Web.
+
+I'm not going to predict the future of Marketing in
+general, but since there's a lot of attention to one
+corner of it, here goes.
+
+
+**Consolidation.** I don’t know if we’ll
+get all the way down to a two-logo Lumascape,
+but single digits, maybe. Two-sided markets
+tend to consolidate, because buyers go where
+the sellers are and vice versa. This isn’t
+happening in web advertising, because agencies
+have an interest in artificially complicating the
+online ad business, and venture capitalists have
+funded a lot of competing, minimally different,
+startups that will take time to settle out. But
+with more scrutiny on agencies because of the [rebates
+problem](http://adcontrarian.blogspot.com/2016/06/ana-report-disgrace-4as-response-joke.html),
+and less incoming
+[VC](https://aleph.vc/a-call-to-israeli-engineers-adtech-is-not-for-you-b1f0171a867f#.pigdff9eb)
+money to adtech, it will be easier to see the
+consolidation happening.
+
+**More and harder math.** As complicated as the
+math in online ads is now, it’s about to get more
+interesting and potentially way more important. Right
+now, online advertisers are playing a relatively
+simple **level zero** game of maximizing response rate
+given the available ability to target users in each
+medium. The next step is the **level one** game where
+brands and publishers re-shape the medium (and the
+ability of users to control it) in order to adjust
+how well the medium’s users can be targeted by a
+brand and its competitors.
+
+An ad medium that facilitates collection of
+information from the user also limits transfer of
+information to the user, which is necessary for brand
+building ([There’s no free lunch](http://zgp.org/targeted-advertising-considered-harmful/#how-signaling-breaks-down)).  Brands
+and publishers will need to adjust the balance of
+targetability and signal-carrying ability. That means
+that over the next several years, advertisers will
+have to solve **level one** problems in the areas of
+Behavioral Economics and Signaling.
+
+**More memorable ads.** As a user, right now you’re
+seeing a lot of crappy ads, because the problem of
+measuring immediate response to a terrible ad is
+easier than the problem of measuring Brand Equity
+changes as the result of a signal-carrying ad. The
+terrible ad problem is temporary. Advertising is not
+a zero-sum struggle with math and technology on one
+side, and creative on the other. Better math will
+have the side effect of informing and justifying
+better creative.
+
+**Ad blockers fade to the background.** Right now,
+the ad blocker is a threat to legit ads because
+new blocking development is sustained by the
+paid whitelisting model and because high-value and
+low-value ads are delivered the same way. High-value
+ads will beat ad blocking, possibly with a combination
+of
+
+ * legal and regulatory attacks on paid whitelisting
+
+ * front-ending the CMS with a proxy server that stitches ads into place and obfuscates IDs and classes
+
+ * limiting third-party tracking that facilitates low-value and fraudulent ads
+
+Ad blockers (and other privacy tools, as a side
+effect) will still catch the crap ads. And advertisers
+will still have to consider ad blocking, but in the
+background, much as email newsletter senders  have to
+consider the spam filter.  Go watch that [Johnny Ryan
+video](https://www.youtube.com/watch?v=p8qlyXQUnfw)
+that [I linked to last
+time](http://blog.aloodo.org/posts/reinvention-not-reinsertion/).
+
+(This post started as an [answer on
+Quora](https://www.quora.com/How-will-the-online-ads-industry-be-different-5-years-from-now/answer/Don-Marti) so go upvote there if you do the Quora thing.)

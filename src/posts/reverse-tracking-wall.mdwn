@@ -1,0 +1,57 @@
+[[!meta title="Reverse tracking wall in two lines of JavaScript"]]
+[[!meta date="Sat May  2 17:49:08 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Let's build a simple reverse tracking
+wall.  This is a way to encourage
+users to install or configure [tracking
+protection](http://www.aloodo.org/protection/),
+by rewarding them with access to particular web pages.
+
+**Step zero.**  Make a page that we want to protect.
+[Done](/misc/protected-post/).  We were going to do
+that anyway.
+
+**Step one.** Add the scripts to the page.  First is the
+Aloodo script.  This is the same script that does
+tracking tests and warnings.
+
+	<script
+	 src="http://ad.aloodo.com/ad.js"
+	 defer></script>
+
+In order to get a reverse tracking wall instead of just
+a warning, we just need to set the variable
+`trackingAlternateLocation`.  This is where a user
+gets bounced to, if the script detects that the
+browser is vulnerable to tracking.
+
+	<script>
+	var trackingAlternateLocation =
+	'/misc/no-content-for-you/';
+	</script>
+
+That's it for step one. The next step is...no, wait,
+there's only one step. All done.
+
+Want to see it in action?  Visit the
+[new page protected by a reverse tracking
+wall](/misc/protected-post/).  See what happens if
+you visit from a vulnerable browser.
+
+This is a simple client-side reverse tracking wall,
+and users with a little web knowledge can get around
+it, just as users with web knowledge can evade web
+site paywalls.  But users who know about web security
+are probably already using tracking protection anyway.
+Reverse tracking walls are for unprotected users,
+to help them justify spending the time to do a
+simple fix.
+
+Data leakage is an ongoing problem that feeds fraud,
+malvertising, a race to the bottom in ad revenue, and
+a failure to build brands online.  A reverse tracking
+wall is one way to give a site's users the incentive
+to help fix the data leak upstream, in the browser.
+

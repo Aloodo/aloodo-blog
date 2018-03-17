@@ -1,0 +1,73 @@
+[[!meta title="Why no □s at □Week?"]]
+[[!meta date="Thu Sep 29 05:59:24 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Bob Hoffman [asks](http://adcontrarian.blogspot.com/2016/09/who-stole-ads-from-ad-week.html), 
+
+> Who Stole The Ads From Ad Week?  I'm on my third morning at Advertising Week and I've yet to see an ad.
+
+All right, Bob, here's some 21st-century advertising.
+(You're welcome.)
+
+![Jeep ad](/images/jeep-ad.png)
+
+That's the kind of thing that the sessions at the
+big conferences are all about.  It's a targeted ad.
+
+But even though targeting and the technology behind
+it are core subjects at Advertising Week, somehow
+everyone knows that it would be uncouth, unwise,
+or both to show targeted ads to people there.
+
+Advertising Week participants recognize at some
+level that actually showing a targeted ad to someone
+is an act of communication aggression. It treats
+the recipient as a component of a mechanism,
+like a [flask moving down a bottling line at a
+distillery](https://blogs.harvard.edu/doc/2015/01/10/on-marketings-terminal-addiction-to-personal-data-fracking-and-bad-guesswork/).
+
+In the Jeep ad above, I'm targeted as a person who
+doesn't drive off-road and basically can get by with
+a minivan.  So instead of honestly communicating about
+the qualities of the Jeep brand, they throw together
+something that some algorithm says is more my speed.
+
+The only information that ad offers me about Jeep is
+a little insight into what that algorithm, that Jeep
+paid for, thinks about me.  Some new Jeep has the same
+kind of electronic doo-dads as every other new car does,
+and the software predicts that I care.
+
+Brand advertising works differently.  [Rory Sutherland
+explains](http://blog.aloodo.org/posts/tv-shopping-with-rory-sutherland/)
+how people with limited information about complex
+buying decisions can use reputation to help.
+Reputation is hard to build, brand ads can help if
+you do them right, and those ads are the kind of
+thing that you show at a conference.
+
+Brand advertising does have complicated math in
+it, but it's behavioral economics math, with the
+calculations done on the "reputation coprocessor"
+in the user's brain. (For the data nerds out there,
+reputation-based advertising is like rendering your
+graphics on the GPU on the client, instead of paying
+for cycles in the data center.  Reputation math is
+way cooler, and has way more force multipliers hidden
+in it, than direct response math.  But the power to
+use that math looks "creative" so is out of fashion.)
+
+So many of the proposals for funding Journalism are
+based on allowing people to buy out of seeing ads.
+That only makes sense if you assume that ads
+are all targeted, not worthy of being shown at
+a conference, and adversarial.  But when the web
+can fix a few old bugs, valuable print-like ads
+can emerge.  One bright spot: [Firefox Tracking
+Protection is now available as a Test Pilot
+experiment](https://testpilot.firefox.com/).  Give it
+a try. A lot of the targeted ads will disappear, but
+you might just find your inner behavioral economist
+paying some attention to the ads that remain.
+

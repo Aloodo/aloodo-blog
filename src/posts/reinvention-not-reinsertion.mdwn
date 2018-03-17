@@ -1,0 +1,59 @@
+[[!meta title="Reinvention, not reinsertion"]]
+[[!meta date="Sat Aug 13 06:49:08 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+In this week's ad blocking news, the Adblock Plus
+people are all butthurt that Facebook is reinserting
+ads by editing HTML instead of [paying for
+whitelisting](https://www.engadget.com/2016/02/12/rip-adblock-plus/).
+I'm not sure who's winning right now, but by the time
+I put this up the current state of the "cat and mouse
+game" (when have you ever seen a mouse buy stuff from
+a cat?) will be different.  So go follow [Lara
+O'Reilly](http://www.businessinsider.com/author/lara-oreilly)
+and [Jack
+Marshall](http://topics.wsj.com/person/M/jack-marshall/7969)
+in your news recommendation tool of choice if you
+really want to keep up.
+
+Anyway, the web advertising debate is about Adblock
+Plus the way that the online music debate was about
+Napster.  Can we turn down the long-playing drama
+and pay attention to the important stuff here,
+for 23 minutes and 36 seconds at least?  What will
+web advertising look like when the ad blocker fades
+into the background, the way that spam filters are
+a background concern for email newsletter senders?
+
+[Dr. Johnny Ryan, speaking at the Advertising Research
+Foundation](https://www.youtube.com/watch?v=p8qlyXQUnfw)
+(watch the whole thing) has a good part of the answer.
+
+> There is a big question over whether it is a good
+> idea to restore all of the tracking functionality that
+> might infringe on the user's personal rights, and that
+> actually might take away from the value of the ad.
+
+It's not just the user's rights.
+When an ad medium makes it harder to
+target individual users, it gets better at
+[signaling](http://zgp.org/targeted-advertising-considered-harmful/#signaling).
+[Context
+matters](http://www.slideshare.net/IanGibbs2/guardian-guide-to-context-research-2015).
+There's no free lunch.
+[Everything we know about how ads work in
+context](http://zgp.org/targeted-advertising-considered-harmful/#evidence-for-the-signaling-model)
+tells us that the average web user is a pretty good
+applied behavioral economist.
+
+That's where reinvention, not reinsertion, comes in.
+What does web advertising look like when it works
+_with_ the user's mental "reputation coprocessor" and
+not against it?  When advertising turns into a game
+that you can win with a sustained signal of quality,
+not with targeting tricks that have to change every
+time the users figure them out?
+
+[Watch the whole thing.](https://www.youtube.com/watch?v=p8qlyXQUnfw)
+

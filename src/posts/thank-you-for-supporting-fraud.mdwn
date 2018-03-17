@@ -1,0 +1,167 @@
+[[!meta title="Thank you for buying fraudulent web ads."]]
+[[!meta date="Sat Jul 18 05:59:24 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Former media buyer Rick Webb [explains to web
+publishers](https://medium.com/@RickWebb/banner-fraud-doesn-t-matter-fc84413fe59c)
+why ad fraud is a leak in _your_ end of the boat, and
+so not his problem.
+
+>  We use banners as little billboards now. We use them strategically as incredibly cheap (so cheap) repeat impressions for brand awareness. We know many people don’t see them, we know most people don’t see them.  That’s okay. We use them accordingly, and the cost has been adjusted down to make them a perfectly great buy even though most people don’t see them.  We use them to measure the efficacy of campaigns we run _our_ way, using _our_ metrics.
+
+Webb&apos;s method for dealing with ad fraud is:
+
+ * Rely on the presence of huge quantities of
+   fraudulent traffic to drive down CPMs everywhere.
+   Buy a mix of fraudulent and legit banner impressions
+   at massive scale.
+
+ * Because fraud makes adtech data unreliable, 
+   measure banner impact with offline tools,
+   as you would for a billboard.
+
+The bottom feeding strategy solves Webb&apos;s side
+of the problem in the short term.  Instead of trying
+to capture the dubious value of data-driven thought
+leader insights and all that jive, buy many
+crap impressions to extract tiny amounts of
+[signaling](http://zgp.org/targeted-advertising-considered-harmful/#signaling)
+value, like scraping milligrams of gold from a
+mountain of e-waste.
+
+I checked in with ad strategist [Eaon
+Pritchard](http://eaonpritchard.blogspot.com/) about
+how well this actually works.
+He compared questionable banner
+ads to cheap, remnant
+late-night TV inventory, which is no bargain
+considering the small audience size.  <q>Big media
+(ie high rating sites and TV) with less frequency is
+always the best option in terms of quality/signal
+and reach, but that sounds terribly old-fashioned
+these days.</q>
+
+Advertising always has two jobs: selling stuff
+to people and selling itself to the client.
+Bottom feeding comes in when the client wants to be on
+the Internet, and effective but out-of-style offline
+media are out of consideration. So the agency 
+uses low-quality web ads as a less-effective alternative to
+radio or TV.
+
+
+Shifting the pain of ad fraud
+-----------------------------
+
+Low-quality, low-reach web ads are different from
+low-quality, low-reach TV ads, though.  A TV signal
+broadcasted to nobody is just a waste of electricity,
+but ad fraud supports activities that actively harm
+publishers and users.
+
+ * Ad fraud [is now the number one malware payload](http://adage.com/article/digital/inside-google-s-secret-war-ad-fraud/298652/).  When
+   bottom feeders pay indiscriminately
+   for fraudulent and legit banners, they fund
+   malware development.  Looking for someone
+   to blame for the crap you keep having to clean
+   off your uncle&apos;s PC?  You found him.
+
+ * Low-quality impressions don&apos;t pay for
+   original sites, but instead encourage
+   a bunch of other bad behavior, from [copyright infringement](http://thetrichordist.com/2012/07/23/wall-of-shame-bmw-willing-to-drive-without-license/)
+   to comment spam.
+
+ * When advertisers buy programmatically on markets
+   that include both legit and fraudulent inventory,
+   publishers pay for fraud in the form of lower CPMs.
+
+Although Webb only covers one point of view
+about one strategy, he does help us
+understand why advertisers have been so <q>meh</q>
+about the ad fraud problem.  While Bob Hoffman [points
+out](http://adcontrarian.blogspot.com/2014/12/what-every-ceo-needs-to-know-about.html)
+that <q>If your company is spending money on online
+advertising, you are almost certainly being robbed,</q>
+and the IAB convenes expensive-sounding committees,
+nobody is making much progress. Instead, a halfway
+solution is emerging: shift the costs of fraud away
+from advertisers and onto users, copyright holders,
+and publishers.
+
+<img src="/images/hackers.jpeg" width="100%" alt="3 hackers photo"
+title="4-year vesting in an open-plan monkey house is
+for suckers. Ad fraud hackers are making mad cash
+in 30 days."> 
+
+The fraud issue is helping to form a more realistic
+view of the role of third-party tracking and ad
+targeting on the web. Proponents of tracking often
+promise AI-driven highly effective attributable touch
+points&mdash;but in practice, much of what third-party
+tracking and targeting enables is less
+[heroic](http://battellemedia.com/archives/2013/11/why-the-banner-ad-is-heroic-and-adtech-is-our-greatest-technology-artifact.php).
+Track a known good user from a
+high-reputation site, and [serve that user cheap
+impressions](http://zgp.org/targeted-advertising-considered-harmful/#targeting-failure-legit-sites-lose-intermediarieswin)
+on low-reputation sites or through malware.
+
+
+If advertisers won't fight fraud, who will?
+-------------------------------------------
+
+The response to the bottom feeding strategy, for publishers, is to
+get the audience out of the pool of commoditized
+<q>eyeballs</q> where fraud can reach them.
+One approach is,
+well, if you&apos;re being raided by Vikings, pick the
+baddest Viking and make him your king. [Emily Bell explains
+that
+one](http://www.themediabriefing.com/article/newsletter-july-17th-emily-bell-how-the-great-reintermediation-of-the-web-caused-publishers-to-lose-control-of-distribution-6-pillars-of-a-revenue-gen).  Facebook has
+an incentive to protect its own locked-down platform
+from fraud, so <q>Facebook is extremely good at
+monetising mobile audiences in a way that publishers
+simply are not.</q>
+
+The other logical move for publishers is to work
+with tracking protection.  Inform, nudge, and
+reward users to turn on [some of the great new web
+functionality](http://www.aloodo.org/protection/) that
+blocks fraud-prone third-party ads without interfering
+with higher-value ads.  A tracking protection
+strategy does not require giving up on Facebook
+or on conventional ad networks, but can [work in
+parallel](http://blog.aloodo.org/misc/site-request/)
+with them.
+
+
+Measuring the problem
+---------------------
+
+In a way, bottom feeder advertisers are doing
+publishers a favor, by spreading information about
+the state of the market.  Brand-unsafe placements and
+ad-supported piracy can help everyone get a better
+idea of where the fraud-tolerant ad money is going,
+and how to cut it off.  Sites that are crappy enough
+not to get regular users, but just clean enough not
+to get taken down, will be the first place to look.
+
+With a little more effort, the other place to look is
+within demand side platforms.  Tracking protection,
+including publisher tracking protection strategy,
+affects the price of marginal banners&mdash; the
+ones just barely possibly non-fraudulent enough to
+be saleable.  More on that coming soon.
+
+Tracking protection gives legit advertisers
+the power to turn the web into a [more
+valuable](http://zgp.org/targeted-advertising-considered-harmful/#fig1)
+ad medium. And advertisers who
+balance on the ethical line give us a way to measure
+our progress.  So I have to thank Webb and the rest of
+the bottom feeders, but now the
+rest of us have some work to do.
+
+_(photo: [Hacker Dojo](http://wiki.hackerdojo.com/))_
+

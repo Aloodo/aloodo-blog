@@ -1,0 +1,215 @@
+[[!meta title="Howto"]]
+[[!meta date="Sun Aug  1 06:49:08 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Protect your users from fraud and malware, while
+increasing the value of your brand and your content,
+with one line of JavaScript.
+
+ * **Brands:** Protect your customer base from
+   [targeting by competitors](http://marketingland.com/facebooks-retargeted-ads-broadened-include-rivals-site-page-audiences-20304).
+   Check your marketing technology against tracking
+   protection rates by known customers to weed out
+   "too good to be true" ad impressions.
+
+ * **Sites:** Report on the trackability of your
+   site's real audience&mdash;if a low-value
+   competitor claims to reach the same people for less
+   money, now you can show prospective advertisers
+   the difference between your real humans and their
+   adfraud bots.
+
+ * **Everybody:** Warn users who might be trackable
+   from site to site, so that
+   you can recommend legit [tracking
+   protection](http://www.aloodo.org/protection/)
+   in place of a problematic ad blocker.
+
+Ready to get started? You have three choices: the
+basic script, the custom script, and the un-tracking
+pixel.
+
+ * If you want to provide a simple warning to
+   tracking-protected users, without writing any 
+   JavaScript code of your own, use the [basic
+   script](#basic).
+
+ * If you want to collect data but not alert the user,
+   or if you want to perform custom actions
+   based on tracking detection: use the [custom
+   script](#custom).
+
+ * If you can't add JavaScript to your site, or prefer
+   not to for performance or security reasons, then
+   use the [un-tracking pixel](#pixel).
+
+
+<h1 id="basic">Basic script</h1>
+
+
+Quick start
+-----------
+
+Want to give users a quick reminder? Add the
+basic script to your site.
+
+    <script src="https://ad.aloodo.com/ad.js"></script>
+
+This script will attempt to “track” the user
+from site to site. If tracking succeeds, it will load
+additional JavaScript and CSS and show a warning.
+
+(Users won't see the warning until they visit the
+*third* site that runs the iframe.  This feature is
+needed in order to get accurate results with Privacy
+Badger.)
+
+
+Basic tracking warnings
+-----------------------
+
+By default, the above script will load and
+display a warning pop-up. If you prefer to
+supply your own warning, add an element
+with one of the following `id`s to the page:
+
+ * `tracking-warning-block`
+ * `tracking-warning-inline`
+ * `tracking-warning-table-cell`
+
+and apply `style="display: none"`. Instead of
+displaying the popup, the script will set the existing
+element to block or inline. 
+
+This is how the <q>cheesy ad</q> and footer warning
+here on blog.aloodo.org work.
+
+
+Elements hidden from known vulnerable users
+-------------------------------------------
+
+If the page has an element with an `id` of
+`tracking-safety`, the basic script will hide it (set
+its display property to none) if it detects tracking.
+**Please do not use this feature to tell users that they
+are safe from tracking, since not all tracking
+technologies are detectable from the client.** This
+feature is just to let you remove generic copy that
+would not be needed if showing one of the tracking
+warnings above.
+
+
+Reverse tracking wall
+---------------------
+
+A simple way to encourage tracking protection is a “reverse tracking
+wall” that makes some pages unavailable to tracked users. A simple
+client-side reverse tracking wall is built in.
+
+To use this feature, set the JavaScript variable
+`trackingAlternateLocation` to the URL of the page to which users should
+be redirected if tracking is detected.
+
+    <script type="text/javascript">
+    var trackingAlternateLocation =
+    'http://example.com/wall-warning/';
+    </script>
+    <script type="text/javascript"
+            src="https://ad.aloodo.com/ad.js">
+    </script>
+
+**Example: [Reverse tracking wall in two lines of
+JavaScript](http://blog.aloodo.org/posts/reverse-tracking-wall/).**
+
+
+<h1 id="custom">Custom script</h1>
+
+The
+[track.js](https://github.com/Aloodo/ad.aloodo.com/blob/gh-pages/track.js)
+script gives you more customizability, and is
+designed to be integrated with other JavaScript
+on your site.  (It is based on code from
+[BlockAdBlock](https://github.com/sitexw/BlockAdBlock).)
+
+Include the script with:
+
+	<script src="https://ad.aloodo.com/track.js"></script>
+
+And set up your callbacks with:
+
+	if(typeof aloodo === 'object') {
+		aloodo.setOption('debug', true);
+		aloodo.onLoad(trackerDetected);
+		aloodo.onDetected(trackingConfirmed);
+	}
+
+The `onLoad` function gets called when the
+fake tracker iframe loads, and the `onDetected`
+function gets called when tracking is confirmed.  The
+difference is because of the problem of an "untrained"
+[Privacy Badger](https://www.eff.org/privacybadger).
+If Privacy Badger is installed but has not learned to
+block `ad.aloodo.com`, then the `onLoad` function
+will get called even though the user has protection.
+
+So
+
+ * Use `onLoad` to correctly alert more users of list-based protection.  (In this case you will have to let Privacy Badger users know that they can take a [test](http://www.aloodo.org/test/) to check their results.)
+
+ * Use `onDetected` to avoid alerting untrained Privacy Badger users. (You will fail to alert some vulnerable users of list-based protection.)
+
+Because Aloodo has to use a third party and wait
+for the iframe to load, this script can't be as fast
+as a pure ad blocker detector.
+
+
+<h1 id="pixel">Un-tracking pixel</h1>
+
+The un-tracking pixel attempts to set a third-party
+"tracking" cookie, to make either script work better on
+other sites.
+
+You can't show warnings or do scriptable actions
+on a site that just has the pixel and not one of the
+scripts&mdash;but it does prime the browser so that
+tracking will be detected more quickly on a site that
+does have the script.
+
+(If you have a main site where you want to show warnings
+or do other actions, you can put the pixel on your
+other sites.)
+
+Include the un-tracking pixel with
+
+	<img src="https://ad.aloodo.com/px/www.example.com/"
+	     alt="">
+
+Substitute your site's hostname for `www.example.com`.
+
+If you set up the pixel URL correctly, Aloodo will
+serve the pixel with a long expiration time, so
+that the browser won't re-load it from every page on
+your site.  (This helps minimize the amount of data
+that we can collect, and the load on our servers.)
+
+You can use developer tools in your browser to check
+that an `Expires:` header is being set for the image.
+If you do not see `Expires:` and the browser is
+re-loading the image on each page view, check that
+the hostname in the image URL matches the hostname
+part of the URL in the Referer header.
+
+(Please contact us if you would like to start receiving
+reports based on aggregated usage of the un-tracking
+pixel on your site.  **We delete logs frequently, so
+we we are not set up to do reports from old data.**)
+
+
+Questions? Suggestions?
+=======================
+
+ * Post an issue on the [project on
+GitHub](https://github.com/Aloodo/ad.aloodo.com).
+
+

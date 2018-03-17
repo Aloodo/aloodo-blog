@@ -1,0 +1,261 @@
+[[!meta title="DRAFT: 8x web ads"]]
+[[!meta date="Sun Feb 14 06:49:05 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+WORK IN PROGRESS
+
+We already know that existing web ads do not bring
+in enough money to sustain high-value journalism and
+cultural works.  Even when web ads work as designed,
+the same content can produce an order of magnitude
+less ad revenue on the web than in print.  The problem
+is bigger than just ad blocking or ad fraud.
+
+"Saving" the current web advertising business from
+ad blocking, or reducing fraud, or replicating the
+existing web ad system in a way that complies with
+tracking norms, are all inadequate goals.  Instead,
+we have to build a new web ad system that can both:
+
+ * Increase publisher share of web ad revenue (we can
+ get at least a factor of 2 by matching the classic
+ publisher/agency split. More may be possible with
+ the right capital structures and automation)
+
+ * Increase the value of web ads as a medium (by about
+ a factor of 4, to about the same ad revenue per user
+ minute as print.  This is possible if we can get from
+ creepy to trustworthy, and make web ads able to carry
+ [signal](http://zgp.org/targeted-advertising-considered-harmful/#signaling).)
+
+Taken together, that gives publishers a factor of 8.
+Not enough to get out of the "digital dimes" and back
+to "print dollars," but 80 cents is 80 cents.
+
+Many of the parts of the new system are going to be
+commodity businesses: easily clonable with low costs
+of switching. This presents a problem for funding
+them through conventional venture capital, because of
+the risks of creating a commodity business with the
+capital structure of a startup. Any company stuck in
+a commodity market that still has to create the gains
+that venture capitalists expect will be forced into
+rent-seeking to survive. Creative ownership structures
+will help with sustainability.
+
+
+Proving that we can do it
+-------------------------
+
+Rebuilding web advertising depends on fixing data
+leakage, but we don’t have numbers on the problem,
+because leakage. Nobody in the existing adtech system
+has an incentive to share any information on data
+leakage and how it feeds fraud and leads to lower
+ad revenue. Publishers know in principle that data
+leakage is a problem, but they can’t know how big
+of a problem, because they don’t have the data. And
+nobody who’s on the receiving end of data leakage
+has an incentive to share. We will need to build a
+data leakage warning system early on.
+
+
+4X: increased reputation
+========================
+
+Safe analytics
+--------------
+
+Help publishers gain control of audience data shared
+by users. Safe analytics can be run as a commodity
+service.
+
+ * Put a meta tag on a page with a session reporting URL.
+
+ * The browser POSTs an encrypted blob to that URL, which publishers in good standing can collect and submit in batches for an aggregated, anonymous (but accurate) report.
+
+ * In the case of a 3rd-party session reporting service, the publisher can download a report from the session logging service.
+
+We do want to make it possible for a group of
+sites to agree to request an aggregated report,
+though. Imagine that 50 blogs on the same subject
+want to sell ads together. They should be able to
+request a common report that includes total unique
+users. That's possibly a freemium angle for a safe
+analytics service: sites get stats for free, but
+DNT-respecting ad networks who want data on multiple
+sites can subscribe.
+
+
+User attribute sharing
+----------------------
+
+It's better to
+talk about "identifiers" than "identities" in this
+context.  An "identifier" is clearly just
+the primary key in the `people` table of a database,
+not something that can be matched across sites.
+
+When a site applies an identifier to
+a user, or associates a user’s identifier
+with some attribute, it MUST happen
+by mutual agreement.
+
+Attributes can include:
+
+ * This user is human
+ * This user is interested in (topic)
+ * This user is a customer of (company)
+ * This user has been to (location)
+ * This user is a member of (organization)
+ * This user has a certain skill
+
+**Offering and accepting  attributes**
+is a good thing as long as both assigner and
+assignee agree.  It should be easy as possible for
+any site to offer a user an attribute
+(as part of "account setup", "add info to your profile",
+whatever), and as easy as
+possible for users to accept.  Work toward blocking
+any claiming by a user of a false 
+attribute, and any unilateral assigning of an
+attribute to a user by a site.
+
+**Atrribute sharing** functionality should enable
+a user to share attributes with a site when the
+site asks.  This should not be complex or restricted
+to a predetermined workflow. Users can choose to
+share in many different ways.  The user experience
+would be similar to "share your location", where the
+site decides when to ask and the user can say yes,
+no, never, or leave the site.  For example, a site
+with “developer exclusive” articles and events
+will be able to ask users to share attributes that
+they have earned on programming sites.  Users MUST
+be able to choose what to share and what not to,
+and who they’re sharing it with.
+
+
+
+Audience profile books
+----------------------
+
+As we get 3rd-party tracking to go away, ad agencies
+are still going to want to buy programmatically. This
+should be able to happen in a way that’s compatible
+with tracking norms, but will require some kind of
+machine-readable audience profile.
+
+Just as users can choose from a portfolio
+of identifiers and attributes  to share with
+publishers, publishers choose the reader survey
+data and recommendation data that goes into the
+"audience profile book"—information used to sell advertising
+effectively.
+
+User “proof of humanness” and interest data SHOULD
+be shared only with trusted publishers, and publishers
+MUST aggregate it when report it to advertisers.
+When designing identifiers and attributes for users,
+we can keep audience profile books in mind. How can this user
+identifier or this attribute be used safely (without
+breaking signaling) as part of a set of information that helps
+to get advertiser support?
+
+Audience profile books can contain audience data, but not user PII
+(because they’re built based on safe analytics) If
+you say you want to put your ad in front of 100,000
+pickup truck drivers, an aggregator will be able to
+parse audience profile books to find them.
+
+
+2X: Fix the split between publishers and intermediaries
+=======================================================
+
+Terence Kawaja [breaks out a $5 CPM paid by the advertiser, as follows](http://www.slideshare.net/tkawaja/terence-kawajas-iab-networks-and-exchanges-keynote/13?src=clipshare):
+
+	Agency                 $0.50
+	Ad network             $2.00
+	Data provider          $0.25
+	Ad exchange            $0.35
+	Ad serving/rich media  $0.10
+	Publisher              $1.80
+
+That's 36% for the publisher.  A long way from the
+historical split of 15% for the agency, and the rest
+for the publisher.  Those numbers are averages.
+Highly intermediated programmatic ads are much
+different from directly sold ads.
+
+The numbers are even worse than they appear, though,
+because "cash out" sites, the endpoints of ad
+fraud, count as publishers any time they go undetected.
+
+
+Replace common use cases for retargeting
+----------------------------------------
+
+Retargeting is an incremental revenue gain
+for publishers, but a long-term data leakage
+risk. Browsers will be able to focus on areas where
+retargeting actually gets clicks—abandoned shopping
+carts, changes to ongoing transactions—and implement
+them in a lower-risk way.
+
+ * Any site with a shopping cart or other transaction info on a page can add a meta tag containing transaction status URL.
+ * User can choose to receive notifications about changes (example: prices in the cart go down, item in/out of stock)
+ * Browser will re-check transaction status. If status changes, browser will give the user a notification.
+ * Also useful for things like "did my bug report get fixed? Did they set a time for my appointment?"
+
+Make it easy to block spam or unwanted transaction
+status change notifications. Make it easy to
+unsubscribe from notifications, for users who already
+bought the items in the cart elsewhere, or decided
+not to buy.  (This might be implemented with a subset
+of RSS)
+
+Replacing retargeting does deprive publishers of
+retargeting ad revenue. But the ad budgets formerly
+spent on retargeting (which inherently has a low
+publisher share of revenue) can move to other forms
+of advertising.
+
+
+Capital structure
+-----------------
+
+Venture capital needs moats and network effects and
+all that stuff.   Not a good fit for adtech.
+
+ * [Michael Eisenberg: A Call to Israeli Engineers! Adtech Is Not For You.](http://aleph.vc/a-call-to-israeli-engineers-adtech-is-not-for-you/)
+
+
+Commoditization
+---------------
+
+Consolidation
+-------------
+
+Regulation
+----------
+
+Part of this complete breakfast
+===============================
+
+Any next-generation system needs to be developed in
+combination with advancing Tracking Protection
+technology, in applying Tracking Protection to more
+users, and with collecting data on the buying habits of
+Tracking Protection users.  No advertiser or agency
+will bargain with users or publishers for fairly shared
+information if they can just take it. Any marketing
+spend has to be sold internally through a complex chain
+of agencies, intermediaries, marketing, and top
+management at an advertiser company. Every decision has
+to be something that an individual marketer can sell to
+the next step in the chain. Current surveillance
+marketing is designed to be appealing to the current
+buying process. We have to cut off non-permissioned
+user data collection to get attention for data sharing.
+

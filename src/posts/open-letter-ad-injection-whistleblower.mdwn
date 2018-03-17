@@ -1,0 +1,60 @@
+[[!meta title="Open letter to the adfraud whistleblower"]]
+[[!meta date="Wed Oct 12 05:59:24 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Dear adfraud whistleblower,
+
+First of all, I respect you a lot for wanting to do
+the right thing.
+
+Posting the information that you did, where you did,
+is a dangerous way to do it.
+
+As you pointed out in your posts, you are risking
+your job and risking physical harm.
+
+But you're also risking a complex legal case, where
+you as an individual could be accused of all kinds of
+crimes.  Your complaints against the web of companies
+that you know about would be forgotten, and you would
+have to carry out a costly legal defense.  Most of
+the companies you mention are in good standing in the
+adtech industry. You'll be coming in looking like an
+employee accused of wrongdoing and making up stuff.
+
+And, if half of what you're saying is true, you know
+how quickly they can delete information or move it
+to a new "clean" company.
+
+If you're really motivated to bring these guys
+down&mdash;and that's something that only you can
+decide&mdash;there is a better way.
+
+You can send documents to a trustworthy reporter who
+knows Internet security issues.  Look for someone
+whose writing about complex technology doesn't make
+you facepalm, and who has either put up a personal PGP
+key or writes for a company that's on the [SecureDrop
+Directory](https://securedrop.org/directory).
+
+You shouldn't contact me, since it's just one more
+opportunity for someone to mess up.  The best
+way is to do some reading and see who knows the
+malware/adtech business and can receive documents
+securely.
+
+Regulatory action follows "viral" news stories, not
+the other way around.  We all know that regulators
+are relatively uninterested in adfraud, but you have
+a story that can change people's minds.
+
+The "tl;dr" of all this is "delete your account" but
+please don't take it that way.  Again, much respect
+and stay safe.
+
+Don
+
+**UPDATE:** [Twitter
+thread](https://twitter.com/sarahjeong/status/786242605294071810)
+

@@ -1,0 +1,77 @@
+[[!meta title="Getting the whole story on ad blocking"]]
+[[!meta date="Mon Sep  5 06:49:08 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Covering the "adblock wars" (as [Doc Searls calls the
+situation](https://blogs.harvard.edu/doc/2015/09/24/the-adblock-war-series/))
+is hard.
+
+It's like showing up at a peaceful protest where
+organized looters show up and mix with the protesters.
+
+ * If you're reporting on the event and you cover the legit grievances of the protesters without mentioning looting that you know about, then store owners who get hit will say you're full of crap and on the looters' side.
+
+ * If you cover the looting but not whatever the peaceful protesters are saying, then anyone who turned up to join the peaceful protest will say you're full of crap and putting the stores ahead of their important issue.
+
+The Adblock Plus paid whitelisting program isn't just
+["controversial"](http://blogs.harvard.edu/vrm/2016/08/26/its-people-vs-abuse-not-publishers-vs-adblockerss/).
+It's actively wrong by any standard but the Silicon
+Valley "anything for network effects lol" standard.
+Adblock Plus is talking hippy-dippy community woo-woo while
+they shake down legit sites.
+
+Can we please tell both stories?
+
+Sure, there's a [malware
+story](http://www.somethingawful.com/news/adblocker-nag-screens/),
+and an adfraud story, and the long-running paradox of
+why the most targetable ad media are the least valuable
+and the most blocked.  Web ads need to be fixed.
+
+But we can't lump the looters in with the peaceful
+protesters, or we start fooling ourselves on paid
+whitelisting the same way that the IAB keeps fooling
+themselves on malvertising and fraud.
+
+**This stuff matters.** When Internet fair use
+advocates tolerated the Napster racket, our side
+drove a lot of legit working musicians over to the
+DRMers and maximalists.
+
+The "adblock wars" will be won or lost based on 
+choices made at legit web sites.  The people who work
+hard to put news and cultural works on the web will
+have to decide what to do about ad blocking.
+
+Sites will end up choosing different
+options from a spectrum.  At one
+end is Johnny Ryan's ["reinvention not
+reinsertion"](http://blog.aloodo.org/posts/reinvention-not-reinsertion/)
+concept, where you privacy-protect ads as part of
+making them resistant to blocking.  At the other
+end is the hard-core option of using CFAA and DMCA
+against adblockers (with privacy tools as the
+by-catch.)
+
+Web publishers are in a double crisis right now. 
+
+ * **Adblocking:** costs both publishers and
+   intermediaries.
+
+ * **Adfraud:** is a wash for adtech, agencies, and
+    advertisers, because [costs are passed on to
+    publishers](http://blog.aloodo.org/posts/thank-you-for-supporting-fraud/).
+
+The IAB can afford to half-ass the fraud problem.
+Publishers can't.  But publishers can't afford to
+ignore the paid whitelisting racket, either. If we
+want to make a reasonable case for next-generation
+advertising, it has to work for the people who write,
+shoot, edit, and publish our news and cultural works.
+
+So enough with the "AdBlock Plus is controversial&nbsp;¯\\_(ツ)_/¯" already.
+
+**Next steps: [Faster, cleaner ad blocker blocking](http://blog.aloodo.org/posts/faster-cleaner-ad-blocker-blocker/)**
+
+

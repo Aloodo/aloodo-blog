@@ -1,0 +1,24 @@
+[[!meta title="No content for you!"]]
+[[!meta date="Sat May  2 17:49:08 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+This page appears when you try to visit the page
+"[This post is protected by a reverse tracking
+wall](/misc/protected-post/)" from a browser that is
+vulnerable to third-party tracking.
+
+In order to return to the original page,
+you will need to install or turn on [tracking
+protection](http://www.aloodo.org/protection/), then
+try again.
+
+Third parties who track you from site to site can
+spread fraud and malware using the web. When you use
+tracking protection, you also help protect your
+favorite sites.
+
+More about reverse tracking walls:
+[Reverse tracking wall in two lines of
+JavaScript](/posts/reverse-tracking-wall/)
+

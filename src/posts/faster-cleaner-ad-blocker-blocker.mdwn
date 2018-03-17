@@ -1,0 +1,83 @@
+[[!meta title="Faster, cleaner ad blocker blocking"]]
+[[!meta date="Sat Jul 31 06:49:08 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+I'm still working on figuring out the best way to
+block browsers that have certain ad blockers running,
+without pushing costs onto users.
+
+[Paid whitelisting and other
+practices](http://blog.aloodo.org/posts/code-of-conduct/)
+make conventional ad blockers bad for web sites.
+But I'm running into a couple of problems.
+
+ * Ad blocker developers can easily see
+   blocker-blocker scripts and work around them.
+
+ * Blocker-blocker scripts waste bandwidth and
+   energy for users who are doing things right.
+
+ * Some blocker-blocker scripts also block
+   the users of legit privacy tools.
+
+What I really want to be able to do is run the
+blocker-blocker script only for users who I can
+confirm are part of the problem&mdash;blocking ads
+but allowing third-party tracking, as seen in 
+the paid whitelisting racket.  Paid whitelisting
+is a [dark pattern](http://darkpatterns.org/).
+
+So what I'm going to do is first, run a third-party
+tracking test, then if that shows the browser is
+vulnerable to third-party tracking, add the ad blocker
+detector script to the page.
+
+ * **Privacy software users** will pass the third-party
+   tracking test, so get no ad blocker detector.
+
+ * **Unprotected users** will get the ad blocker
+   detector, but it won't detect anything.  They'll
+   see the page (to which the tracking detection
+   script can add a warning about vulnerability to
+   third-party tracking).
+
+ * **Users participating in paid whitelisting**
+   will get blocked until they either fix their
+   configuration or install a privacy tool on top of
+   their ad blocker.
+
+The whole thing depends on detecting third-party
+tracking accurately.  There are potential
+false positives here.
+
+ * Untrained [Privacy Badger](https://www.eff.org/privacybadger)
+
+ * Cookie double-keying
+
+ * Cookie cleaners such as [Self-Destructing
+   Cookies](https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/)
+
+ * [First party isolation](https://www.torproject.org/projects/torbrowser/design/#identifier-linkability)
+
+In all of those cases the tracking protection
+detection script will load, but the user has still
+made the choice to get protected.
+
+I want to encourage, not discourage, tracking
+protection experimentation by users (It's [better for
+sites](http://blog.aloodo.org/posts/service-journalism/).)
+So I can't just [check if Google Analytics can
+load](http://stackoverflow.com/questions/1954910/javascript-detect-if-google-analytics-is-loaded-yet)
+on the page.  Accurately determining if a user is
+trackable is what makes the [Aloodo
+Project](http://www.aloodo.org/) interesting.
+
+Anyway, [script](/js/gtfo.js).  Reduce bandwidth
+consumption and battery suckage, get a more accurate
+result.  Ideas welcome.  (Yes, I'll stick a real
+license on it if anybody needs one.)
+
+<script src="http://ad.aloodo.com/track.js"></script>
+<script src="/js/gtfo.js"></script>
+

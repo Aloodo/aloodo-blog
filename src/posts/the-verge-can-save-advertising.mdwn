@@ -1,0 +1,237 @@
+[[!meta title="What The Verge can do to help save web advertising"]]
+[[!meta date="Sat Feb  4 06:57:03 PST 2017"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Walt Mossberg, at The Verge,
+[points out that lousy ads are ruining the online
+experience](http://www.theverge.com/2017/1/18/14304276/walt-mossberg-online-ads-bad-business).
+
+No doubt about that.  Web ads are crap.
+
+Just try reading the same newspaper story in print and
+online. In print it's next to a professionally-shot
+photo in a kitchen remodeling ad. On the web it's
+next to YOU WILL DIE FROM LIVER FUNGUS UNLESS YOU
+CLICK ON THIS INFECTED LIVER NOW, done in MS Paint.
+
+And it seems to be getting worse, not better.
+(Not surprisingly, [ad blocking keeps going
+up](http://www.businessinsider.com/pagefair-2017-ad-blocking-report-2017-1).)
+The ads that provoke blocking and
+[mockery](https://thesocietypages.org/socimages/2009/07/14/evolution-of-evony-video-game-ads/)
+are the same ones that get clicks.  Everyone
+agrees that "we" need to get rid of "bad" ads.
+But naturally, "we" is defined as "you" and "bad" is
+"not the ads that work for me."
+
+Print ads stay tolerable because in print, publishers
+have the market power to enforce standards.  On the
+web, not so much.  [Mossberg again (read the whole
+thing)](http://www.theverge.com/2017/1/18/14304276/walt-mossberg-online-ads-bad-business):
+
+> About a week after our launch, I was seated at a dinner next to a major advertising executive. He complimented me on our new site’s quality and on that of a predecessor site we had created and run, AllThingsD.com. I asked him if that meant he’d be placing ads on our fledgling site. He said yes, he’d do that for a little while. And then, after the cookies he placed on Recode helped him to track our desirable audience around the web, his agency would begin removing the ads and placing them on cheaper sites our readers also happened to visit. In other words, our quality journalism was, to him, nothing more than a lead generator for target-rich readers, and would ultimately benefit sites that might care less about quality.
+
+Publishers can't enforce ad standards when an
+original content site is in direct competition
+with bottom-feeder and fraud sites that claim to
+reach the same audience.  As Aram Zucker-Scharff
+[mentions in an interview on the Poynter Institute
+site](http://www.poynter.org/2016/ad-tech-is-broken-heres-how-newsrooms-can-fix-it/407800/),
+the number of third-party trackers on a site grows
+as new advertising deals bring new trackers along
+with them.  Those trackers leak audience data
+into the dark corners of the Lumascape until the same data
+re-emerges, attached to a low-value or fraudulent
+site that can claim to reach the same audience
+as the original publisher.  [Deceptive and extremist
+sites](https://apnews.com/f88cd998717c4977a7eacf3679ebc63a/Intentionally-or-not,-big-brands-help-fund-fake-news)
+are part of a larger problem. They're just especially
+good at playing the same adtech game that all
+low-value sites do.
+
+So how to turn web advertising from a
+race to the bottom into a sustainable
+revenue source, like print or TV ads?
+How can the web work better for [high-reputation
+brands](http://blog.aloodo.org/posts/tv-shopping-with-rory-sutherland/)
+that depend on costly
+[signaling](http://blog.aloodo.org/posts/signaling/)?
+
+The good news for cash-crunched news sites is that
+the hard work of web-ad-saving software development
+must happen, and is happening, on the browser side.
+Every time a user turns on a protection tool such as
+[Better by ind.ie](https://ind.ie/), [EFF Privacy
+Badger](https://www.eff.org/privacybadger),
+or the experimental [Firefox Tracking
+Protection](https://testpilot.firefox.com/experiments/tracking-protection),
+a little bit of problematic ad inventory
+goes away.  [Crap sites can only make money
+from users who are vulnerable to third-party
+tracking](http://blog.aloodo.org/posts/facepalm/).
+When tracking protection tools keep ad money out
+of the nasty corners of the internet, legit
+sites can win.
+
+For example, if a chain restaurant wants to advertise
+to people in a town, today they have a choice:
+support local news, or pay intermediaries who
+follow local users to low-value sites.  When the
+users get protected from tracking, opportunities to
+reach them by tracking tend to go away, and market
+power returns to the local news site.
+
+The Verge and other legit sites are a key part
+of the solution.  The problems of web advertising
+have grown over years, and won't go away all at
+once.  Sites will have to fix it in a data-driven,
+incremental way.  Fortunately, we're getting the data
+to make it happen.
+
+**Measure the tracking-protected audience.** Tracking
+protection is a powerful sign of a human audience. A
+legit site can report a tracking protection percentage
+for its audience, and any adtech intermediary who
+claims to offer advertisers the same audience,
+but delivers a suspiciously low tracking protection
+number, is clearly pushing a mismatched or bot-heavy
+audience and is going to have a harder time getting
+away with it.  Showing prospective advertisers your
+tracking protection data lets you reveal the tarnish
+on the adtech "Holy Grail"&mdash;the promise of
+high-value eyeballs on crappy sites.
+
+Tracking protection is hard to
+measure accurately, because there are
+many different kinds.  What works for detecting [AVG
+Crumble](https://chrome.google.com/webstore/detail/crumble-%E2%80%93-online-privacy/icpfjjckgkocbkkdaodapelofhgjncoh?hl=en)
+might not work to detect [Privacy
+Badger](https://www.eff.org/privacybadger).
+[But now anyone with basic web metrics and
+JavaScript skills can do the measurement
+with the Aloodo un-tracking pixel and
+scripts](http://blog.aloodo.org/misc/howto/).
+
+**Use data to sell brands on Flight
+to Quality.** [Real, high-quality
+sites have branding advantages over generic
+eyeball-buying](http://www.comscore.com/Insights/Presentations-and-Whitepapers/2016/The-Halo-Effect-How-Advertising-on-Premium-Publishers-Drives-Higher-Ad-Effectiveness),
+and [adfraud is becoming a mainstream
+concern](http://www.wsj.com/articles/doubts-about-digital-ads-rise-over-new-revelations-1474674323).
+The complex adtech that tracking protection protects
+against is also the place where fraud hides.  (Adtech
+also tends to [drag brands into Internet poo-flinging
+contests by attaching them to controversial
+sites](https://www.nytimes.com/2016/12/02/business/media/breitbart-vanguard-ads-follow-users-target-marketing.html),
+but that's another story.)
+
+Higher-reputation publishers need
+more and better data to take to numbers-craving CMOs.
+Much of that data will have to come from the
+tracking-protected audience.  When quality sites
+share tracking protection data with advertisers, 
+that helps expose the [adfraud that intermediaries 
+have no incentive to track
+down](http://blog.aloodo.org/posts/thank-you-for-supporting-fraud/).
+
+**Use service journalism.** Users are already
+concerned and confused about web ads.  That's an
+opportunity for The Verge.  The more that someone
+learns about how web advertising works, the more
+that he or she is motivated to get protected.
+A high-reputation publisher can win by getting
+users safely protected from tracking, and not
+caught up in publisher-hostile schemes such as [paid
+whitelisting](http://www.engadget.com/2016/02/12/rip-adblock-plus/),
+[ad
+injection](http://www.businessinsider.com/newspaper-publishers-send-cease-and-desist-to-brave-browser-2016-4),
+and [fake ad
+blockers](https://blog.malwarebytes.org/cybercrime/2015/05/fake-adblocker-bylekh-is-an-lsp-hijacker/).
+
+Here is a great start, on the _New York Times_ site.
+Read the whole thing:
+
+**[Free Tools to Keep Those Creepy Online Ads From
+Watching You](http://www.nytimes.com/2016/02/18/technology/personaltech/free-tools-to-keep-those-creepy-online-ads-from-watching-you.html) by BRIAN X. CHEN and NATASHA SINGER**
+
+Some ways to both help users and work in the interests
+of a quality site include:
+
+ * review and recommend tracking protection tools,
+   as a new part of everyone's basic security toolkit
+
+ * [Detect users who are vulnerable to third-party
+   tracking](http://blog.aloodo.org/misc/howto/), and
+   recommend your site's top-rated tool for their
+   platform.
+
+ * Offer bonus content to tracking-protected users.
+
+Can't hurt to [expose the protection racket behind
+AdBlock
+Plus](http://www.businessinsider.com/criteo-pays-adblock-plus-to-appear-on-its-acceptable-ads-whitelist-2015-12),
+either.
+
+
+**Beware nerds who claim to fix everything
+(including me).** High-reputation sites are
+still skeptical about alternate web business
+models, which is a good move.  Better to put
+the resources into doing some [careful adblocker
+workarounds](http://blog.aloodo.org/posts/reinvention-not-reinsertion/),
+[advocating responsible tracking
+protection](https://digitalcontentnext.org/blog/2016/04/27/service-journalism-and-the-web-advertising-problem/),
+and working on magazine-style
+ads where the [four-currency
+price](http://www.fortressofdoors.com/ad-blockers-and-the-four-currencies/)
+of accepting the ad is lower than the four-currency
+price of blocking it.
+
+
+# Upgrading web advertising to a high-signal medium
+
+Why do people [watch and share Super Bowl
+commercials](http://www.businessinsider.com/all-the-super-bowl-ads-so-far-2017-1)
+while [web ad blocking continues to trend
+up](http://www.businessinsider.com/report-says-ad-blocking-is-worsening-2017-2)?  
+
+The problem is that the story of web advertising
+has been one of frantically throwing technology
+at the lowest-value parts of the ad business while
+reducing the power of web ads to get a piece of the
+high-value parts.  People who live in market economies
+are pretty good applied behavioral economists.
+They'll pay attention to ads that pay their way, with
+[signal](https://digitalcontentnext.org/blog/2015/08/19/wheres-the-signal/),
+while avoiding cold calls and ads that, through
+tracking and targeting, work like a cold call and
+fail to carry signal.
+
+[Tim Sullivan and Ray
+Fisman](https://hbr.org/2017/02/a-super-bowl-ad-is-the-equivalent-of-lighting-money-on-fire-which-can-be-more-strategic-than-it-sounds): 
+
+> The challenge facing sellers of some genuine product—be it true late-night love or a Tiffany necklace on eBay — and the buyers in search of them is to prove that they’re not just full of empty words.  This is where Super Bowl ads come in. Airtime during the game is, of course, fantastically expensive. So why do companies bother buying it? For the same reason that gang members get face tattoos: to prove that they’re in it for the long haul.
+
+[Pedro Gardete](https://www.gsb.stanford.edu/insights/pedro-gardete-real-price-cheap-talk):
+
+> The researchers found that highly targeted and personalized ads may not translate to higher profits for companies because consumers find those ads less persuasive.
+
+Privacy projects such as [Better by
+ind.ie](https://ind.ie/), [EFF Privacy
+Badger](https://www.eff.org/privacybadger),
+and [Firefox Tracking
+Protection](https://testpilot.firefox.com/experiments/tracking-protection)
+aren't just ways to implement the kind
+of personal data protection that [users
+want](http://www.pewinternet.org/2012/03/09/main-findings-11/).
+Those projects can also work in the interests
+of high-reputation sites, by making signaling
+work better.  Sites like The Verge can help, by
+helping users squeeze out the signal-destroying
+tracking and targeting, and helping web ads become
+a signal-carrying medium.
+
+**Next steps:** [Aloodo HOWTO](http://blog.aloodo.org/misc/howto/)
+
+

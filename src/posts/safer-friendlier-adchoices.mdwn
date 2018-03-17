@@ -1,0 +1,87 @@
+[[!meta title="A safer, friendlier alternative to AdChoices"]]
+[[!meta date="Sun May 10 07:49:08 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+A lot of web sites have a link to
+[AdChoices](http://en.wikipedia.org/wiki/AdChoices).
+Tried it lately?  Probably not.  The <a rel="nofollow"
+href="http://www.aboutads.info/choices/">Opt Out</a>
+page is designed to appease regulators, not to help
+users.  AdChoices only opts out of some companies'
+tracking systems, so there is no way for a user to
+know, even after completing the opt-out process, whether
+he or she is opted out of all tracking on the site he or
+she came in from.  AdChoices also prompts users to make
+a questionable change to the browser configuration:
+turning on third-party cookies.
+Just to make a bad UX story worse, the [AdChoices
+malware](http://www.wikihow.com/Get-Rid-of-Adchoices)
+is using the same name and logo now.
+
+AdChoices is a slower,
+less effective, and more fragile <q>choice</q> than an
+ad blocker. If a user wasn't interested in ad blocking
+before, a visit to AdChoices will probably do it.
+
+## Giving users an alternative to ad blocking
+
+Because of ongoing
+[malvertising](/posts/end-user-security/)
+risks, running an ad blocker has been an
+understandable choice for users for quite
+a while.  But that's changing.
+The new generation of [tracking
+protection](http://www.aloodo.org/protection/)
+is easier then turning on tracking protection
+in a general-purpose ad blocker, and way easier than
+AdChoices.  Most important, though, tracking protection
+is a [net win](http://zgp.org/targeted-advertising-considered-harmful/#solution-tracking-protection)
+for sites and brands, unlike <q
+class="scare">dumb</q> blockers.
+
+Getting users to adopt tracking protection is
+important for all ad-supported sites. We all want to
+see sustainable budgets for publishers, and lower data
+leakage and fraud.  But not all tracking protection
+works for all browsers.  One option for sites is to
+detect the browser and link to an appropriate tracking
+protection tool or configuration instructions.
+([Bowser](https://github.com/ded/bowser/) is a good
+way to do this, if you're up for some coding.)
+
+Less confusing, though, to alert vulnerable users and offer
+a [tracking test](http://www.aloodo.org/test/).
+That can be more complicated, since it involves
+setting up multiple domains, getting tracking
+protection listings, and more.
+
+To keep it simple, Aloodo does it all for you.
+Sites can now use our tools, in place of that confusing
+AdChoices link, to alert the users who are most
+vulnerable to third-party tracking.  Drop in an
+element with an id of `tracking-warning-inline` and
+display set to `none`.
+
+	<a id="tracking-warning-inline"
+	 href="http://www.aloodo.org/protection/"
+	 style="display: none;">Third
+	party tracking detected. Please install
+	tracking protection.</a>
+
+	This site uses third-party trackers, which
+	you have the option to turn off.
+
+	<a target="_blank"
+	href="http://www.aloodo.org/test/">(test)</a>
+
+	<script
+	 src="http://ad.aloodo.com/ad.js"></script>
+
+Or [use `tracking-warning-block`, as in the Aloodo
+privacy policy,](http://www.aloodo.org/privacy/) for
+longer explanations.  Today, with modern tracking
+protection, sites can do better than just
+AdChoices or ad blockers.  The first step is to show
+users an opt out that works for everyone.
+

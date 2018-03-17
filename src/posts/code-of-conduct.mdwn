@@ -1,0 +1,97 @@
+[[!meta title="The NAA just did privacy tools a big favor."]]
+[[!meta date="Sun May 30 07:38:02 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+The Newspaper Association of America has filed a
+[complaint](http://www.naa.org/~/media/NAACorp/Public%20Files/PublicPolicy/GovernmentAffairs/NAA%20FTC%20Complaint_5-25-16.pdf)
+(PDF) with the US Federal Trade Commission about four
+ad blocking practices.  The NAA asks the FTC to:
+
+ 1. Require ad blockers engaged in **“paid
+    whitelisting”** programs to end such programs
+    or to cease misrepresenting the nature of their
+    services to consumers.
+
+ 2. Require ad blockers to discontinue **ad substitution** practices.
+
+ 3. Require ad blockers claiming that they make
+    publishers whole to cease making **deceptive statements**
+    that mislead consumers.
+
+ 4. Prevent ad blockers from **evading** metered
+    subscription services and paywalls.
+
+(_Washington Post_ story: [Newspapers escalate their fight against ad
+blockers by Elizabeth
+Dwoskin](https://www.washingtonpost.com/news/the-switch/wp/2016/05/27/newspapers-escalate-their-fight-against-ad-blockers/))
+
+If we clarify number 4 to include only deliberate
+paywall avoidance, and not privacy measures that
+accidentally reset the article count for "soft
+paywalls", then NAA has just done a huge favor for
+the developers of legit privacy tools.
+
+**The NAA has written a pretty good start for a code
+of conduct for privacy tool developers and users.**
+
+Legit privacy tools are in "compliance"
+with the NAA's rules already. If you look at
+the [aloodo.org tracking protection tools
+page](http://www.aloodo.org/protection/),
+everything we link to or recommend already avoids
+the four no-nos.  It shouldn't be a problem for
+any tool to avoid all of these.  Paid whitelisting
+is a naked protection racket, ad substitution is
+reputation-harming scribbling of unreviewed ads
+into a publisher's context (yes, adtech does it too,
+that's not the point) and deception and sneaking in
+without paying are just so obviously wrong that why
+am I even typing this?
+
+It's possible that some privacy tools can have the
+result of resetting a soft paywall, but it's possible
+to protect a soft paywall from accidental resets,
+and I can get behind a code of conduct that bans
+specific functionality to get around paywalls.
+
+
+## Differentiating
+
+The first reaction to the
+NAA complaint was disappointing.
+(Please, Twitter and Medium, copy this [YouTube
+feature](https://www.mattcutts.com/blog/youtube-adds-read-comment-aloud-feature-from-xkcd/)
+already.)  A bunch of early comments were along the
+lines of "well, existing adtech is bad, too!"
+
+Yes, we know. Third-party tracking is not just
+a privacy issue. The trackability of users
+from high-value to low-value sites causes [data
+leakage](http://blog.aloodo.org/posts/what-is-data-leakage/),
+which results in lower revenue for
+publishers, and enables fraud.  And adtech targeting breaks [economic
+signaling](http://blog.aloodo.org/posts/signaling/),
+which means publishers aren't just getting a smaller
+piece of the pie, it's a smaller pie.
+
+Today's adtech is a trash fire of fraud, malware,
+and low revenue. But that means privacy tools have
+the opportunity to be _different_, by avoiding
+publisher-hostile schemes.  When software developers
+send a privacy message but then just set a competing
+trash fire, they're wasting that opportunity.
+
+Legit privacy tools and high-reputation publishers,
+working together, can transform advertising on the
+web.  Tools and sites can help users block low-value,
+cold-call-like targeted ads while permitting
+signal-carrying ads, the ones that respect users'
+choices not to be tracked.
+
+High-reputation publishers have a responsibility to
+both [educate readers about the problems of adtech as
+usual](http://blog.aloodo.org/posts/service-journalism/)
+and hold tool vendors to high standards.  The NAA is
+making some real progress here.
+

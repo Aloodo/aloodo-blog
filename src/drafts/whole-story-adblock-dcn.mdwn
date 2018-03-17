@@ -1,0 +1,133 @@
+[[!meta title="Getting the whole story on ad blocking"]]
+[[!meta date="Thu Sep 15 06:49:08 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Covering the "adblock wars" (as [Doc Searls calls the
+situation](https://blogs.harvard.edu/doc/2015/09/24/the-adblock-war-series/))
+is hard.  It's like showing up at a peaceful protest
+where organized looters show up and mix with the
+protesters.
+
+ * If you're reporting on the event and you quote some protesters without mentioning looting that you know about, then you missed half the story by ignoring what the store owners could have told you.
+
+ * If you cover the looting but not whatever the peaceful protesters are saying, then you missed the opportunity to find out anything about the issue behind the protest.
+
+It's hard to read about ad blocking without
+seeing just one side of a complicated
+story.  On one side, web ads have a [malware
+problem](http://www.somethingawful.com/news/adblocker-nag-screens/),
+and a [fraud
+problem](liveramp.com/blog/how-ad-fraud-impacts-your-measurement-with-dr-augustine-fou/),
+and the long-running paradox
+of why the [most targetable ad
+media are the least valuable and the most
+blocked](http://zgp.org/targeted-advertising-considered-harmful/).
+Web ads clearly need some serious help.
+For users, running a wide-open browser that leaks
+personal data and accepts risky scripts is not a
+realistic option.  Some kind of protection tool under
+the user's control is good for users, and for brands
+and publishers that depend on [reputation-driven
+advertising](http://blog.aloodo.org/posts/tv-shopping-with-rory-sutherland/).
+
+But we can't lump looters in with reformers, or we
+start fooling ourselves on real problems in the ad
+blocking scene, the same way that adtech proponents
+keep fooling themselves on malvertising and fraud.
+Even in the browser's built-in help, users aren't
+getting the facts they need.
+
+![ABP promo](/images/abp-promo.png)
+
+**Are users getting the truth about Adblock Plus?**
+
+One web browser's built-in info, the source of
+the box shown above, makes Adblock Plus look
+pretty harmless. It's labeled as the work
+of an individual&mdash;but it's a corporate
+project. If you look at the actual code, it's
+labeled `"Copyright (C) 2006-2016 Eyeo GmbH"`.
+That's not the tricky part, though.  This description says that Adblock
+Plus "can" mitigate tracking and malware.  But if you
+actually flip that cute little switch
+thingy, you automatically get the "Acceptable Ads"
+[paid](https://www.engadget.com/2016/02/12/rip-adblock-plus/)
+[whitelisting](http://www.businessinsider.com/criteo-pays-adblock-plus-to-appear-on-its-acceptable-ads-whitelist-2015-12)
+program, which enforces no standards on tracking or
+security at all. In order to get the protection
+claimed, you have to both add an "EasyPrivacy" filter
+list subscription, and turn off "Acceptable Ads"
+with a confusingly named "Allow some non-intrusive
+advertising" checkbox.  If "Acceptable Ads" is left on,
+it overrides the EasyPrivacy subscription, which is not
+clear from the UI.  If Facebook or some other
+user-tracking site had this level of transparency,
+users would be starting petitions.
+
+This paid whitelisting isn't just
+["controversial"](http://blogs.harvard.edu/vrm/2016/08/26/its-people-vs-abuse-not-publishers-vs-adblockerss/).
+It's actively wrong by any standard but the
+Silicon Valley "anything for network effects
+lol" standard.  It is one of the four [problematic
+practices](http://blog.aloodo.org/posts/code-of-conduct/)
+covered in a recent
+[complaint from the Newspaper Association of
+America](http://test.naa.org/~/media/NAACorp/Public%20Files/PublicPolicy/GovernmentAffairs/NAA%20FTC%20Complaint_5-25-16.pdf)
+(PDF) to the US Federal Trade Commission.
+
+> [A]s a review of the practices of ad-blocking companies discloses, consumers do not “opt out” of an ecosystem by using ad-blockers.  Instead, they “opt in” to a deceptive new environment that does not adequately disclose its practices to consumers.
+
+Adblock Plus has raised quite a
+[brouhaha](https://adblockplus.org/blog/new-acceptable-ads-platform-launches-bringing-feedback-to-rtb-and-help-to-small-websites)
+among surprised users, with the company's
+recent announcement that it was going into the
+targeted advertising business.  The plan [was
+a surprise to unaware "partners" Google and AppNexus,
+too](http://www.businessinsider.com/appnexus-google-refute-adblock-plus-partnership-2016-9).
+But whether or not Adblock Plus is really an ad
+network now, the company still participates in the
+web advertising market as an intermediary, creating
+trouble for legit web sites.  And ultimately the
+"adblock wars" will be won or lost based on choices
+made at those sites.  The people who work hard to
+put news and cultural works on the web will have to
+decide what to do about ad blocking.  Web publishers
+are in a double crisis right now.
+
+ * **Adblocking:** costs both publishers and
+   intermediaries.
+
+ * **Adfraud:** is a wash for adtech, agencies, and
+    advertisers, because [costs are passed on to
+    publishers](http://blog.aloodo.org/posts/thank-you-for-supporting-fraud/).
+
+
+Intermediaries can afford to hand-wave
+on the fraud problem, [tell brand
+advertisers to go hire a security expert
+somewhere](http://blog.aloodo.org/posts/learn-to-hack/),
+and concentrate on blocking.
+Publishers, who [bear the real costs of
+adfraud](blog.aloodo.org/posts/thank-you-for-supporting-fraud/),
+can't.
+
+The good news is that promising solutions
+are already out there.  The ["reinvention not
+reinsertion"](http://blog.aloodo.org/posts/reinvention-not-reinsertion/)
+concept, from Dr. Johnny Ryan at Pagefair, is a good
+example.  Better privacy protection for a smaller
+number of higher-quality ads helps make them resistant
+to both blocking and fraud.
+
+Privacy tool developers and publishers share
+interests, but in order to understand what we have
+in common, we must communicate clearly about the
+difference between, on one side, legit user concerns
+and the tools that address them, and on the other,
+the publisher-hostile paid whitelisting racket.  If we
+want to make a reasonable case for next-generation
+advertising, it has to work for the people who write,
+shoot, edit, and publish our news and cultural works.
+That starts with telling the whole story.
+

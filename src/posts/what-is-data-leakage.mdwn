@@ -1,0 +1,111 @@
+[[!meta title="What is data leakage?"]]
+[[!meta date="Sat Jan  2 06:57:03 PST 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+We hear a lot about ad blocking and ad fraud,
+but surprisingly little about data leakage, the
+underlying problem that feeds both.  What is data
+leakage, anyway?
+
+> **[Sophia Cope at NAA:](http://www.naa.org/News-and-Media/Blog/data-leakage-newspapers.aspx)** Data leakage is the collection and monetization of an online publisher’s audience data by a third party without the publisher’s knowledge and consent.  
+
+> **[John McDermott at Digiday:](http://digiday.com/platforms/what-is-data-leakage/)** Data leakage typically occurs when a brand, agency or ad tech company collects data about a website’s audience and subsequently uses that data without the initial publisher’s permission.
+
+Nothing about _user_ permission.  That's a separate
+issue.  Data leakage is a
+publisher/third-party problem, not a user/publisher
+problem.  Both definitions are based on publisher
+permission.
+
+That's a good start.  But "permission" is
+hard. Publishers often don't understand all
+the third-party resources on their own sites.
+Third parties bring other third parties along, and
+pages often end up with 50-70 third-party pixels,
+scripts, and iframes.  (There's even a [zone on the
+Lumascape](http://www.adopsinsider.com/ad-ops-basics/the-display-lumascape-explained/)
+devoted to services that a publisher can use to
+figure out what other services they're using.)
+Every one of those third parties comes with some kind
+of contractual "permission."  All those permissions,
+though, are expressed in complex contracts.  Even if
+a publisher can afford to comprehend the terms of one
+contract, the set of resources on a page can introduce
+unwanted data transfers working in combination.  And
+the combinations of technology and contracts change
+faster than anyone can evaluate them.
+
+
+## Learning from security software
+
+It's inadvisable for security
+companies to call malware "malware" when the malware
+developer has a lawyer.  The solution has been to come
+up with a new category name, [Potentially Unwanted
+Programs](https://en.wikipedia.org/wiki/Potentially_unwanted_program).
+The definition is based on whether the software
+works against the user's interests, not on whether
+the user has clicked on "I agree" after not reading
+a complex, deceptive contract.
+
+Labeling programs as PUPs is a small win. It is
+possible to define a problem in terms of interests and
+norms, not in terms of what someone has "agreed" to.
+We will be able to have a more productive discussion of
+the data leakage problem if we can shift the definition
+from one based on "permission" to one based on
+publisher interests and business norms.
+Data leakage is not a problem about user permission
+(user permission is another story)
+but user norms and expectations can be a helpful way to
+establish the definition of data leakage.
+
+Here's a new definition.
+
+**Data leakage is collection or transfer of publisher
+audience data in a manner that violates the norms
+and expectations of the members of the audience.**
+
+Why is it important to define data leakage?
+Because we still have trouble collecting
+data on it, and we need to know what to
+measure.  We don't know how much of the [ongoing
+problem that newspapers have with building online ad
+revenue](http://www.poynter.org/news/mediawire/353911/mid-year-report-the-newspaper-industrys-billion-dollar-challenge/)
+is attributable to data leakage.
+
+In order to measure data leakage, we have to define
+it based on a reasonable standard, not on a mess of
+contracts that results in publishers unknowingly
+"agreeing" to practices that work against their
+interests.
+
+
+## Finding data leakage
+
+We can look for leaks at the top of the pipe and at the
+bottom.
+
+**Bad bots visiting good sites:** Fraudulent ad
+inventory gains value from associated user data,
+which is why even the best-run sites still get some
+fraudbot traffic.  Bots are collecting cookies on
+legit sites, then showing up as valuable "users" on
+fraud sites.  If your site has a small bot problem,
+then any advertiser paying to reach your users on
+other sites has a big bot problem.
+
+**Good audiences available in bad places:** We
+don't have access to the  "user data chop shops"
+that sit between legit publishers and sales of
+targeted impressions based on publisher data.  But we
+can look at demand-side platforms to find out where
+valuable impressions are showing up, and measure the
+impact of anti-data-leakage tests.
+
+We can't deal with ad blocking, ad fraud, and
+low ad revenue without understanding the data
+leakage problem.  The good news is that data
+leakage is measurable, if we work it from the legit
+publisher end and the questionable inventory end.

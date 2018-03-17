@@ -1,0 +1,55 @@
+[[!meta title="Support your favorite business news site. Install Privacy Badger."]]
+[[!meta date="Thu Jun  1 05:26:03 PST 2017"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Geoffrey A. Fowler, at the _Wall Street Journal_,
+shares some good first steps for users to to
+protect themselves from online tracking, in
+[Don’t Expose Yourself: A Guide to Online
+Privacy](https://www.wsj.com/articles/dont-expose-yourself-a-guide-to-online-privacy-1496249766).  Read the whole thing, even if you have tracking
+protection.  Lots of up-to-date recommendations on 
+current tools and opt-out options.
+
+But the personal side of web tracking protection is
+only part of the story.  Walt Mossberg [ran into the
+business side of the tracking problem while at _The
+Verge_](http://www.theverge.com/2017/1/18/14304276/walt-mossberg-online-ads-bad-business):
+
+> About a week after our launch, I was seated at a dinner next to a major advertising executive. He complimented me on our new site’s quality and on that of a predecessor site we had created and run, AllThingsD.com. I asked him if that meant he’d be placing ads on our fledgling site. He said yes, he’d do that for a little while. And then, after the cookies he placed on Recode helped him to track our desirable audience around the web, his agency would begin removing the ads and placing them on cheaper sites our readers also happened to visit. In other words, our quality journalism was, to him, nothing more than a lead generator for target-rich readers, and would ultimately benefit sites that might care less about quality.
+
+High-reputation sites such as the _Wall Street Journal_ 
+can't enforce ad standards when an
+original content site is in direct competition
+with bottom-feeder and fraud sites that claim to
+reach the same audience. But when users install privacy tools such as 
+[Better by ind.ie](https://ind.ie/) and [EFF Privacy
+Badger](https://www.eff.org/privacybadger),
+a lot of problematic ad inventory
+goes away.  [Crap sites can only make money
+from users who are vulnerable to third-party
+tracking](http://blog.aloodo.org/posts/facepalm/).
+When tracking protection tools keep ad money from
+flowing to crappy and fraud sites, then the _Wall
+Street Journal_ wins.
+
+[Real, high-reputation
+sites have branding advantages over generic
+eyeball-buying](http://www.comscore.com/Insights/Presentations-and-Whitepapers/2016/The-Halo-Effect-How-Advertising-on-Premium-Publishers-Drives-Higher-Ad-Effectiveness).
+and users are concerned and confused about web ads.
+That's an opportunity for a high-reputation publisher
+to get users safely protected from tracking, and not
+caught up in publisher-hostile schemes such as [paid
+whitelisting](http://www.engadget.com/2016/02/12/rip-adblock-plus/),
+[ad
+injection](http://www.businessinsider.com/newspaper-publishers-send-cease-and-desist-to-brave-browser-2016-4),
+and [fake ad
+blockers](https://blog.malwarebytes.org/cybercrime/2015/05/fake-adblocker-bylekh-is-an-lsp-hijacker/).
+(The _New York Times_ gets it too: [Free Tools
+to Keep Those Creepy Online Ads From Watching
+You](http://www.nytimes.com/2016/02/18/technology/personaltech/free-tools-to-keep-those-creepy-online-ads-from-watching-you.html))
+
+**More info:** [What The Verge can do to help save web advertising](http://blog.aloodo.org/posts/the-verge-can-save-advertising/)
+
+**Next steps:** [Aloodo for
+publishers](https://www.aloodo.org/publishers/)

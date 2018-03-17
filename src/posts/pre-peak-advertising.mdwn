@@ -1,0 +1,102 @@
+[[!meta title="Pass the popcorn. Hide the checkbook."]]
+[[!meta date="Sat Feb 11 05:59:24 PDT 2017"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+A new digital ad medium is making its
+way up the upward slope of the [Peak
+Advertising](http://peakads.org/) curve. 
+
+Aldo Agostinelli of Sky Italia
+[writes](https://aldoagostinelli.com/2017/02/10/the-future-of-advertising-relies-on-the-internet-of-things/?utm_source=TwitterAN&utm_campaign=IOT&utm_medium=Paid&utm_content=ENG),
+
+> In the age of the IoT, web-connected devices are the new smart tools that will give advertisers unprecedented access to their users’ daily lives. But there is more to it: the IoT could also help advertisers deliver timely messages and persistently reach consumers.
+
+This is how all targeted ad media, from direct
+mail to junk fax to mobile banners, get their start.
+Some Marketing person comes up with the idea of using
+some new technology to better target some users but
+not others.
+
+Pass the popcorn.  We've seen this show before.
+
+Now it's time for a flood of videos from agencies
+about how well the new medium works, surveys where
+marketers say they're going to put budget into it,
+a bunch of VC funding for firms that do it, and
+before you know it, the new medium is something
+that marketers don't want to be caught not doing.
+The whole shitty carnival of "let's build a new
+targeted ad medium" is in town.  Or in this case,
+on your toaster.
+
+For a little while anyway.
+
+Marketers know that you have to enjoy the new
+targeted ad medium while you can.  Any new targeted
+ad medium always peaks, and then declines&mdash;right
+about the time users figure it out.
+
+It's not that the technology is bad.  Many new
+targeted ad media _do_ provide technical advantages in
+more accurately matching ads to users.  But somehow
+targeted ad media always go through a boom and bust
+cycle, unlike mass media advertising, where print
+and broadcast ads tend to hold their value.
+
+Peak Advertising in targeted ad media keeps happening,
+because, as Agostinelli writes,
+
+> The IoT has many benefits for advertising: not only can a message related to a product reach a specific and clearly identified target audience, but the message can be designed based on data which makes it more personal and, therefore, more efficient. 
+
+Read that again. That's where every targeted ad medium
+breaks down.  <q>Efficient</q> is why users bail.
+They start voting to ban junk faxes. They start
+running spam filters and ad blockers. And yes, they
+will, somehow, figure out how to kick the targeted
+ads off their toasters.
+
+Meanwhile, users continue to accept magazine ads
+and at least tolerate the TV commercials.  It's the
+_targeted_ ad media, the ones that sound the coolest
+and most efficient, that get ignored, blocked,
+and regulated.
+
+Let me share with you a sentence that's an obvious,
+even stupid, platitude for regular people, but a
+strange and terrible secret for digital advertisers.
+Ready?
+
+**There's no such thing as a free lunch.**
+
+Advertising, done in a sustainable way, is
+an exchange of value between the advertiser
+and the audience.  The audience gives up some
+attention as the ad interrupts an ad-supported
+resource such as a news story or cultural
+work.  In exchange, the advertiser offers [economic
+signal](http://zgp.org/targeted-advertising-considered-harmful/#signaling),
+a hard-to-fake message about the advertiser's
+intentions in the market.
+
+When a targeted ad medium helps advertisers try to get
+a free lunch by cutting back on the signal&mdash;by
+making it hard for users to estimate the amount
+spent to place the ad&mdash;the user no longer has
+an incentive to "pay" for the ad with his or her
+attention.  The Peak Advertising curve is the result
+of users figuring out the targeting.
+
+User tracking and targeting projects, built
+at tremendous expense, make an ad medium less
+valuable, not more.  This is hard for computer nerds
+to understand.  "What do you mean my program makes
+things worse? But it was so hard to write!"
+
+No ad medium entirely goes away. When the IoT
+advertising hype is over, crappy toaster ads will
+remain, spreading security problems and brand-unsafe
+ad placements just like crappy web ads do today.
+The trick for brands is to sit back and enjoy the
+show, not get ripped off.
+

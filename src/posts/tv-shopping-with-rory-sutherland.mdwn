@@ -1,0 +1,137 @@
+[[!meta title="TV shopping with Rory Sutherland"]]
+[[!meta date="Sat Mar 26 07:38:02 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Here's a great podcast episode: [Ogilvy and Mather
+UK vice-chairman Rory Sutherland, on the Echo Chamber
+podcast](http://www.holmesreport.com/latest/podcast/article/podcast-rory-sutherland-on-behavioural-science-big-data-trump-brexit-more).
+Includes a lot of topics, including the problem of
+how to shop for a TV.
+
+That's a hard problem.  TVs are complex, hardly
+anyone buys the same kind twice, the market may
+contain deceptive sellers, and shoppers have limited
+decision-making time.  Sutherland can't afford to
+become perfectly well-informed about every available
+TV in order to make the buying decision that _Homo
+economicus_ would.  He has to make a satisfactory
+decision with limited information.
+
+
+## Brand advertising solves a problem.
+
+How does Sutherland manage to buy a TV when
+he doesn't have time to learn much about TVs?
+The same way most people do, by using our 
+existing human-reputation-evaluating wetware.
+"We solve the easier problem, which is can I trust
+the person selling it," he says.
+
+It would be costly for a company that already has
+brand equity, such as Sony or Panasonic, to sell a
+bad product.  A company selling crappy TVs under
+a low-value brand name can easily [spend $5 on a new
+logo](https://www.fiverr.com/categories/graphics-design/creative-logo-design/)
+when people catch on, but a
+company with an established brand would be taking a
+bigger risk. Sutherland says,
+
+> We interpret the significance of a message not only by the information it ostensibly contains, but by the cost in terms of effort and expense that has gone into the creation of that message, and also by the cost consequent on the sender if that message is wrong.
+
+Listen to the whole thing. 
+
+You're back?  Good.  I know that the podcast covered
+a lot of topics, but I'm going to dig into the TV
+shopping part a little bit more.
+
+
+## What does a reputable brand need from an advertising medium?
+
+Low-reputation and high-reputation sellers need
+fundamentally different qualities from an advertising
+medium.
+
+ * Low-reputation sellers need to split the audience into small groups in order to deceive the uninformed while escaping the attention of [those who seek to build their own reputations by enforcing norms](https://www.schneier.com/blog/archives/2016/03/punishment_and_.html).
+
+ * High-reputation sellers need to send a costly, hard-to-repudiate signal to an large audience that includes low-information shoppers and well-informed recommenders and norm enforcers.
+
+With today's web advertising, sellers have the ability
+to target but not the ability to signal. Web
+ads therefore meet the needs of low-reputation
+sellers very well, but are inadequate for the
+needs of high-reputation sellers.  A recent
+[meeting at PageFair on the subject of fixing web ads](https://blog.pagefair.com/2016/four-big-ideas-emerge-from-pagefair-global-stakeholder-roundtable/)
+came up with this:
+
+> Use of contextual targeting to establish ad relevance should be increased. This will end the over-reliance on behavioral tracking of users.
+
+That's a good start, but it doesn't solve the problem
+for brands that are working on [building brand
+equity](http://blog.aloodo.org/posts/bike-helmets/).
+If, when a user sees an ad, that ad _could_ have been
+targeted to him or her, it's worthless for signaling. Remember,
+we're all pretty good applied behavioral economists
+here.  We can tell a high-signal ad medium from a
+low-signal one because we can [see where ads can
+"follow us around"](https://digitalcontentnext.org/blog/2015/07/06/ad-blocking-why-now/).
+
+As [Bob Hoffman's refrigerator
+test](http://adcontrarian.blogspot.com/2015/05/take-refrigerator-test.html)
+shows, brand equity isn't built on the web.  This is not just
+a concern for web publishers that want a piece of
+the market for high-value advertising.  It's also
+a problem for brands that need to be able to move
+signal-carrying ads to the web
+as [print advertising goes away](http://zgp.org/targeted-advertising-considered-harmful/#fig1).
+
+
+## Tracking protection for brand advertisers
+
+Instead of simply
+relying on the web medium to [slowly fix
+itself](http://adzerk.com/blog/2015/09/adzerk-joins-electronic-frontier-foundation-do-not-track-coalition-adopts-privacy-standard/),
+high-reputation sellers can now experiment with
+tracking protection campaigns in order to give signaling
+power to advertising on the web.
+When a web visitor comes to check out the specs
+of a TV, test if the browser is vulnerable
+to third-party targeting.  ([There are easy
+ways to do this with a script included on a
+page](http://blog.aloodo.org/misc/howto/).)
+Offer unprotected users a chance to get protected
+by installing or turning on some kind of 
+[tracking protection](http://www.aloodo.org/protection/).
+
+Now you're communicating with a tracking-protected
+user for whom the web works as a signal-carrying
+medium&mdash;a user who's no longer in the pool of
+commodity eyeballs being offered to deceptive sellers.
+Besides electronics, other high-reputation categories
+that are potential good fits for tracking protection
+include:
+
+ * Insurance and other financial services
+
+ * Health care
+
+ * Hotels
+
+With tracking protection, a brand's audience can see
+signal-carrying ads, like the [Canvas ads on The Next
+Web](http://thenextweb.com/voice/2015/05/07/whats-the-deal-with-tnws-new-canvas-ads/),
+without the targeting-based low-value ads that
+tend to devalue the medium.  I'll save a spot on my
+refrigerator shelf for a brand that can build its
+reputation with a tracking protection campaign and
+pass the refrigerator test.
+
+Look for goods that are difficult to evaluate at point
+of purchase and where an experience with a deceptive
+seller can be costly, and you'll find a client for a
+tracking protection campaign.  Shoppers are usually
+much better at applied behavioral economics than
+marketers give them credit for.  Tracking protection
+is a way to make a better-informed, better-signaled-to
+audience work for brands.
+

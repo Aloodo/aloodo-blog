@@ -1,0 +1,20 @@
+[[!meta title="Use case sighting: Personal cyber insurance"
+[[!meta date="Sat Jul  1 11:38:02 PDT 2017"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Aaron Harris [writes](https://blog.ycombinator.com/thoughts-on-insurance/),
+
+> As more things in our lives become hackable, we’ll need more help protecting ourselves from those things. Existing companies that focus on homeowner’s insurance are unlikely to understand these issues well enough to create great products.
+
+If a user visits an insurance site for a <q>personal
+cyber insurance</q> quote, will the number be
+higher or lower of the user is running Privacy
+Badger? How about Apple Safari with Intelligent
+Tracking Prevention?
+
+If you need to check a user's browser to make sure
+they're protected from third-party tracking and all its
+negative security externalities, we have
+[a tool for that](https://www.aloodo.org/).
+

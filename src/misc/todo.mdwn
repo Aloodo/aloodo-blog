@@ -1,0 +1,75 @@
+[[!meta title="TODO"]]
+
+Test more [predictions from Targeted Advertising Considered
+Harmful](http://zgp.org/targeted-advertising-considered-harmful/#am-i-right-testable-predictions)
+
+ * survey tracking-protected users: how much do they
+   spend online?
+
+ * survey tracking-protected users: are they more or
+   less likely to buy large items such as vehicles
+   and financial products online?
+
+ * survey tracking-protected users with basic factual
+   questions on how tracking and targeting work.  Are
+   better-informed users more likely to be protected?
+
+
+Add features to [tracking protection
+test](http://www.aloodo.org/test/)
+
+ * Detect
+ [X-UIDH](https://www.eff.org/deeplinks/2014/11/verizon-x-uidh)
+
+ * Detect DNT, warn about <q>naked DNT</q> without
+   tracking protection.
+
+ * User survey on final page: is this result what you
+   expected?
+
+ * Custom versions of intermediate pages, for tests
+   on other sites
+
+ * Document how the test works, in order to coordinate
+   with behavior-based tracking protection developers.
+   **(in progress)**
+
+Tracking protection requests pending
+
+ * Blur
+
+ * Ghostery
+
+
+Other software
+
+ * Mobile apps to test <q>Advertising ID</q> and remind
+   user to reset it if stale.  (Android apps can apparently read
+   the Ad ID even if `limitAdTrackingEnabled` is true:
+   [AdvertisingIdClient.Info](https://developer.android.com/reference/com/google/android/gms/ads/identifier/AdvertisingIdClient.Info.html), so
+   churning the Ad ID is probably a better solution
+   than selecting <q>limit tracking</q>.)
+
+
+Organization
+
+ * Basic meta stuff for new online advertising
+   organization **(in progress)**
+
+ * Recruit board, advisory board, tech committee,
+   corporate members **(in progress)**
+
+ * More web articles
+
+
+Informational
+
+ * Wiki directory of reported tracking hosts (with
+   tools to import/export common protection list
+   formats)
+
+ * tracking protection campaign for one town (<q>Like
+   Google Fiber for online marketing</q>)
+
+ * Slide deck with good photos, charts
+

@@ -1,0 +1,111 @@
+[[!meta title="Haha n00b, learn to hack!"]]
+[[!meta date="Wed Aug 17 05:49:08 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+The web ad business is full of deception,
+according to...you thought I was going to say
+[Bob Hoffman](http://adcontrarian.blogspot.com/),
+didn't you?
+
+No, I'm going to cite no less
+an authority than Interactive
+Advertising Bureau CEO Randall Rothenberg, who
+[advises](http://digiday.com/publishers/iab-chief-brands-cant-pass-buck-policing-media-issues/)
+that any brand that has to deal with companies
+in his industry had better hire someone with mad
+hacking skills.
+
+> The problem begins with the unwillingness of major marketers to insource significant, senior-level technical expertise. 
+
+At _Marketing Week_, Thomas Hobbs
+[quotes Alessandra Di Lorenzo, chief commercial
+officer for advertising and partnerships at
+Lastminute.com](https://www.marketingweek.com/2016/08/15/brands-without-a-chief-media-officer-are-sacrificing-power-to-agencies/).
+
+> Anyone who is a non-digital, native brand is probably less skilled in the inner workings of media and should be more on guard about what is really going on.
+
+This is like needing a Chief Power Supply Officer
+because you buy PCs and you don't trust your vendor
+not to put in a bad power supply.  In any other
+business, if you have a problem with deceptive
+sellers, a halfway decent trade organization would
+be all over that.  "Tired of getting ripped off by
+crooks who sell other people's condos on Craigslist?
+Next time, call a Realtor&reg; from the National
+Association of Realtors&reg;." You know the drill.
+Every trade organization does this.
+
+Except the adtech business.  From adtech, brands get
+roughly the same message that a WordPress user with
+a security problem would get on
+a phpBB site tricked out with a black background
+and rotating ASCII-art skulls. **haha pwned n00b!
+Better learn 2 h@ck nxt t1m3!!!1!** The IAB puts
+an ideological committment to unlimited third-party
+tracking ahead of the interests of its honest members'
+customers.
+
+It's not an "advertising" thing&mdash;magazine ads
+really get printed, bus ads really get stuck to
+the bus, radio stations really transmit. Adfraud is
+the unavoidable by-product of today's web ad system
+that allows ads to be targeted across high and low
+reputation sites.  You don't need a fraud expert to
+buy magazine ads, but the web is another story.  And that
+"senior-level technical expertise" that IAB wants you
+to get is not cheap.  Software companies have enough
+trouble hiring people with hacking skills&mdash;and
+now any brand that wants to run a web ad is going to
+need one?
+
+[Judy Shapiro
+writes,](http://adage.com/article/digitalnext/saas-business-model-bad-marketing/305416/)
+"Marketers' trust in the ad-tech world is on the
+decline for lots of reasons: complexity, lack of
+transparency or standards."
+
+I suppose that's a nice way of saying that people
+who are responsible for brands are sick of being told
+that deception is here to stay and it's up to you to
+learn to deal or hire a hacker who can.
+
+[Dr. Augustine Fou
+writes](https://www.exchangewire.com/blog/2016/08/15/44779/),
+
+> We are, after all, dealing with hackers who are very advanced in the use of technology AND who don’t play by the normal rules of engagement. The good guys are at a disadvantage before the race even starts. Something other than technology must be applied at the same time – like changing the financial motives or changing the metrics used to calculate ROI. For example, rather than use quantity metrics – such as number of impressions, traffic, and clicks – that are easily faked, if advertisers focused on actual sales or other ‘conversion events’ that only humans would do, they would be far better off, and less prone to fraud stealing their ad dollars.
+
+But unless you have Dr. Fou or some other expert working for you,
+attribution is no solution.  One
+thing everybody can learn from the [Steelhouse/Criteo
+controversy](http://www.businessinsider.com/steelhouse-files-counterclaims-against-criteo-2016-7)
+is that attribution models are subject to gaming,
+and it's hard to work backward to see where the
+attribution snatching happened.  Fraud can piggyback
+on a user's activity in order to let a 
+fraudulent ad take credit for a real sale.  This is even worse than
+straight-up bogus impressions, because it encourages
+you to move marketing money to places where it doesn't
+reach real users.  Most of the people who really
+understand attribution models are fraud hackers.
+
+Bob asks, [Will The P&G Story Bring Down Ad Tech?
+Please?](http://adcontrarian.blogspot.com/2016/08/will-p-story-bring-down-ad-tech-please.html)
+
+(P&G is an interesting example for all the behavioral
+economists out there.  This company is mostly selling
+products that you buy because Society expects you,
+as a sanitary human being, to use them. If you don't
+know that Society is seeing the same ad, why take
+the risk of overspending on making life less stinky
+for others when you don't have to?)
+
+The answer to Bob's question is: no, this story won't
+have much impact all by itself.  But it does make
+people think:
+how can we transform web advertising
+from a hacking game that brands can't win into a
+reputation game where brands have the advantage?
+[Some
+more on behavioral economics and possible next steps](http://blog.aloodo.org/posts/tv-shopping-with-rory-sutherland/).
+

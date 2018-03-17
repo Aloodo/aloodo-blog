@@ -1,0 +1,174 @@
+[[!meta title="Ad blocking: why now?"]]
+[[!meta date="Sun Jun 28 07:38:02 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Users say that they're blocking ads because of the
+annoyance. But that can't be the whole reason that
+ad blocking is just recently starting to catch on. The
+reasons for web ad blocking have been there since
+the beginning. Distracting blinky ads, slow page load
+times, security concerns, the whole mess.
+
+The ease of use of ad blocking has also been roughly
+constant for more than a decade. For a long time,
+it's been easy to find an ad blocker that is easy to
+install and use.
+
+So what changed?  Why did the first generation of
+easy, effective ad blockers&mdash;Internet Junkbuster,
+WebWasher, AdSubtract, and others&mdash;completely
+fail to catch on, while today ad blocking is a thing?
+
+<div style="width:100%; overflow-x: auto">
+<script type="text/javascript" src="//www.google.com/trends/embed.js?hl=en-US&q=%22how+to+block+ads%22,+retargeting&tz=Etc/GMT%2B7&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=600"></script></div>
+
+ * The red line, <q>retargeting</q>, is a query for a
+form of targeted advertising that is easily visible
+to users&mdash;ads that users can see <q>following
+them around.</q>
+
+ * The blue line is a query for <q>how to block
+ads</q>.  Users looking for a solution.
+
+Why does the blue line start to take off only after the
+red line?  Web ads were just as annoying before
+users started to see how they were targeted.
+What is it about _targeted_ ads that changed the
+decision to block?  Why was the 2010 [What They
+Know series in the Wall Street Journal such a big
+deal](http://blogs.law.harvard.edu/doc/2010/07/31/the-data-bubble/)?
+
+Until the Thought Leaders of Marketing can come up
+with an answer to that, all they can do is get their
+pearls re-strung with Spectra&reg;, to handle the
+outbreak of extreme pearl-clutching.
+
+<a href="http://www.thetimes.co.uk/tto/technology/internet/article4475116.ece"><img width="100%" src="/images/stealing.png" title="Media giants that complain about adblockers on a page with 26 trackers 'are trolling'"></a>
+
+Maybe we should take a step back.  Maybe the problem
+is: Do we really understand what the basic bargain
+behind advertising is?  Why do people put up with
+advertising in some media but block it in others?
+
+Gavin Dunaway at AdMonsters [writes](https://www.admonsters.com/blog/opspov-ad-blockers-gates-%E2%80%93-mobile-safari-opens-door),
+
+> The transaction between most Internet content providers and users is something I’ve always referred to as the “unspoken handshake” – users pay for their content consumption with personal data as well as by allowing advertisers the opportunity to reach them.
+
+That's one kind of exchange.  It's the **lead
+generation bargain**.  Fill out this form to WATCH
+OUR FREE WEBINAR!  People choose to reveal personal
+info all the time, every time they enter a sweepstakes
+or swipe a supermarket loyalty card.
+
+But are users _passively_ choosing to share data with
+unknown third parties (quick, name three companies
+that ran trackers on the last news story you
+read, and what they do with your data)?  Survey
+says....[no](http://www.pewinternet.org/2012/03/09/main-findings-11/).
+
+And is the lead generation bargain the only bargain
+that matters in advertising?
+
+Lead generation can send a special offer to buy a
+product for a lower price...
+
+<img alt="Beacons beam rich-media mobile
+messages to passers-by: 80% OFF"
+width="100%" src="/images/80-percent.jpeg">
+
+...but can it build a brand that people will be happy
+to pay a _higher_ price for?
+
+Clearly the lead generation bargain has not
+been the point of high-value old-school
+ad media such as TV, radio, and print.
+Nobody gives up any personal data to watch [Knight
+Rider](https://en.wikipedia.org/wiki/Knight_Rider_%281982_TV_series%29)
+on broadcast TV, or buy a copy
+of the newspaper out of a vending machine.  But that
+[impersonal](http://richardstacy.com/2012/08/30/the-great-thing-about-advertising-is-that-no-one-takes-it-personally/)
+advertising is where the money is.  Something must
+be making it valuable.
+
+The bargain that matters in
+advertising's big leagues is the exchange of
+[signal](http://zgp.org/targeted-advertising-considered-harmful/#signaling)
+for a user's attention.  An ad can be a public,
+credible, costly display of the advertiser's
+intentions.  When an ad fails to send a signal,
+as is the case when it's targeted to a user, the ad
+doesn't hold up its end of the **signal-for-attention
+bargain**, and users start looking for an opportunity
+to block it.
+
+Which is where all those opinion pieces about
+the problem of ad blocking are only getting half
+the story.  One way to look at the problems is to
+accuse ad blocker users of violating a reciprocity
+norm, by entering into an implied lead generation
+bargain and then failing to hold up their end.
+But the other, more valuable deal&mdash;the
+signal-for-attention bargain&mdash;is the one that
+advertisers broke first, and set the problem off.
+
+
+How to hold up both bargains?
+-----------------------------
+
+One important direction is to make the lead generation
+bargain explicit, not sneaky.  Instead of using
+malware-like data gathering techniques, make it easier
+for users to control how they share their info.
+[Project VRM](https://blogs.law.harvard.edu/vrm/)
+is working on that.
+
+The other half, and the part that the [Aloodo
+project](http://www.aloodo.org/) is all about,
+is restoring the signal-for-attention bargain. Fixing
+signaling, by enabling tracking protection, makes the
+web into a more trustworthy medium, and also helps
+with the problem of ad fraud. Instead of point
+solutions to blocking and fraud, tracking protection
+both
+
+ * cuts off the data leakage that drives fraud and 
+
+ * prevents the unease-inducing cross-site
+   tracking that motivates users to block ads.
+
+A unified approach to blocking and fraud is better
+than taking on either one by itself.  You can't even
+measure blocking accurately without a good measurement
+of fraud.  And trying to reduce the amount of fraud
+on its own is likely to drive blocking up, while
+trying to reduce blocking is likely to create new
+opportunities for fraud.
+
+## We should have an expensive conference about this!
+
+Sorry, no conference. This is not a collective action
+problem, and this is not a conference-convening
+solution.  It's an opportunity to quietly help
+redesign the way advertising works on the web,
+whether you have a brand site, an original content
+site, or a blog.
+
+The independent sites and brands that
+act first to help get their users [running
+tracking protection in place of a general ad
+blocker](/posts/end-user-security/) will be the
+first to be able to signal effectively.  Building
+brands that pass Bob Hoffman's <q>[refrigerator
+test](http://adcontrarian.blogspot.com/2015/05/take-refrigerator-test.html)</q>
+will be the bonus for beating blocking and fraud.
+
+If you're a Big Data fan, and if you think that
+throwing more data-collection technology at the
+problem will solve it, then this is not for you.
+Otherwise, here are a few [next steps for anyone with
+a web site](/misc/site-request/).  We promise that it
+will always be just as easy as adding a social button
+or analytics script.  Try it on a blog or low-traffic
+page and see how it goes.
+

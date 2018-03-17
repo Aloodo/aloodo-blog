@@ -1,0 +1,50 @@
+[[!meta title="Tracking protection request"]]
+[[!meta date="Sat May  2 17:49:08 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Aloodo is an easy-to-use platform that webmasters
+can use to educate users about third-party
+tracking on the web, and encourage unprotected users
+to turn on or install tracking protection.
+
+In order to test whether or not a user is trackable,
+Aloodo uses the hostname `ad.aloodo.com`.  We would
+like to make sure that this hostname is listed in 
+as many tracking protection lists as possible, so that
+we can correctly detect when users have some form
+of tracking protection installed and working.
+
+Please configure your tracking protection system to
+block any or all of the following:
+
+ * Third-party cookies from ad.aloodo.com
+
+ * Third-party localStorage from ad.aloodo.com
+
+ * JavaScript from ad.aloodo.com
+
+ * All third-party requests to ad.aloodo.com
+
+ * All cookies and localStorage from ad.aloodo.com
+
+If your tracking protection system works by
+double-keying or behavior analysis, it should be
+blocking `ad.aloodo.com` automatically.  You should
+not need to configure anything.
+
+You can test a tracking-protected browser against
+Aloodo here:
+
+  <http://www.aloodo.org/test/>
+
+Aloodo code is open source.  For information on how
+webmasters can use it, please see:
+
+  <http://ad.aloodo.com/>
+
+You are welcome to fork, clone, send pull requests,
+or make new issues.
+
+Thank you in advance for your help.
+

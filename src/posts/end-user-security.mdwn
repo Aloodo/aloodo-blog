@@ -1,0 +1,66 @@
+[[!meta title="Picking the next end-user security tool"]]
+[[!meta date="Tue Feb 17 07:50:26 PST 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+[Malvertising](http://www.google.com/trends/explore#q=malvertising)
+is a thing on the Internet now.  [Ad
+fraud](http://adcontrarian.blogspot.com/2015/01/the-difference-between-waste-and-fraud.html)
+meets [data
+leakage](http://digiday.com/platforms/what-is-data-leakage/)
+meets malware.
+
+One way or another, some kind of tracking protection
+tool is going to join the basic recommended list
+of security software for regular users.  Firewall,
+check. Virus checker, check. Tracking protection,
+check.
+
+The question is whether the anti-malvertising
+slot on the shoppping list will be filled with a
+[problematic](http://qz.com/308175/the-rise-of-adblock-reveals-a-serious-problem-in-the-advertising-world/)
+and coarse-grained ad blocker, or with a
+[publisher-friendly](http://zgp.org/targeted-advertising-considered-harmful/#solution-tracking-protection)
+tracking protection tool such as
+[Disconnect](https://disconnect.me/)
+or the [built-in tracking protection in
+Firefox](https://support.mozilla.org/en-US/kb/tracking-protection-firefox).
+
+## What's the difference, and why does it matter?
+
+Tracking protection tools and AdBlock Plus
+will each let some ads through.  However,
+AdBlock Plus uses the concept of ["acceptable
+ads"](https://adblockplus.org/en/acceptable-ads),
+which is broken for modern web designs.
+
+> For pages featuring a reading text ads should not
+> be placed in the middle, where they interrupt the
+> reading flow. However, they can be placed above the
+> text content, below it or on the sides.
+
+So a nice-looking design like [Quartz](http://qz.com/)
+does not have "acceptable" ads because the ads there
+can appear when scrolling a long article, but a
+crap-ass legacy CMS that splits a shorter article
+into 9 pages is A-OK.
+
+More importantly, targeted third-party ads can buy
+into the "acceptable" program too, which does nothing
+for improving the value of the medium.
+
+This is where the IT media can influence, not just
+observe. 
+
+ * The more that you write about tracking protection
+   tools other than ad blockers, the more users will
+   get them, and the better that business becomes for
+   content sites, including the ones that pay you.
+
+ * The less attention you pay to the issue, the more
+   users are likely to switch to a "dumb" ad blocker,
+   and the more that web ads slide into a no-win
+   struggle like email spam/anti-spam.
+
+[Get a tracking protection tool that works for your
+browser.](http://www.aloodo.org/protection/)

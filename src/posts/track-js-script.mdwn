@@ -1,0 +1,106 @@
+[[!meta title="New BlockAdBlock-based method to detect tracking"]]
+[[!meta date="Sat Apr  9 06:49:08 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+
+Here's a new
+[track.js](https://github.com/Aloodo/ad.aloodo.com/blob/gh-pages/track.js)
+script, based on
+[BlockAdBlock](https://github.com/sitexw/BlockAdBlock).
+
+If you are already using BlockAdBlock to alert
+users of "dumb" ad blockers (which is a good idea,
+because the best-known ad blocker gives users a
+false sense of security by [participating in covert
+tracking](http://www.engadget.com/2016/02/12/rip-adblock-plus/))
+you can now use Aloodo with an almost identical
+interface.
+
+Include the script with:
+
+	<script src="https://ad.aloodo.com/track.js"></script>
+
+And set up your callbacks with:
+
+	if(typeof aloodo === 'object') {
+		aloodo.setOption('debug', true);
+		aloodo.onLoad(trackerDetected);
+		aloodo.onDetected(trackingConfirmed);
+	}
+
+The `onLoad` function gets called when the
+fake tracker iframe loads, and the `onDetected`
+function gets called when tracking is confirmed.  The
+difference is because of the problem of an "untrained"
+[Privacy Badger](https://www.eff.org/privacybadger).
+If Privacy Badger is installed but has not learned to
+block `ad.aloodo.com`, then the `onLoad` function
+will get called even though the user has protection.
+
+So
+
+ * Use `onLoad` to correctly alert more users of list-based protection.  (In this case you will have to let Privacy Badger users know that they can take a [test](http://www.aloodo.org/test/) to check their results.)
+
+ * Use `onDetected` to avoid alerting untrained Privacy Badger users. (You will fail to alert some vulnerable users of list-based protection.)
+
+Because Aloodo has to use a third party and wait
+for the iframe to load, this script can't be as fast
+as BlockAdBlock.
+
+
+### Example
+
+<p id="trackmessage">Detecting...</p>
+
+<script src="http://ad.aloodo.com/track.js"></script>
+
+<script>
+var loaded = false;
+var confirmed = false;
+
+// Function called if a third-party tracker can load
+function trackerDetected() {
+	loaded = true;
+}
+
+// Function called if a third-party tracker can track from other sites
+function trackingConfirmed() {
+	confirmed = true;
+}
+
+function replaceMessage() {
+	var el = document.getElementById('trackmessage');
+	if (confirmed) {
+		el.style.backgroundColor = 'pink';
+		el.innerHTML = 'Third-party tracking confirmed. You need <a href="http://www.aloodo.org/protection/">tracking protection</a>';
+		return;
+	}
+
+	if (loaded) {
+		el.style.backgroundColor = 'yellow';
+		el.innerHTML = 'Tracker loaded. This usually means that you are vulnerable, but if you are running Privacy Badger, <a href="http://www.aloodo.org/test/">take a tracking protection test</a> to be sure.';
+		return;
+	}
+
+	el.style.backgroundColor = 'lightgreen';
+	el.innerHTML = 'Third-party tracking not detected. (This test covers some of the basics, but no system can test for every kind of data collection.  For more info on protecting yourself online, please see <a href="https://ssd.eff.org/en/playlist/want-security-starter-pack">Want a security starter pack?</a> from the Electronic Frontier Foundation.)';
+
+}
+		
+
+if(typeof aloodo === 'object') {
+	aloodo.setOption('debug', true);
+	aloodo.onLoad(trackerDetected);
+	aloodo.onDetected(trackingConfirmed);
+}
+
+if (window.location.pathname != '/') {
+	window.setTimeout(replaceMessage, 10000);
+}
+
+</script>
+
+View source here or [check out the project
+on GitHub](https://github.com/Aloodo) for more info or
+to report a bug.

@@ -1,0 +1,61 @@
+[[!meta title="Bullshit is there for a reason"]]
+[[!meta date="Wed Nov  2 05:59:24 PDT 2016"]]
+
+As Professor Harry G. Frankfurt [once
+wrote](https://en.wikipedia.org/wiki/On_Bullshit), 
+
+> One of the most salient features of our culture is that there is so much bullshit. 
+
+Bob Hoffman points out that this is especially true in
+keynote speeches about online advertising.  But all
+that bullshit is there for a reason.  What would
+happen if you took the bogus scientification and
+marketing-speak out of the Thought Leader Insights?
+You'd get something more like these.
+
+ * You don't need to make creative advertising because
+   a machine, or some random person on Amazon
+   Mechanical Turk, can generate a bunch of ads until
+   something sticks.
+
+ * Third-party tracking lets you reach high-value users
+   for less money on low-value sites, because CTOs and
+   minivan buyers regularly visit che3p-viagra.biz and
+   watch the videos all the way through.
+
+ * Fraud isn't a problem because code monkeys in an
+   open-plan monkey house, reporting to douchebags
+   and working for point squat percent of a company
+   in four years, are smart enough to out-hack a
+   fraud developer who is working on his own time,
+   for 100% of the gain, in 30 days.
+
+ * If you just _educate_ users about how web ads
+   work, they'll be happy to let sites they've never
+   heard of excrete untested combinations of code
+   onto the computers and devices where they keep
+   stuff they care about.
+
+None of those will fly in their bare form, but load
+them up with a bunch of "customer journey" and "deep
+learning" and now you've got a keynote.
+
+So there may be perfectly good reasons why you might
+want to apply a substantial layer of bullshit to what
+you're doing.  If so, carry on.
+
+**But what if you have a real problem?**
+
+ * The web is still a [terrible place to build
+   brands](http://blog.aloodo.org/posts/tv-shopping-with-rory-sutherland/).
+
+ * Web advertising is still low-value enough that it
+   won't sustain high-reputation
+   publications when print revenue goes away.
+
+ * Third-party crap is still a security risk.
+
+Then you need an alternative to bullshit, so
+[go read more about getting Bob to speak at your
+event](http://adcontrarian.blogspot.com/2016/11/its-your-lucky-day.html).
+

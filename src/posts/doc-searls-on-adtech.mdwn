@@ -1,0 +1,258 @@
+[[!meta title="Conversation with Doc Searls"]]
+[[!meta date="Sat Nov 21 05:51:24 PDT 2015"]]
+
+_(Mailing list discussion between
+[Doc Searls](http://blogs.law.harvard.edu/doc/)
+and
+[Don Marti](http://blog.aloodo.org/people/dmarti/),
+formatted and edited for the web.  The original question was about the [SilverPush](http://arstechnica.com/tech-policy/2015/11/beware-of-ads-that-use-inaudible-sound-to-link-your-phone-tv-tablet-and-pc/) tracking system.)_
+
+Don: When a communications platform facilitates
+surveillance marketing, it has a bug and needs to
+be fixed.
+
+Adtech and malware use many of the same
+vulnerabilities, and even if all adtech companies
+reform, or governments regulate them out of using
+vulnerabilities, malware is still out there.
+Platform developers have to fix the bugs, keep
+hardening the platform to resist future ones, and
+move on.  (The alternative is a 
+[Peak Advertising](http://peakads.org/) effect, where a
+targetable medium becomes less and less valuable for
+advertising over time.)
+
+**Doc: Can you differentiate adtech from what Google and Facebook do with their ad platforms? I’m getting questions about that lately, as all get lumped together, and ads on all are blocked by ad blockers.**
+
+Adtech can have narrow or broad definitions.
+
+The narrowest definition is a system that implements
+the [Fundamental Value Proposition of Adtech as
+defined by Michael
+Tiffany](http://zgp.org/targeted-advertising-considered-harmful/#targeting-failure-legit-sites-lose-intermediarieswin):
+diverting advertising money from high-value sites to
+low-value sites by tracking users who visit both.
+
+An economic definition of adtech would be any system
+that relies on information about the user to reduce
+the
+[signaling](http://zgp.org/targeted-advertising-considered-harmful/#signaling)
+value of an advertisement.
+
+Google has search ads that have some adtech built in to
+them, but could work without it and probably better.
+ Some other Google ad products are pure adtech.
+
+Facebook ads are pretty close to pure adtech.
+
+**Tracking makes mountains of money for Facebook:
+$4.5 billion in the last quarter. Not bad for a
+system that trades off signaling value. (In fact
+nearly all the advertising I see on Facebook is a
+breed of spam. But maybe that’s me.)**
+
+Facebook is as much an outlier in web advertising as
+Apple is in hardware.
+
+Facebook [takes up about 40 minutes per day](http://www.bloomberg.com/bw/articles/2014-07-23/heres-how-much-time-people-spend-on-facebook-daily)
+for the average person in
+the USA.
+
+Print newspapers are still around 14 minutes/day for
+the average person in the USA. (Both averages include
+non-users.)
+
+Newspaper ads in this country are roughly as big a
+business as Facebook advertising in total, worldwide. ([$16.4B in
+2014](http://www.journalism.org/2015/04/29/newspapers-fact-sheet/)
+).
+
+Take the crappiest known ad medium on a per
+user-minute basis—Facebook ads—multiply by an
+insane number of user minutes, and you still get
+real money.  But advertising that's only as valuable
+as Facebook advertising isn't strong enough to support
+news gathering and cultural works, the way that other
+ad media are.
+
+**Aside from that, I think the simplest definition
+of adtech is surveillance-based advertising. Maybe
+we should call it SBA.**
+
+**I also think the difference with Google and Facebook
+is that users of both know they’re being followed
+and live with it (and, in some cases, like it) —
+while adtech (or SBA) outside the obvious orbits of
+both those companies has unknown provenance.**
+
+That's what was so interesting about retargeting.
+As soon as people started seeing ads "following them
+around", reactions to the whole medium started to
+[change](https://digitalcontentnext.org/blog/2015/07/06/ad-blocking-why-now/),
+most noticeably in ad blocking behavior.
+
+The bigger question is: Why is surveillance marketing
+even a thing?  Why do new exploit-based companies
+like [SilverPush](http://arstechnica.com/tech-policy/2015/11/beware-of-ads-that-use-inaudible-sound-to-link-your-phone-tv-tablet-and-pc/)
+keep getting funded?
+
+First, everyone on the Internet is inside some kind of filter bubble.  The more complexity and consensus found within the filter bubble, the less information can enter from outside.  (Windows NT and Unix were both difficult to keep working, so most of the people who were up to date on either were late to see Linux.  Today, Linux is complex, popular, and loud.)
+
+The adtech scene is so complex and shares so many
+assumptions that it's hard to consider alternatives.
+
+**There needs to be a master list of those
+assumptions. Or at least of the arcana involved.**
+
+Writing down the hidden assumptions of surveillance
+marketing would be like writing down the Bro Code (and
+they're very similar.)  Start with the assumption that
+marketers are experimenters, customers are subjects,
+not that both sides are playing the same market game,
+and go downhill from there.
+
+Another problem is that
+advertising is full of [Principal-agent
+problems](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem).
+Today's adtech ecosystem is structured to be a
+win for ad agencies, which are at risk of being
+disintermediated by the Internet.
+
+Advertising is always in tension between "sell
+products to customers" and "sell advertising to
+clients."  It seems to have shifted further over to
+the second, because user tracking makes it so easy
+to generate mathematical-looking graphs.
+
+**Numbers are crack. I was in the business and I’ve
+seen it first hand. I even made money coming up with
+an algorithm for factoring out seasonal variations
+in radio station ratings, all the better to win bets
+with buddies when each new “book” came out.**
+
+**And the numbers today are so many more, and so
+much more precise, and so much more intoxicating,
+and so much prettier in PowerPoints. For an agency
+to sell a company today on a truly creative and
+signal-ful ad must be ridiculously hard. Though it can
+happen. I thought [Volkswagen’s diesel test drive
+ads](http://blog.caranddriver.com/vws-hilarious-new-tdi-diesel-ads-return-excellent-viral-mileage/)
+were terrific.  (Alas, the company later shot itself
+in the tires, but that’s a different matter.)**
+
+Ad agencies won't give their own numbers away,
+but some will have an advantage when some of the
+surveillence marketing numbers stop working and other
+kinds of data collection become more important. (The
+big opportunity for [VRM](https://blogs.law.harvard.edu/vrm/)
+comes as soon as Marketing
+realizes that fair trade data is easier and/or more
+accurate than surveillance-derived data. Making
+surveillance harder, less accurate, and more expensive
+pushes the balance towards VRM).
+
+Finally, Internet people were slothful in fixing
+early bugs that enabled the current generation of
+surveillance marketing, and we aren't clearly sending
+a message to investors (who should be scared off by
+the prospect of investing in a known software bug)
+that we're going to do better in future.
+
+**What are those, exactly, and can they still be
+fixed?**
+
+Any time a browser allows for fingerprinting or
+tracking, it's a bug.  [Mozilla tracks fingerprinting
+bugs](https://wiki.mozilla.org/Fingerprinting), and the 
+[Tor browser depends on it](https://www.torproject.org/projects/torbrowser/design/#fingerprinting-linkability).
+
+The bugs will never _all_ be fixed&mdash;software is
+hard and browsers keep getting new, potentially
+fingerprintable, functionality&mdash;but we can reduce
+the expected returns on surveillance marketing
+investments, and increase the returns on positive-sum
+investments, by reducing the time that any given bug
+remains open.
+
+The good news is that the best browser for
+security and privacy is also the best browser for
+legit business.  I don't agree with most of what
+the retro, anti-digital, old-school ad people
+are saying.  "Big Data" could be much, much more
+useful for everybody, if people would only stop
+thinking of it as a way to automate the [carny
+trick of putting chalk marks on audience members'
+backs](http://www.heyrubecircus.com/fun-facts/origins-of-the-carnie-lingo-mark/)
+and put it to uses that people agree on and don’t
+have to be hidden or made confusing.  (Clicking “I
+agree" is not agreeing.)
+
+**Ya still gotta like the likes of [Why I
+Lied](http://adcontrarian.blogspot.com/2015/11/why-i-lied.html)
+by [Bob Hoffman the Ad
+Contrarian](http://adcontrarian.blogspot.com/).**
+
+Sure, but fixing tracking does not have to mean taking
+a step backward in technology.
+
+IMHO, creative ad people and creative web people
+could have an _awesome_ conference if we managed
+to exclude all surveillance marketing from it.
+
+Is advertising ruining the web? Is the web ruining
+advertising? No way. [Web people who think that
+"advertising" is creepy are just as mixed up as
+advertising people who think that "the web" is
+creepy.](http://zgp.org/~dmarti/business/fresh-start/)
+
+Every set of new technologies has the obvious, "hey we
+could do THIS with it" application, and surveillance
+marketing is the one that a lot of people have come
+up with for the Internet.   But once we can get
+past it&mdash;and make the net more trustworthy for
+more people—there are better opportunities.
+
+Publishers complain about ad blocking, but that's
+only a tiny part of the problem.  The real loss
+to advertising on the Internet is that users have
+mentally marked down the value of an ad online to
+the value of spam.
+
+>  "For the past five years, newspaper ad revenue
+>  has maintained a consistent trajectory: Print ads
+>  have produced less revenue (down 5%), while digital
+>  ads have produced more revenue (up 3%) – but not
+>  enough to make up for the fall in print revenue."
+
+[Newspapers: Fact Sheet By Michael
+Barthel](http://www.journalism.org/2015/04/29/newspapers-fact-sheet/)
+
+The same news stories can bring in more ad revenue in
+a low-tracking medium, print, than in a high-tracking
+medium, the web. 
+
+Fixing the bugs that enable surveillance marketing is
+a way to build a more valuable ad medium.  Web sites
+and ad agencies can get a head start now.  [It's easy
+to get started.](http://blog.aloodo.org/misc/howto/)
+
+Bonus links
+-----------
+
+ * [SilverPush Android Apps](https://public.addonsdetector.com/silverpush-android-apps/)
+
+ * Bruce Schneier: [Ads Surreptitiously Using Sound to Communicate Across Devices](https://www.schneier.com/blog/archives/2015/11/ads_surreptitio.html) ("this is creepy and disturbing") 
+
+ * Maciej Cegłowski: [The Advertising Bubble](http://idlewords.com/2015/11/the_advertising_bubble.htm) 
+
+ * Ricardo Bilton: [Venture capital gives ad tech the cold shoulder](http://digiday.com/platforms/venture-capital-gives-ad-tech-cold-shoulder/)
+
+ * Frédéric Filloux: [Ad Blockers Will Change How Ads Are Sold](http://www.mondaynote.com/2015/11/09/ad-blockers-will-change-how-ads-are-sold/)
+
+ * Ben Brooks: [They Never Even Tried For Value](https://brooksreview.net/2015/11/they-never-even-tried-for-value/)
+
+ * Fatemeh Khatibloo: [Consumer Privacy Attitudes: A 2015 Update](http://blogs.forrester.com/fatemeh_khatibloo/15-11-18-consumer_privacy_attitudes_a_2015_update?cm_mmc=RSS-_-MS-_-76-_-blog_2642)
+
+ * Kenneth P. Vogel: [The Koch intelligence agency](http://www.politico.com/story/2015/11/the-koch-brothers-intelligence-agency-215943)
+
+ * Josh Stearns: [Why Journalists Need to Stand Up for Reader Privacy](http://mediashift.org/idealab/2015/11/why-journalists-need-to-stand-up-for-reader-privacy/)

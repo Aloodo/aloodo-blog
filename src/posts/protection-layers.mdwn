@@ -1,0 +1,142 @@
+[[!meta title="Tracking protection layers and the next-generation browser"]]
+[[!meta date="Wed Nov 25 06:49:08 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+
+Joe Marchese [writes, in the Wall Street
+Journal](http://www.wsj.com/articles/outside-voices-id-like-to-teach-the-world-to-ad-block-1448454601),
+
+> The situation with digital advertising is so dire
+> that the only fix might be to reset. Start at zero.
+> And how do we do that? We create a world where every
+> consumer has an ad blocker. Then, we focus on how to
+> earn consumers’ attention. To ask them to opt into
+> quality advertising rather than dealing with a world
+> where they’re opting out in every way they can.
+
+Marchese is right that the wide-open,
+completely trackable web browsers of the
+1990s are no longer workable on today's
+Internet.  When a browser allows third parties
+to follow users from site to site, it enables [data
+leakage](http://zgp.org/targeted-advertising-considered-harmful/#targeting-failure-legit-sites-lose-intermediarieswin),
+fraud, and malware, and makes the web as a medium less
+trustworthy.
+
+But dumb ad blockers aren't the
+solution either. If you like reading
+William Gibson stories today, thank an [OMNI
+Magazine](https://en.wikipedia.org/wiki/Omni_%28magazine%29)
+advertiser from the 1980s.
+Advertising done right can [support great photography, reporting,
+and fiction](http://blog.aloodo.org/posts/signaling/)
+that would not otherwise exist.
+
+Somehow, the browser needs to both protect sites and
+users from the problems of intrusive tracking and also
+protect the power of advertising to support journalism
+and cultural works.  We can get a peek at
+the browser of the future by looking at what works
+on the leading
+browsers and privacy extensions today.
+
+
+0. Send accurate Do Not Track
+-----------------------------
+
+Inform sites of the user’s preferences on
+data sharing.  Mainstream browsers already
+do this, and [now that MSIE does not set DNT by
+default](http://www.theregister.co.uk/2015/04/03/microsoft_reverses_ie_dnt_position/),
+it's a clear message about what the user intends.
+
+
+1. Block connections to third-party trackers
+--------------------------------------------
+
+Browsers have to be able to avoid connecting
+to any third-party site that does not
+comply with user norms. This may take the form
+of honoring a blocklist, like [Tracking Protection for
+Firefox](http://monica-at-mozilla.blogspot.com/2015/05/tracking-protection-for-firefox-at-web.html),
+monitoring tracking behavior, like [Privacy
+Badger](https://www.eff.org/privacybadger), or both.
+(In some cases, third-party tracking is gatewayed
+through a first-party host, so layer 1 protection
+may need to block URL paths, not just hosts.)
+
+
+2. Limit data sent to third-party sites
+---------------------------------------
+
+Apple Safari's third-party cookie
+policy is the best-known example
+of layer 2 protection. [Cookie double
+keying](https://bugzilla.mozilla.org/show_bug.cgi?id=565965),
+where the same tracker will see different
+values for the same cookie on different sites,
+is another way to limit third-party data
+collection.  The [Crumble extension for Google
+Chrome](http://now.avg.com/introducing-crumble/)
+appears to implement cookie double-keying.
+
+Layer 2 protection is important in the case of
+third-party sites that both provide user-visible
+functionality and permit data leakage.  (Privacy
+Badger uses layer 2, in the form of cookie blocking,
+for its "yellowlist" domains.)
+
+
+3 Scramble or delete unsafe data
+--------------------------------
+
+If a tracking cookie or other identifier
+does get through, delete or scramble it on
+leaving the site or later, as the [Self-Destructing
+Cookies](https://addons.mozilla.org/En-us/firefox/addon/self-destructing-cookies/)
+extension does. This layer of protection matters in
+two important situations.
+
+ * Clean up browser state after a site visit in which
+   the user turned off layer 1 or 2 protection. When
+   sites ask the user “turn off your ad blocker to
+   see this content” the user is choosing to accept
+   the ads on the page, but is not choosing to leak
+   data to unknown third parties.
+
+ * If a particular cookie or other piece of browser
+   state is discovered to be involved in tracking
+   after it has already been set for some users,
+   clean up existing copies in a way consistent
+   with the user’s preferences, much as antivirus
+   software regularly downloads updates for newly
+   discovered malware.
+
+
+Bringing it all together
+========================
+
+No one browser or extension has all of the pieces
+today. Persistent users can put together a reasonable
+protection toolkit with a little downloading and
+configuration, but for mainstream adoption there is
+room for a lot of development and testing.
+
+The prize for success, though, is about much more
+than saving the existing web advertising business from
+ad blocking.  It's about leveling up web advertising
+from a low-value medium that can't pay for new works,
+to a higher-value medium that can.  For example,
+[today it's hard for authors to earn money from short
+fiction](http://www.antipope.org/charlie/blog-static/2014/12/cmap-short-stories-what-are-th.html)
+because the high-revenue ad model of magazines
+doesn't work on the web.  Cut out tracking, and the
+data leakage, fraud, malware and loss of signal that
+come with it, and it's a whole new web ad business.
+
+While the ad blocking debate makes a lot of noise,
+the real action is in improving the browser to enable
+advertising to pull its weight&mdash;starting with
+enforcing common-sense norms about user tracking.
+

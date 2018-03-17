@@ -1,0 +1,84 @@
+[[!meta title="Please Turn Off Your Ad Blocker is over."]]
+[[!meta date="Sun May 17 05:57:06 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+The more 
+[malvertising](http://en.wikipedia.org/wiki/Malvertising)
+that comes out, the more that
+<q>please turn off your ad blocker</q> messages on
+web sites are starting to look irresponsible or
+just plain scary.  Asking users to turn off the ad
+blocker sounds like the web version of <q>If you
+can't open lottery-winner-wire-transfer.zip,
+turn off your antivirus.</q> Let's
+have a look at a few recent malvertising examples.
+
+ * Laurie Sullivan: [Google DoubleClick Network Hit With
+More Malvertising](http://www.mediapost.com/publications/article/247982/google-doubleclick-network-hit-with-more-malvertis.html).
+
+ * maartenvdantzig: [Liveblog: Malvertising from Google advertisements via possibly compromised reseller](http://blog.fox-it.com/2015/04/07/liveblog-malvertising-from-google-advertisements-via-possibly-compromised-reseller/)
+
+ * Malwarebytes: [Booby-trapped Hugo
+Boss Advert Spreads Cryptowall
+Ransomware](https://blog.malwarebytes.org/malvertising-2/2015/04/booby-trapped-hugo-boss-advert-spreads-cryptowall-ransomware/)
+
+These aren't skeevy ads on low-reputation pirate
+sites.  Malvertising attacks are coming in on big-budget
+sites such as AOL's Huffington Post, and included
+in fake ads for real brands such as Hugo Boss.
+They're using A-list adtech companies.  The [ongoing web ad fraud
+problem](http://adcontrarian.blogspot.com/2014/12/what-every-ceo-needs-to-know-about.html)
+is hitting users now, not just advertisers.
+And so far the response from the ad networks has been a
+few [whacks](http://en.wikipedia.org/wiki/Whac-A-Mole)
+at the problem accounts.  
+
+[Users already trust web ads less than any other ad
+medium.](http://digitalcontentnext.org/blog/2015/03/02/connect-the-dots-between-unbridled-tracking-and-ad-blocking/)  Malvertising takes a form of advertising that's a 
+[bad deal for the user](http://zgp.org/targeted-advertising-considered-harmful/#how-signaling-breaks-down) and makes it worse.
+(If sewer rats are coming out of the commode, users
+are going to put a brick on the lid.  If the rats
+have rabies, make that two bricks.)
+
+Ad blockers are a problem for ad-supported sites,
+but having users run entirely unprotected
+is worse.  When an ad medium is optimized
+for direct response rates, it [loses value for brand
+advertising](http://zgp.org/targeted-advertising-considered-harmful/#how-signaling-breaks-down).
+Fortunately, new [tracking
+protection](http://www.aloodo.org/protection/)
+features and tools are a third alternative,
+one that works for users, sites, and brands.
+For users, tracking protection stops the
+<q>creepy</q> ads that follow you from site to site.
+For sites, tracking protection is a barrier to [data
+leakage](http://www.naa.org/News-and-Media/Blog/data-leakage-newspapers.aspx).
+For brand advertisers, tracking protection enables
+signaling, not just automated cold calls.
+
+Instead of unrealistic <q>turn off your ad blocker</q>
+messages, or getting into a blocker vs. anti-blocker
+fight that will just help the ad blockers improve
+their update systems, or feeding the ["acceptable ads"
+racket](http://www.themediabriefing.com/article/adblock-plus-google-microsoft-taboola-controversy),
+sites can help promote tracking protection.
+
+For example,
+add a [tracking
+test](http://www.aloodo.org/test/) to a site,
+[replace confusing AdChoices links with a safer
+alternative](/posts/safer-friendlier-adchoices/),
+or encourage users to get protected by
+offering some content behind a 
+[reverse tracking wall](/posts/reverse-tracking-wall/).
+
+Web advertising, so far,
+is [much less valuable than print
+advertising](http://zgp.org/targeted-advertising-considered-harmful/).
+Brands [need to replace print as the print audience
+goes away](/posts/new-category/).  With tracking
+protection, sites have
+an opportunity to move out of commoditized direct
+response advertising into valuable brand advertising.
+

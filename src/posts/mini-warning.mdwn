@@ -1,0 +1,58 @@
+[[!meta title="Minimal tracking warning"]]
+[[!meta date="Sat May 30 06:49:08 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Third-party tracking on the web is a bad deal for
+high-value sites.  For example, tracking can divert
+ad money that should be supporting a local news site,
+through a complex set of intermediaries, to show
+impressions to local residents on a site loaded with
+illegal copies of movies or music.
+
+But an individual high-quality site can't opt out
+of the tracking game unilaterally.  In order to
+have a real impact on fraudulent and other low-value
+sites, the protection needs to be enabled on the user
+side. And it works. As more users turn on [tracking
+protection](http://www.aloodo.org/protection/),
+more low-value ad inventory on questionable sites
+disappears from the market.
+
+Tracking protection can cost high-value sites some
+remnant sales, but it hits fraudulent and infringing
+sites much harder.
+
+The problem is how to encourage users to get protected.
+
+An individual site can help to move users from more
+trackable to less trackable, with a little JavaScript.
+It will show a warning when the system detects that a
+user is vulnerable to third-party tracking.  Here is
+a way to make an unobtrusive warning that might sit in
+a page footer, or on an <q>About this site</q> page.
+
+	<span id="tracking-warning-inline"
+	 style="display: none;">This browser is
+	 vulnerable to third party tracking.
+	
+	<a target="_blank"
+	 href="http://www.aloodo.org/protection/">Get
+	 protection.</a></span>
+
+	<script src="http://ad.aloodo.com/ad.js"></script>
+
+The `script` element can go with other scripts on the
+page, anywhere you choose to put it.  And naturally
+you can change the wording and switch the link to go
+to your own tracking protection page.
+
+When you inform or nudge users into getting tracking
+protection, you're depriving low-value sites of
+<q>eyeballs</q> while also giving users a sustainable
+alternative to an ad blocker.  While tracking
+protection strategy can turn into a complex topic,
+this simple start is a good way to get in front of it.
+You can try it on a low-traffic page, see that it
+works, then grow from there.
+

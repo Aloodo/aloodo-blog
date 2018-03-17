@@ -1,0 +1,124 @@
+[[!meta title="Bike helmets"]]
+[[!meta date="Sat Feb 20 06:57:03 PST 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+An adtech proponent once suggested this to me
+(slightly paraphrased).
+
+> You can keep track of households that have children
+> and are interested in cycling.  Then when the parents
+> visit a news site, you can offer them a 25% discount
+> on children's bike helmets!
+
+Cool story bro.
+
+But that kind of thing is the
+lowest-value part of advertising.
+Adtech people are trying to chase [another $50
+billion](http://adexchanger.com/data-driven-thinking/consumers-will-drive-the-next-50-billion-in-ad-tech/)
+by rearranging database marketing and
+throwing more computers at the problem.  But that's
+not where the money is.
+
+Let's think about that bike helmet example a little
+more.
+
+Very few parents, fortunately, have direct experience
+of the quality of a children's bike helmet.  You buy
+the thing, keep it for a while, the kid outgrows it
+or loses it, and you're done with it.
+
+Unless something really bad, that you don't want to
+think about, happens.  Some event where the difference
+between a good bike helmet and a not-so-good bike
+helmet means the difference between <q>remember that
+time I crashed my bike and we had to go buy a new
+helmet?</q> and something else.
+
+Bike helmets are really hard for shoppers to tell
+apart.  It looks like they're all basically made out
+of the same stuff.  Some hard plastic, some foam,
+some nylon straps.  But some designs are better
+than others.  Specific products change all the
+time, but some companies are good at some product
+categories. Some brands have a good reputation.
+
+Reputation. Some company is known for doing well at
+engineering, testing, and manufacturing?  And I can
+pay that company to _feel better about the protection
+of my child's brain_?  Like the man says, shut up
+and take my money.
+
+Where does that reputation come from?
+It doesn't come from stalking users with the
+digital version of windshield flyers.  Building [brand
+equity](http://adcontrarian.blogspot.com/2009/01/other-thing-advertising-does.html)
+is complicated, and depends only partly on
+advertising.  And the advertising piece of the
+puzzle depends on where the ad appears, and how
+consistently and expensively it appears.
+
+Product ads and product-related editorial need
+each other.  High-reputation news and reviews come
+from a high-reputation source, and a publication's
+reputation depends on having the budget to write
+independently.  The budget depends on ad sales.  And
+[signaling](http://zgp.org/targeted-advertising-considered-harmful/#signaling)
+connects it all up.  A brand's ability and willingness to
+advertise in a high-reputation publication carries
+a powerful signal of its intent in the
+market.  A high-reputation publication isn't afraid
+to write bad things about problem products&mdash;even
+the ones that come from its advertisers.
+
+Publisher reputation is even
+more important in regulated product
+categories.  Shoppers know about [regulatory
+capture](https://en.wikipedia.org/wiki/Regulatory_capture)
+even if they don't know to call it that.
+Government standards need independent reviews just
+as much as the products do.  Same problem, one level
+up, even harder to do.  (Anyone got a good link to a
+story about cadmium, a toxic metal, in art materials
+sold for children's use?  And what regulations cover
+it? Let me know, I'll be over here chewing crayons.)
+
+In real life, customers aren't in a <q>funnel</q> or a
+[distillery](https://blogs.harvard.edu/doc/2015/01/10/on-marketings-terminal-addiction-to-personal-data-fracking-and-bad-guesswork/),
+working their way down the pipe to purchase.
+Customers are active participants in markets and
+in communities of practice.  Humans are wired to
+constantly try to measure the reputation and honesty
+of others.  Everyone is picking up on signals, all
+the time.
+
+So reputable publications run obviously expensive,
+hard-to-repudiate ads, which pay for more and better
+journalism and cultural works, which build publisher
+reputation, and that reputation brings in more ad money,
+and around and around the engine of wealth creation
+goes.  Tracking and targeting users doesn't just
+take a piece out of publishers' share&mdash;it breaks
+the cycle.  (Am I always getting ads for crap because
+someone thinks I don't know any better? Or am I seeing
+that same thing that more knowledgable shoppers are?)
+Signaling and the open web are a great match, as soon
+as we web people can fix up all those 1990s bugs that
+allow for cross-site tracking.
+
+**Let's make web ads work.**  The first step in
+growing web advertising from a targeted medium
+to a signal-carrying medium is to get more users
+protected from third-party tracking, so that
+signal-carrying ads will stand out.  [Take a
+tracking protection test and be part of the
+transformation.](http://www.aloodo.org/test/)
+Firefox users, try the new [pq
+add-on](https://addons.mozilla.org/en-uS/firefox/addon/pq/)
+to turn on Firefox's Tracking Protection
+functionality.  The social silos can growth-hack their
+funnels and distilleries of stalking, couponing,
+and crap, while the open web makes mad cash with
+signaling.
+

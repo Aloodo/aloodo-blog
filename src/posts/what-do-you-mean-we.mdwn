@@ -1,0 +1,102 @@
+[[!meta title="What do you mean, we?"]]
+[[!meta date="Sun Jul  3 07:38:02 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Enough with the "we" stuff about fixing web
+advertising.
+
+This is not a "we" problem.  "We" can't promise
+to replace "ads that provoke blocking" with
+"better-performing ads", because ads that provoke
+blocking _are_ the high-performing ads.  As a
+web user, you're not seeing crap ads because the
+advertisers want to waste money and annoy you. You're
+seeing them because they test well.
+
+Crappy, annoying, deceptive ads get clicks.
+
+The terrible stuff on the web [is there because it
+works](https://joshuaearl.com/yes-popups-suck-heres-why-i-wont-be-taking-mine-down-anytime-soon/).
+
+Everyone agrees that "we" need to get rid of "bad"
+ads.  Naturally, "we" is defined as "you" and "bad" is
+"not the ads that work for me."  But because the same
+qualities that get response also provoke blocking,
+there's no equilibrium strategy here.
+
+Imagine that all the right-thinking people agreed to
+[L.E.A.N.](http://blog.aloodo.org/posts/lean-beef/)
+or some other set of self-regulation terms.
+No auto-playing videos, no NSFW animations, no fake
+error dialogs.
+
+The more that self-regulation limits
+crappy/click-getting practices, the more incentive
+for any advertiser who is willing to bend the rules
+and offer a little more money to run an ad that's a
+little bit creepier, a little more attention-getting
+or finger-fumble-attracting.
+
+Incentives for bad practices are there because users
+can be tracked from site to site.  That marginally
+extra-annoying advertiser will be able to find a
+publisher with marginal reputation, who claims to
+be able to reach the desired users and is willing
+to accept the ad. And self-regulation breaks down,
+or never really gets going in the first place.
+**Cross-site tracking gives everyone an incentive to
+do advertising that gets clicks today and provokes
+ad blocking tomorrow.**
+
+So there's no "we" solution.  The fixes for the
+web advertising problem will have to happen one
+user at a time.  Every user who becomes harder to
+track from site to site helps give high-reputation
+sites a little more [ market power to enforce ad
+standards](http://blog.aloodo.org/posts/service-journalism/).
+
+
+## Publishers and brands need action from users
+
+In today's web advertising, [high-reputation and
+low-reputation publishers compete to reach the same
+users](http://zgp.org/targeted-advertising-considered-harmful/#targeting-failure-legit-sites-lose-intermediarieswin).
+And [high-reputation brands are hard
+to tell apart from low-reputation
+ones](http://blog.aloodo.org/posts/tv-shopping-with-rory-sutherland/).
+
+High-reputation publishers and brands win when users
+get less trackable, but users have to be the ones to
+take the action.
+
+So instead of putting everything in terms of "we",
+it's time to think about reciprocity and measuring
+the benefit from each additional tracking-protected
+user.  Instead of hippy-dippy "we" stuff, relying on
+everyone to cooperate, let's talk exchange of value.
+Big Data is not just a tool to help with
+low-reputation strategies.  Data-driven projects can
+help with high-reputation strategies, too.
+
+Questions might include:
+
+ * Which customers gain the most value to me when
+   they're protected from tracking by low-reputation
+   competitors?  (For an HMO, what's the net present
+   value of protecting a customer from quack diet
+   ads? For a car insurer, how much is it worth to
+   keep the most profitable customers from being
+   picked off based on their social media usage?)
+
+ * Which categories of readers are most valuable to
+   the best advertisers on my site? How much does
+   it cost me when adtech intermediaries can follow
+   them elsewhere?  What's a cost-effective tracking
+   protection solution that I can offer them, to keep
+   them from being reachable on low-value sites?
+
+I'm not against "we need to work together" messages in
+situations where a cooperative solution is really
+workable or necessary. But for fixing web ads? Time to
+give it up.

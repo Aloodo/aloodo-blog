@@ -1,0 +1,35 @@
+[[!meta title="author info: Don Marti"]]
+
+Don Marti is a contributor of code and documentation
+to the aloodo.org project, a low-friction way for
+sites and brands to reclaim the value of online
+advertising from fraud and ad blocking.  He is
+the former editor of <cite>Linux Journal</cite>.
+Don is the subject of an [out-of-date Wikipedia
+article](https://en.wikipedia.org/wiki/Don_Marti)
+which he will not edit himself,
+but wishes that someone would.
+
+[Don is a participation strategist for
+Mozilla](https://mozillians.org/en-US/u/dmarti/),
+where he works on open source collaboration issues.
+He **does not speak for Mozilla** on this site,
+and any opinions expressed here are personal ones.
+
+Don's personal blog is: [blog: Don Marti](https://blog.zgp.org/).
+
+[According to Doc
+Searls](http://blogs.law.harvard.edu/doc/2014/11/22/on-native-advertising/comment-page-1/#comment-332798),
+
+> <q>Nobody is writing with more insight and depth on the
+> subject of online advertising, and doing the work
+> required to understand what kinds of advertising best
+> support (and hurt) what's left of professional
+> journalism in the networked world.</q>
+
+Don can be reached by email at
+[dmarti@zgp.org](mailto:dmarti@zgp.org).
+
+Twitter: [@dmarti](https://twitter.com/dmarti/)
+
+See [Keybase](https://keybase.io/dmarti) for up-to-date public key and other social site links.

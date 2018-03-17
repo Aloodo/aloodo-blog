@@ -1,0 +1,201 @@
+[[!meta title="Why users will have a L.E.A.N. beef with adtech"]]
+[[!meta date="Sat Oct 17 06:49:08 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Scott Cunningham, Senior Vice President of
+Technology and Ad Operations at the adtech industry
+organization IAB, is introducing a new concept called
+"[L.E.A.N. Ads](http://www.iab.com/news/lean/)."
+
+> Today, the IAB Tech Lab is launching the L.E.A.N. Ads program. Supported by the Executive Committee of the IAB Tech Lab Board, IABs around the world, and hundreds of member companies, L.E.A.N. stands for Light, Encrypted, Ad choice supported, Non-invasive ads.  These are principles that will help guide the next phases of advertising technical standards for the global digital advertising supply chain.
+
+The media are covering this as some kind of change
+in direction for IAB, but the more I look at it, the
+more it looks like it follows the Law of Ad Blocking
+Solutions, which is: _your first idea on what do do
+about the ad blocking problem is to do more of what
+you were planning to do anyway._
+
+Let's see what L.E.A.N. is all about.
+
+**L** is for Light. Don't hog the user's battery and
+network.  Nothing wrong with that.
+
+**E** is for Encrypted.  Can't argue with that, either.
+(But it's kind of creepyweirdbadwrong that
+IAB members were willing to [send user data in the
+clear](http://arxiv.org/pdf/1502.06577v1.pdf) for
+so long in the first place.  Encrypting user data is
+a good thing, but it's the "zip up your fly
+before you go to work" of Internet business.)
+
+**A** is for Ad Choice Enabled.  The first two were
+basics, but now we're starting to get to the silly
+stuff.  Have you tried AdChoices?  Not the [malware
+AdChoices](http://www.wikihow.com/Get-Rid-of-Adchoices),
+the [real
+AdChoices](http://en.wikipedia.org/wiki/AdChoices).
+The adtech firms have to put some kind of privacy thing up in order to
+appease the FTC and the big bad Eurocrats, but nobody
+has an incentive to make AdChoices work for real,
+so it doesn't.
+
+So far we're at two basic software quality items, one
+nowhere-near-done fragile opt-out thing.  One more.
+
+**N** is for "Non-invasive".  That takes a little more
+unpacking. From a creative point
+of view, different kinds of ads will be "invasive"
+or not depending on what kinds of sites and devices
+they run on. So what does IAB want to do in order to
+get to a basic level of non-invasiveness?
+
+> Among the many areas of concentration, we must also address frequency capping on retargeting in Ad Tech and make sure a user is targeted appropriately before, but never AFTER they make a purchase.
+
+Hold on a minute.
+
+_Never_ see an ad for something after you purchase one?
+
+> Finally, we must do this in an increasingly fragmented market, across screens.
+
+So when I buy a pair of socks on my desktop
+computer, L.E.A.N. means I stop seeing 
+ads for the same socks on my phone.  From the
+adtech point of view, a little efficiency gain.
+But in order to make "never after" work,
+the adtech companies need to correlate all my
+purchases to all my web activity.  Yes, that breaks
+[signaling](http://zgp.org/targeted-advertising-considered-harmful/#signaling),
+but there's a more immediate reason why the "N"
+in L.E.A.N. will create more problems than it's worth.
+
+People already [don't like ads targeted using browsing
+history](https://www.xaxis.com/news/view/consumers-dont-like-video-ads-targeted-using-their-browsing-history).
+And retargeting is already
+[helping to make ad blocking go
+mainstream](https://digitalcontentnext.org/blog/2015/07/06/ad-blocking-why-now/)
+by making it obvious when ads are "following users
+around."
+
+Now imagine the L.E.A.N. web, where you don't see
+an ad for the specific product you just bought.
+But because of all that data that the IAB companies
+needed to collect in order to get closer to "never
+after", more and more of the other ads you see can be targeted
+using browsing history plus purchase history.  Adtech
+can never get all the way to "never after" but the closer it
+gets to having enough information to do it, the more
+opportunities it has to target users with not the same product,
+but related ones.
+
+## What would a L.E.A.N. web look like?
+
+You bought a wood carving set,
+you start getting ads for first aid kits.  Bought a
+chest freezer, get ads for bowhunting gear.  It won't
+be just the one item you left in your shopping cart that follows you around,
+but many different related items somehow connected to everything you
+bought recently.  Once the data is there to implement
+"never after," it will get used for other purposes.
+So users end up seeing more, not fewer, creepy ads.
+
+And humans are great pattern matchers, even when no
+pattern exists.  Once we start seeing ads for products
+that go with what we recently bought or looked at,
+then _every_ ad will start to look like that.  Is that
+jacket following me because I went to Super Duper
+Burgers and there was a guy in there wearing a jacket
+like that?  Once you start to see related-product ads
+following you around, it will be hard to stop seeing
+them, and the sense of being watched, along with the
+incentive to block, can only grow.  (What will the
+"that ad must be following me, but why?" environment
+do to personal hygiene product advertising?)
+
+## Protecting the web ad business?
+
+L.E.A.N is missing some important parts, but nobody
+has a whole solution to ad blocking and ad fraud,
+two problems that came up together and have to be
+addressed together.  (You can't even measure one
+without the other.)  But the real mistake is a bigger
+one.  Too often, we're looking at the problem of how
+to protect the existing web advertising business,
+when web advertising still isn't working.
+The same content can bring in an order of magnitude
+more ad revenue in print than online. In any
+other technology business, failing to keep up with
+19th-century technology would be cause to reinvent
+things from the ground up.  It's time to apply the same
+standard to web ads, and not just protect the existing
+web ad business from ad blocking, but make a new web ad
+business that works.
+
+Web advertising is not yet ready to take on the burden
+of supporting news and cultural works, a burden that
+print and broadcast have carried for years.  What is
+it about those older media that web ads still aren't
+able to do yet?  What can a great ad medium
+do that the web, so far, can't?
+
+ * **Facilitate creative work.** Ads must be able to use
+   the force multiplier of memorable creative, to have a
+   chance of getting
+   more audience attention than the advertiser paid
+   for.  
+
+ * **Implement publisher-based standards.** The medium
+   must facilitate the banning
+   or punishment of ads that are fraudulent, risky,
+   or otherwise out of compliance with market norms.
+   Publishers need to be able to set their own
+   standards.  An ad that works for one site might
+   not be allowable where users' eyes, devices,
+   and network connections are different.
+
+So far so good on the first two. For example, 
+[The Next Web has broken out of the banner box with a
+"Canvas" ad
+format](http://thenextweb.com/voice/2015/05/07/whats-the-deal-with-tnws-new-canvas-ads/)
+that gives designers a big space to work with, and 
+[many new publishers are doing without 
+intermediaries](http://blogs.wsj.com/cmo/2015/07/28/new-breed-of-digital-publishers-just-say-no-to-ad-tech/)
+that tend to bring crappy ads with them.
+Some other qualities of a great ad medium still need
+work.
+
+ * **Stable rates.** The price of
+   an ad in a great medium
+   is relatively high compared to the amount of
+   user time it occupies, and price for comparable
+   space tends to be stable,
+   to make it easier for a user's
+   "inner economist" to compare the signal level.
+
+ * **Hard to repudiate.** An advertiser must risk
+   some reputation if it commits to an untruthful ad,
+   or makes a promise in an ad that it breaks later.
+   The more reputation you risk by running a bad ad, the
+   more you stand to gain with a consistent campaign of good ones.
+
+ * **Not subject to per-user targeting.**  The more that
+   a member
+   of the audience sees an ad as
+   custom-targeted,
+   the less information about the advertiser's intentions in
+   the market the ad is able to convey.
+
+Some of the IAB member companies have
+profitable niches, sitting between publishers who
+[still aren't getting paid what they need for online
+ads](http://www.bloombergview.com/articles/2015-05-07/news-corp-time-inc-struggle-in-the-online-world)
+and advertisers who [still
+aren't getting the results they
+need](http://adcontrarian.blogspot.com/2015/05/take-refrigerator-test.html).
+But nobody has it right yet.  Instead of L.E.A.N.ing
+on more adtech as usual to keep the existing system
+going, it's time to consider better alternatives.
+
+(Update: [Here's the sustainable alternative with its own easy-to-remember acronym.](http://blog.aloodo.org/posts/new-acronym/))
+

@@ -1,0 +1,49 @@
+[[!meta title="Ad blockers: myths and facts"]]
+[[!meta date="Sat Jul  4 05:59:24 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Visit any end-user message board where amateur
+computer advice is dispensed and discussed,
+and you will start to see that <q>just use an ad
+blocker</q> has started to replace <q>just update your
+antivirus</q> or <q>just turn on your firewall</q>
+as the default advice for when someone's computer is
+acting hinky.
+
+ * Creepy ads following you around? Just use an ad
+   blocker!
+
+ * Internet slow? Just use an ad blocker!
+
+ * New unwanted feature in an application? Just use
+   an ad blocker!
+
+Ad blockers are no more magic than antivirus
+or firewalls.  But they do give users a sense of
+agency, so simply [admonishing users to turn the
+ad blocker off](/posts/turn-off-your-ad-blocker/)
+is no solution.  The <q>turn off your ad blocker</q>
+message is unlikely to get someone to abandon a tool
+that he or she sees as essential protection, and just
+reflects badly on the site that uses it.
+
+At the same time, though, sites will benefit by
+educating users about the limitations and non-magical
+qualities of ad blockers.  For example, by default,
+the most popular ad blocker, AdBlock Plus, will allow
+many risky third-party trackers through.  The privacy
+features are not enabled at install time.
+
+In order to warn users about the
+problem, the Aloodo [tracking protection
+test](http://www.aloodo.org/test/) now includes a
+simple ad blocker test (using a harmless transparent image 
+called <q>ad.gif</q>).  
+
+The test result page now includes an additional
+message shown to ad blocker users who are still
+vulnerable to third-party tracking.  All part of the
+process of refining the message and helping to move
+users from general ad blocking to tracking protection.
+

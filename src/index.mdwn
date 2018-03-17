@@ -1,0 +1,3 @@
+[[!inline pages="page(./posts/*) and !*/Discussion and !link(tag/noblog)" show="15"
+actions=yes rootpage="posts"]]
+

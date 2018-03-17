@@ -1,0 +1,77 @@
+[[!meta title="Letter"]]
+[[!meta date="Mon Dec  1 05:11:24 PDT 2015"]]
+
+Dear (NAME),
+
+Every day we see more and more examples of how people
+are fed up with web advertising.
+
+Annoying ads were even the focus of a recent episode
+of "South Park".
+
+Annoyance might just be the price we have to pay,
+if the ads were working well.  But you know as well
+as I do that they're not.  One new online trick works
+for a while, then users figure it out and you have
+to go on to the next one.
+
+While you click from one vendor to another to try and
+get a message through, your customers are swamped
+with clutter. Not just confusing, annoying ads,
+but security threats and outright fraud.
+
+Users have an bad ads problem, you have an
+effectiveness problem. Nobody's happy.  The whole web
+ad industry is all about games that put advertisers
+and users on opposite sides, when companies want to
+put buyer and seller on the same side,
+
+Isn't there a better way?  
+
+**Yes. Now, online marketing can play defense against
+low-value ads.**
+
+What if there were a way to get more attention from
+your customers and engaged prospects, by helping to
+protect them from the bad stuff?
+
+What if you could take your valuable, known customers
+out of the pool of "eyeballs" that get tracked,
+targeted, and turned off by problem ads?
+
+**Now you can. Meet Aloodo.** It's a new open-source
+web technology that can work with any online store
+or web content management system.  (Aloodo can be as
+simple as a single line of code that can be added to
+any web page.)
+
+You already know when a customer wants to hear from
+you&mdash;they're on your mailing list, support
+site, or app.  Now take the next step, and make
+the nuisances that interfere with that connection
+disappear.
+
+ * Empower your users with special offers for email
+   newsletter readers who get protected.
+
+ * Reach users with independent off-site protection 
+   campaigns with their own calls to action.
+
+ * Build your brand's reputation by connecting to
+   users' privacy concerns.
+
+Aloodo doesn't interfere with your existing online
+marketing efforts&mdash;if you want to run targeted
+ads to get new customers, you still can.  What it
+does is keep your already-engaged list protected.
+
+The web advertising industry is full of talk about
+how companies need to work together to end ad fraud,
+and improve the qualities of web ads that motivate
+users to block.  But you don't have to wait for
+some hypothetical future of safer, more effective
+web marketing.  You and your customers can get
+started today.
+
+**CALL TO ACTION HERE: demo/eval OR free level**
+

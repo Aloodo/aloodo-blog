@@ -1,0 +1,124 @@
+[[!meta title="Closing the data gap for web publishers"]]
+[[!meta date="Mon Sep 26 05:57:03 PST 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Duane Kinsey writes, ["For Publishing Companies, The
+Problem Is Publishing Companies."](https://medium.com/buysellads-restoring-the-balance/for-publishing-companies-the-problem-is-publishing-companies-7368fa8fbd97)
+He suggests,
+
+> Publishers can voluntarily choose to leave the
+> current ad tech landscape behind just as quickly as
+> they decided to partner with many of the companies
+> currently running the industry into the ditch.
+
+Good goal.  That is where we're going to have
+to get to in order to save the ad-supported web.
+Yes, the current web ad system is a dumpster fire.
+It's no secret that adtech intermediaries can
+leak user data from high-reputation sites to
+low-reputation ones.  Right now the web is a
+[good match for advertisers that want to do
+targeting-based, low-reputation strategies,
+but terrible for signaling-based, high-reputation
+strategies](http://blog.aloodo.org/posts/tv-shopping-with-rory-sutherland/).
+Third-party tracking is a bad deal
+for publishers, too. For example,
+[chumboxes](https://theawl.com/a-complete-taxonomy-of-internet-chum-de0b7a070a2d)
+are currently good for quick cash, but can leak
+user data and motivate users to install ad blockers.
+
+
+## TrustX: a better way, or same broken system with new owners?
+
+(I have contributed [several
+items to the Digital Content Next
+blog](https://digitalcontentnext.org/blog/author/don-marti/).)
+
+Jack Marshall at the _Wall Street Journal_ reports that
+[Digital Content Next is launching a new ad marketplace
+called TrustX](https://twitter.com/JackMarshall/status/780210395449483264).
+
+> With no outside investors and no profit motives, TrustX will focus on driving long-term benefits to marketers and publishers, DCN said.
+
+Are publishers just getting a piece of a low-value ad
+system, or really changing things?  
+
+Here's how we'll be able to know.
+
+**Who is in the tracking-protected audience?**
+Tracking protection is fundamental to web
+publisher value.  From the high-reputation
+publisher's point of view, DNT is more like "Do
+not leak data" or "Do not commoditize."  But it's
+hard to measure accurately, because there are
+many different kinds.  What works for detecting [AVG
+Crumble](https://chrome.google.com/webstore/detail/crumble-%E2%80%93-online-privacy/icpfjjckgkocbkkdaodapelofhgjncoh?hl=en)
+might not work to detect [Privacy
+Badger](https://www.eff.org/privacybadger).
+Any project to fix web ads depends on getting good
+numbers on site audiences that are protected from
+third-party tracking, and so harder to track from
+high-value to low-value sites. ([You can do this with 
+the Aloodo un-tracking pixel and
+scripts](http://blog.aloodo.org/misc/howto/).)
+
+
+**What does the market for competing low-value ads
+look like?** Who else is selling impressions that
+claim to reach the TrustX audience?  Get on one or
+more DSPs and buy some.  Right now, conventional
+adtech can make a lot of bold claims about quality.
+(Ever notice that web ad impressions overall are
+about 30% bots, but every individual adtech company
+claims 2% bots?  Somebody's math is wrong.)  Buy the
+cheapest impressions that claim to be "your audience"
+that you can, and check them out.  Part of that is
+comparing their tracking protection rates.  If you
+have an early adopter audience that's well-protected,
+then a competing site that's full of bots will really
+stand out.
+
+**How can publishers refine the data-driven case for 
+Flight to Quality?**
+[Real, high-quality sites have
+branding advantages over generic
+eyeball-buying](http://www.comscore.com/Insights/Presentations-and-Whitepapers/2016/The-Halo-Effect-How-Advertising-on-Premium-Publishers-Drives-Higher-Ad-Effectiveness),
+and [adfraud is becoming a mainstream
+concern](http://www.wsj.com/articles/doubts-about-digital-ads-rise-over-new-revelations-1474674323).  The complex adtech that tracking protection protects
+against is also the place where fraud hides.
+But conventional adtech has a lead in
+data collection.  Higher-reputation publishers need
+more and better data to take to numbers-craving CMOs.
+Much of that data will have to come from the
+tracking-protected audience.
+
+
+## This thing could really work.
+
+If TrustX can do things right&mdash;CNAME support and
+[EFF-flavored DNT](https://www.eff.org/dnt-policy)
+would be solid choices&mdash;then ad blockers start
+to be less of a concern.  Legit publishers can deal
+with the ad blocker the same way that MailChimp
+deals with the spam filter.  Accept that it's there,
+carefully get around it, and comply with user norms.
+It would be counterproductive for MailChimp to
+get email newsletter subscribers to turn off the
+spam filter entirely, but they can get their own
+newsletters through without paying anybody off.
+
+Facebook showed that you can beat the pattern-matching
+of Adblock Plus with fairly simple HTML changes.
+If TrustX can keep the privacy developers
+on the sidelines by respecting DNT, then that gives
+high-reputation sites some options. Refuse to pay
+into the "Acceptable Ads" racket, do some careful
+adblocker workarounds, [advocate responsible tracking
+protection](https://digitalcontentnext.org/blog/2016/04/27/service-journalism-and-the-web-advertising-problem/),
+and keep the [four-currency
+price](http://www.fortressofdoors.com/ad-blockers-and-the-four-currencies/)
+of accepting magazine-style ads on the web lower than the
+four-currency price of blocking them.  
+
+

@@ -1,0 +1,77 @@
+[[!meta title="ANSI standard ad-supported piracy?"]]
+[[!meta date="Sun Jun  5 07:38:02 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+The [Trichordist blog](https://thetrichordist.com/)
+started pointing out the ad-supported piracy problem
+quite a while ago, so let's have a quick look to see
+how well the adtech business has done at cleaning up
+its act.
+
+Should no longer be a story, right?  The Internet
+solves problems on Internet time, after all.
+
+Here's the plan.  I'll spend one minute doing a basic
+check, then go work on something else.  It's not as
+if there isn't enough broken stuff on the Internet
+I could be figuring out.
+
+So I'll do a web search for
+
+	[Michael Jackson MP3]
+
+I'll make it easy for them by picking a well-known
+non-Creative-Commons recording artist.  I'm expecting
+to come up dry here.  (After all, why would any
+sensible Internet company
+send me to a pirate site when they could make some
+money by sending me to a legit music download site,
+or sell me some tracks themselves?)
+
+<a href="/images/ansi-standard-piracy.png" target="_blank"><img src="/images/ansi-standard-piracy.png" alt="ANSI ad on a pirate site" width="100%"></a> 
+
+Ouch.  Probably the [most
+obvious copyrighted works in the
+world](https://en.wikipedia.org/wiki/Michael_Jackson#Legacy_and_influence),
+and who's got their fingers in the pie?
+
+ * Amazon
+ * BuzzCity
+ * Google, Google, Google
+ * LinkShare
+ * LiveInternet
+ * OpenX
+
+But turn off your banner blindness for a minute,
+and check out that banner ad.
+
+It's an ad for [The American National Standards
+Institute (ANSI)](https://ansi.org/).
+
+Why is ANSI running an ad on <strike>a
+questionable</strike> an infriging site, when it
+could be buying ads on a legit site that covers
+engineering and science?  Spewing ads into the
+web's less reputable corners just feeds the growing
+impression that "technology" is a rent-seeking,
+deluxe-bus-riding racket that's focused on diverting
+value from others instead of creating new wealth.
+
+So here are a few questions for ANSI.
+
+ * How did your ad end up on an infringing site?  Can
+   you retrace its steps?
+
+ * What agencies or other intermediaries did you work
+   with to place the ad?  Did they make any guarantees
+   about what kind of site it would show up on?
+
+ * Have you received a refund for ad impressions on
+   problem sites?
+
+ * If you don't have the information to answer the
+   first three questions, what is broken about the
+   way you buy advertising?
+
+I'll keep you posted on what I come up with.

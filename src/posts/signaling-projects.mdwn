@@ -1,0 +1,168 @@
+[[!meta title="Work together to fix web ads? Let&apos;s not."]]
+[[!meta date="Sat Feb 25 07:38:02 PDT 2017"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Web advertising is a dangerous mess.  But why
+keep thinking about it as a "let's have a meeting
+about it" problem? It's more of a "what can I
+fix now and make serious money doing it" problem.
+Read on for a link to some JavaScript that a brand
+advertiser ([or publication, but we covered that
+before](/posts/the-verge-can-save-advertising/))
+can start using today.
+
+The opportunity comes from the fact that
+low-reputation and high-reputation brands
+[need fundamentally different qualities from an advertising
+medium](http://blog.aloodo.org/posts/tv-shopping-with-rory-sutherland/).
+
+ * Low-reputation brands need to send ads only to
+   people likely to respond.
+
+ * High-reputation brands need to send a costly,
+   hard-to-repudiate signal to an large audience.
+
+When an ad medium is targetable, sellers lose the
+ability to signal.  When an ad _could_ have been
+targeted to a small group, you can see that the
+advertiser isn't spending as much to reach you.
+
+[Bob Hoffman
+explains](http://adcontrarian.blogspot.com/2017/02/why-tiffany-doesnt-make-infomercials.html).
+
+> Most people are pretty good behavioral economists. They may not know anything about how the products they buy work, but they know how to read the advertising signals.
+
+Signaling failure is
+obscured by all the other problems that web
+advertising has.  You're lucky if
+your brand's ad ends up being shown to an [adfraud
+bot](http://digiday.com/marketing/confessions-ad-tech-developer/),
+because if that ad gets through to a real
+user, it's probably attached to a [beheading
+video](http://www.thetimes.co.uk/article/big-brands-fund-terror-knnxfgb98)
+or [conspiracy theories](https://www.buzzfeed.com/josephbernstein/youtube-has-become-the-content-engine-of-the-internets-dark) or 
+[malware](http://www.zdnet.com/article/malvertising-reached-new-heights-in-2016/)
+or something.  What a shitshow.
+
+People are still [nerding out over new
+technologies](http://blog.aloodo.org/posts/pre-peak-advertising/)
+without fixing the obvious problems, never mind
+the deep problem of signaling failure.
+
+
+## Work together? Why not?
+
+Fortunately, web advertising is not a
+problem where "the industry" needs to
+"work together".  Mark Glaser, on the
+DCN site, [does an excellent job of identifying the
+problems](https://digitalcontentnext.org/blog/2017/02/23/need-solve-digital-advertisings-quality-control-problem-now/).
+But he writes,
+
+> If the demand for money and efficiency is eroding the integrity of content—not to mention that of brands and platforms—everyone involved must collaborate to gain that trust back.
+
+In the IT business, this kind of call for coordinated
+action is what executives from legacy
+companies say while they're getting ready for an
+expensive conference with a golf tournament. And they
+say it right about the time that an independent programmer
+in a basement somewhere is writing the code to eat
+their lunch.  **When a whole industry is wrong about
+something, that doesn't mean you have a big boring
+assignment to persuade everyone in the industry. It means you have
+an opportunity to make mad cash by being right.**
+A good agency working independently can solve the
+web advertising problem for one brand, just as a good
+publication working independently can solve the web
+advertising problem for its own audience.
+
+If your idea of a solution to the web advertising
+problem involves meetings about how everybody
+has to solve the problem or nobody can, then
+I've got nothing for you.  Go look at [cat
+GIFs](https://www.reddit.com/r/StartledCats/)
+or something.
+
+Still with me?  Good.
+
+The more that a user gets protected from tracking and
+targeting, the more signalful the web becomes as an
+ad medium from that user's point of view.  This can
+work one user at a time.  No coordination required.
+It's a matter of informing and nudging users to take
+precautions and become less trackable. [Please
+grab the code (it's open source) and try it
+out](http://blog.aloodo.org/misc/howto/).  
+
+What kinds of brand advertisers will be good early
+adopters for tracking protection strategies?
+
+
+## Does the brand have noisy, low-reputation competitors?
+
+Some high-reputation categories are great fits for
+tracking protection because there are so many rip-offs
+using targeted web ads.
+
+ * Insurance 
+ 
+ * Financial services
+
+ * Health care
+
+
+## Does the brand depend on reputation earned over long-term use?
+
+Look for goods that are difficult to evaluate at point
+of purchase and where an experience with a deceptive
+seller can be costly.
+
+High-signal advertising is a way to take a position on
+future customer satisfaction and what kind of word of
+mouth that the brand is betting it will earn.
+
+ * Tools
+
+ * Cookware
+
+
+## Is the email list an (expletive deleted) gold mine?
+
+This is an easy one. If you already have the customers
+reliably opening your email, or participating in
+some other medium such as a customer web board,
+you've got great data and nothing to lose by helping
+to deny their info to the competition.  Play defense.
+
+
+## Does the brand already have a tracking-protected customer base?
+
+Some product categories already appeal to Internet
+"privacy nerds" who are hard to reach by conventional
+web ads.  Worse, conventional marketing tech is giving
+you really bad numbers when enough of the customer
+base is "invisible".  Tracking protection strategy
+is essential here, just to keep from 
+getting wrong answers.  Don't do a
+big new product launch based on what bots want.
+
+
+## Next steps
+
+If you answered "yes" to one or more of these,
+the first step is to collect some data on tracking
+protection adoption among the brand's customers
+and prospects.  A high-traffic support or service
+page is a good place to install [tracking protection
+measurement](http://blog.aloodo.org/misc/howto/)
+to get a baseline measurement on how well-protected
+the audience is.  From there, it's a creative
+marketing project to customize a tracking protection
+campaign&mdash;something new and different to offer
+to a brand stuck in the online advertising mess.
+
+Please let me know if you have any questions.
+
+
+**Bonus link:** Brian O'Kelley, [Data is fallout, not oil](http://bokonads.com/data-is-fallout-not-oil/)

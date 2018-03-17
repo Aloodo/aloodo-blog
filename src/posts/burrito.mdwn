@@ -1,0 +1,58 @@
+[[!meta title="If I'm wrong about GDPR, I'll buy you a burrito"]]
+[[!meta date="Thu May 25 07:38:02 PDT 2017"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Europe is [getting new privacy regulations that will
+limit surveillance marketing](http://adage.com/article/digitalnext/europe-s-strict-privacy-rules-terrifying-apple/309155/).
+
+I see their point.  Instead of making people navigate
+the fine print of privacy policies and click through
+broken opt-out systems.  the EU is trying to save
+everyone some time and risk.
+
+Meanwhile, California, like the rest of the USA,
+has basically zero privacy.  But we do have [great
+burritos](https://en.wikipedia.org/wiki/Mission_burrito)
+here, so we've got that going for us anyway.
+
+Some surveillance marketing proponents say that
+if Europe rolls out GDPR, then there
+goes all the creative stuff on the Internet.
+(which is roughly what the DRM proponents
+said about DRM, but [Hugo-award-winning
+author Charles Stross already explained that
+one](http://www.antipope.org/charlie/blog-static/2011/11/cutting-their-own-throats.html).)
+
+Personally, I agree with [Doc
+Searls](https://blogs.harvard.edu/doc/2017/01/26/how-true-advertising-can-save-journalism-from-drowning-in-a-sea-of-content/)
+that the role of privacy violation in ad-supported
+Internet services is way overrated.  Most of the value
+is in ad context (what site the ad is on) and search
+(which does have some customization based on who you
+are, but mostly works based on what you search for.)
+[Targeting just provokes blocking and makes ads less
+valuable](http://zgp.org/targeted-advertising-considered-harmful/).
+So GDPR won't break the Internet, or even ad-supported
+sites.  I'm confident enough in this that I will back
+it up with an offer.
+
+If the surveillance marketers are right, then
+Europeans would be deprived of some neato Internet
+services that we, here in California, are allowed
+to have.  So, demonstrate for me an Internet service
+that is...
+
+ * mentioned in a news story as creative or innovative
+
+ * not offered in Europe, and the company behind it has
+   stated that they won't offer it in Europe because
+   GDPR.
+
+...and I'll buy you a California burrito and link
+to the service from here and on Twitter. First five
+demos get a burrito and link.
+
+If I'm right, then Europeans will get better
+advertising, a safer Internet, less fraud, stronger
+brands, and I'll get to eat the burritos myself.

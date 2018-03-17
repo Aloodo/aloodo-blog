@@ -1,0 +1,69 @@
+[[!meta title="A new game for web ads"]]
+[[!meta date="Thu Apr 23 17:49:08 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Darren Herman writes that
+[we need to change the online advertising
+game](https://medium.com/@dherman76/don-t-skate-to-where-the-puck-is-going-change-the-game-c98de95f0f4e)
+in order to do something about ad blocking.  (Read the
+whole thing.)
+
+Good points.  But in a couple of ways, he's
+giving advertising credit for too little power
+and usefulness.  And advertising is not just more
+important than we often think it is, but in more
+danger than it looks like.
+
+> The most widely used content monetization model is coming under threat.
+
+Unfortunately, it's already been under threat
+for a while.  Ad blocking is high profile,
+but the two stealthier but bigger problems are [signal
+loss](http://zgp.org/targeted-advertising-considered-harmful/#how-signaling-breaks-down)
+and data leakage.  Data leakage artificially shifts
+ad spending away from high-value ad-supported sites,
+and toward intermediaries and lower-value sites. Many
+of the low-value sites that benefit are
+infringing, fraudulent, or outright
+security threats.
+
+> You’d think that people would like advertising because of how directly linked it is to content. I’d argue that some of the best advertisements are really good pieces of content.
+
+Signal is more than just content.  Markets are
+complicated.  It's hard for people to locate the
+valuable goods and services while avoiding deception.
+The first ads were signs to help people find their
+trusted vendors, and in a way, ads still are.
+
+When ads [build a consistent position](https://twitter.com/goodautomarket/status/450644690195345410), a statement of <q>this is
+what we do well, this is what we can do for you,</q>
+then they help people find their way around even in
+more complicated markets.
+
+If your ad isn't a landmark, but a flyer blowing
+across someone's path, it's just an annoyance.
+Advertising offers signal in exchange for attention.
+Fail to signal, and people will hold back their
+attention, using automated help where possible.
+
+
+Ad blocking: it's not just about the annoyance
+----------------------------------------------
+
+Users say that they're blocking ads to minimize
+annoyance, and that's certainly part of it.  But we
+can't understand ad blocking behavior without
+remembering that back in the days of "Internet
+Junkbuster," "AdSubtract," "Webwasher," and other
+proto-adblockers, ad blocking rates were tiny.  Those
+early ad blockers were just as easy to use as the ad blockers of
+today.  They were perfectly effective against late 1990s and
+early 2000s web ads, which were even crappier and
+more annoying than today's. <em>What changed?</em>
+The annoyance level didn't.  Signaling value of web
+ads, as seen by users, did.  The answer to "how did
+ad blocking go mainstream?" is part of the answer to
+how it will go away again, and a key step how we get
+to play that new game.
+

@@ -1,0 +1,23 @@
+[[!meta title="Privacy Badger 1.0"]]
+[[!meta date="Thu Aug  6 06:49:08 PDT 2015"]]
+
+Congratulations to EFF and the Privacy Badger
+team on their [1.0
+release!](https://www.eff.org/press/releases/privacy-badger-10-blocks-sneakiest-kinds-online-tracking)
+
+> More than a quarter of a million users have already
+> installed the alpha and beta releases of Privacy
+> Badger. The new Privacy Badger 1.0 includes blocking
+> of certain kinds of super-cookies and browser
+> fingerprinting—the latest ways that some parts of the
+> online tracking industry try to follow Internet users
+> from site to site.
+
+Remember that a conventional ad blocker
+may not protect you from web tracking (and
+the fraud and malware that tracking enables).
+Firefox and Chrome users, [install Privacy Badger
+now](https://www.eff.org/privacybadger), get
+protected, and help your favorite web sites at the
+same time.
+

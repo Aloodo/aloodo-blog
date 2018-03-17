@@ -1,0 +1,35 @@
+[[!meta title="Protecting Internet Explorer with EasyPrivacy"]]
+[[!meta date="Mon May 11 05:59:24 PDT 2015"]]
+
+If your Microsoft Internet Explorer
+browser was failing the [tracking protection
+test](http://www.aloodo.org/test/), please <a
+href="javascript:window.external.msAddTrackingProtectionList('http://easylist-msie.adblockplus.org/easyprivacy.tpl',
+'EasyPrivacy Tracking Protection List')">Subscribe
+to the EasyPrivacy Tracking Protection List</a>
+and try again.  Aloodo is in EasyPrivacy as of today.
+
+Tracking Protection Lists are a low-profile,
+but effective, way to help protect yourself from
+third-party tracking, and help protect the web sites
+you use from data leakage and fraud.
+
+If you use a different browser,
+check the [list of tracking protection
+options](http://www.aloodo.org/protection/) to find
+something that works for you.  **EasyPrivacy is
+a project affiliated with EasyList and AdBlock
+Plus, but neither AdBlock Plus nor EasyList
+provides tracking protection by default ([more
+info](https://easylist.adblockplus.org/en/)).**
+AdBlock Plus users should still run a [tracking
+protection test](http://www.aloodo.org/test/) to
+check the configuration.
+
+Internet Explorer users: <a
+href="javascript:window.external.msAddTrackingProtectionList('http://easylist-msie.adblockplus.org/easyprivacy.tpl',
+'EasyPrivacy Tracking Protection List')">Subscribe
+to the EasyPrivacy Tracking Protection List.</a>
+
+
+

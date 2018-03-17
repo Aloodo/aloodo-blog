@@ -1,0 +1,83 @@
+[[!meta title="About"]]
+[[!meta date="Sat May 16 06:49:06 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Tracking protection is like bandwidth: you can
+usually make more money on the Internet when _other
+people_ have it.  While most of the IT industry is
+chasing the surveillance marketing bubble, [tracking
+protection](http://www.aloodo.org/protection/) is a
+new software category, with opportunites to build.
+While most tracking protection projects are focused
+on end users, sites and brands also need tracking
+protection help.
+
+High-reputation web sites can do better
+with a tracking-protected audience.
+If your site reviews cars, third-party
+firms are tracking <q>car intenders</q> to
+show them car ads on cat GIF sites.  Tracking
+doesn't just make users [less trusting of the web in
+general](http://digitalcontentnext.org/blog/2015/03/02/connect-the-dots-between-unbridled-tracking-and-ad-blocking/),
+but, worse, it artifically inflates the
+number of impressions available, [destroys
+signal](http://zgp.org/targeted-advertising-considered-harmful/#how-signaling-breaks-down), and
+lowers the value of impressions on high-quality sites.
+
+As the print audience shrinks, brands need the web
+to grow up into an ad medium where brand advertising
+works better, and fraud works less well.  So far,
+the web is the best contender to fill the vanishing
+brand-building niche of the magazine ad, but only
+after the web can fix its data leakage problem, and
+the fraud, malware, and signal loss that flow from it.
+
+An individual site or brand can't protect
+users just by giving up its own connections to
+third-party trackers. Those users will still be
+tracked on other sites. Users need to get tracking
+protection at the browser or platform level.
+Just as an email newsletter can do better when
+a subscriber turns on well-run spam filter, a
+high-value web site or brand can gain from each
+tracking-protected audience member.
+
+Fortunately, recommending and rewarding tracking
+protection for your site's audience and for your
+brand's customers can be simple.  Getting started
+can be a one-line change, such as:
+
+ * linking to a [tracking protection
+   test](http://www.aloodo.org/test/) that recommends
+   tracking protection tools 
+
+ * [simplifying a privacy policy
+   page](/posts/safer-friendlier-adchoices/)
+   to remove links to confusing opt-outs that
+   drive users to ad blockers.
+
+Other Aloodo-powered functionality can
+include [bonus content for tracking-protected
+users.](/posts/reverse-tracking-wall/)
+
+Every user that a site or brand can help to protect
+starts paying off right away, not just as one
+more person not running an ad blocker, but more
+importantly in the form of reduced data leakage
+and fraud.  And that user's tracking protection
+continues to pay off, in the form of reduced
+exposure to low-reputation ads, and increased
+opportunity for
+[signal](http://zgp.org/targeted-advertising-considered-harmful/#signaling).
+
+Ad blocking and ad fraud are commonly addressed
+as separate issues, but both stem from the
+problem of data leakage.  More on the fraud
+problem: [Thank you for buying fraudulent web
+ads.](/posts/thank-you-for-supporting-fraud/)
+
+More on site-friendly alternatives to ad blocking:
+[Please Turn Off Your Ad Blocker is
+over.](/posts/turn-off-your-ad-blocker/)
+

@@ -1,0 +1,151 @@
+[[!meta title="Would you still like to buy the world a Coke?"]]
+[[!meta date="Tue Nov  1 06:49:08 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Here's a TV commercial from 1971.
+
+<iframe id="btwac" width="100%" height="450" src="https://www.youtube.com/embed/2msbfN81Gm0"
+frameborder="0" allowfullscreen></iframe>    
+
+Aww.
+
+But here on the Internet, at least a lot of the time,
+people are more like, <q>I'd like to buy _my_ tribe
+a Coke&reg; and the rest of the world can go die in
+a fire.</q>
+
+People have an us-and-them side and a
+more inclusive side.  And advertising has
+an unwritten rule about which side of the
+customer you're allowed to talk to.  For a long
+time brands have stuck with a kind of [generic
+globalism](https://www.youtube.com/watch?v=2YBtspm8j8M),
+not enough to satisfy a bona fide social justice
+warrior but never tied up with a specific tribe.
+[Right-wing talk radio
+in the USA has trouble keeping mainstream
+advertisers](http://www.wsj.com/articles/talk-radios-advertising-problem-1423011395).
+In one case, a blogger going by "Spocko" made
+fair use recordings of some radio shows and raised
+a stink to the advertisers.  [Despite some legal
+threats](https://www.eff.org/cases/spocko-and-abc-ksfo),
+it basically worked.  Most brands are
+risk-averse enough to stay off talk radio.
+Even on the web, it's news when a brand shows up
+[sponsoring a beheading video on a jihadi
+site](http://botlab.io/can-ddos-attacks-trigger-ads-and-generate-revenue/).
+
+Do things work differently, though, when it's
+an algorithm placing the ad in a niche that only
+sympathizers can see?
+
+Timothy B. Lee
+[writes](http://www.vox.com/policy-and-politics/2016/10/26/13413292/social-media-disrupting-politics),
+
+>  The increasing polarization of news through social media allows liberals and conservatives to live in different versions of reality. And that’s making it harder and harder for our democratic system to function.
+
+From BuzzFeed, [Hyperpartisan Facebook
+Pages Are Publishing False And
+Misleading Information At An Alarming
+Rate](https://www.buzzfeed.com/craigsilverman/partisan-fb-pages-analysis).
+
+> The rapid growth of these pages combines with BuzzFeed News’ findings to suggest a troubling conclusion: The best way to attract and grow an audience for political content on the world’s biggest social network is to eschew factual reporting and instead play to partisan biases using false or misleading information that simply tells people what they want to hear. This approach has precursors in partisan print and television media, but has gained a new scale of distribution on Facebook.
+
+Filter bubbling has been a thing for
+political advertising for quite a while,
+as [Zeynep Tufekci pointed out back in
+2012](http://www.nytimes.com/2012/11/17/opinion/beware-the-big-data-campaign.html).
+Campaigns can [target ethnic groups on Facebook with "voter suppression"](http://www.bloomberg.com/news/articles/2016-10-27/inside-the-trump-bunker-with-12-days-to-go), or share misleading messages
+where they're 
+[harder for outsiders to track down](http://www.nytimes.com/interactive/2016/us/politics/adtrack-signup.html?_r=0).
+
+What happens after the election, when tribal
+rage bubbles keep right on being a thing, but the
+political ads dry up?  Are regular brand ads going
+to get placed on fake news, scenes of violence or
+threats of violence, and all the other us-versus-them
+crap out there?  You probably wouldn't put
+your brand on Stormfront, but will you put your
+brand on one of the thousands of algorithmically
+micromanaged mini-Stormfronts of Facebook? Are [dark
+posts](https://www.ducttapemarketing.com/blog/facebook-dark-posts/)
+the thing now?
+
+This isn't a question about [whose politics match with
+whose](https://www.bloomberg.com/news/articles/2016-10-24/peter-thiel-s-politics-become-a-deal-killer-in-silicon-valley),
+or [whether or not Facebook enables
+targeting using data that we would prefer to keep
+private](https://www.theguardian.com/commentisfree/2016/nov/01/facebook-target-mental-health-data-online_),
+or [whether or not individuals should leave
+Facebook](http://nickbriz.com/facebook/).
+The question is whether brands are now getting comfortable
+with working inside bubbles that would
+not have previously been considered <q>brand-safe.</a>
+
+People keep saying that <q>Google doesn't get
+social</q>, but in a way, that's a compliment.
+A lot of the time, people's idea of being social
+is to split up into tribes and fling Internet poo,
+or worse, at each other.  Part of <q>getting</q>
+social is developing the ability to exploit
+people's other-tribe-hating brain circuitry in the
+same way that [spammers took advantage of open SMTP
+relays](https://en.wikipedia.org/wiki/Open_mail_relay)
+and [SilverPush took advantage of
+an opportunity to sneakily connect mobile user
+data](http://motherboard.vice.com/read/silverpush-ftc-stop-eavesdropping-with-audio-beacons).
+(The [Peter Thiel
+brouhaha](https://medium.com/@paulbiggar/why-would-facebook-fire-peter-thiel-bc389d5631d1#.rc9qcgn4t)
+is raising the profile of the social
+filter bubble issue by putting a human face
+on it.  Every time Sanford Wallace's smug face
+made the news in the 1990s, it motivated us to
+fix up our mail servers and set up the early spam
+filters.  Now it's Thiel in the news, making money
+on both ends of the pipeline&mdash;recruiting [4GW
+participants](http://globalguerrillas.typepad.com/globalguerrillas/2004/05/4gw_fourth_gene.html)
+on Facebook, and selling Palantir
+contracts to track them down later.  [Ingenious
+patriotism](http://www.eastoftheweb.com/short-stories/UBooks/IngPat.shtml)
+at scale. So what to invent now?)
+
+[Andy Warhol once said](https://en.wikiquote.org/wiki/Andy_Warhol):
+
+> What's great about this country is that America started the tradition where the richest consumers buy essentially the same things as the poorest. You can be watching TV and see Coca-Cola, and you know that the President drinks Coke, Liz Taylor drinks Coke, and just think, you can drink Coke, too. A Coke is a Coke and no amount of money can get you a better Coke than the one the bum on the corner is drinking. All the Cokes are the same and all the Cokes are good. Liz Taylor knows it, the President knows it, the bum knows it, and you know it. 
+
+That was then. But today we're not even drinking the
+same damn Coke.  I'm drinking the version [bottled in
+Mexico](http://www.bloomberg.com/news/articles/2013-11-11/the-mexican-coca-cola-myth-its-almost-american).
+Meanwhile, out in High Fructose Corn Syrup land,
+they're drinking the other kind.
+
+And that's just Coke.  Are economic inequality
+and social distances between tribes getting
+big enough that the idea of a brand-safe
+ad placement is over?  Are brands just supposed to
+[take](http://www.huffingtonpost.com/2013/01/31/chick-fil-a-sales-2012_n_2590612.html)
+[sides](http://www.advocate.com/print-issue/current-issue/2014/09/01/how-proud-proud-whopper)
+now?  That's fine for fast food and soda pop, but what happens
+when an [IT brand that benefits from economies of
+scale](http://www.theverge.com/2016/2/17/11031910/donald-trump-apple-encryption-backdoor-statement)
+has to pick a side?
+
+**Related:** [Zeynep Tufekci on "Digital Inclusion and
+Decentralization"](https://air.mozilla.org/mozfest-speaker-series-our-digital-lives/)
+
+**Bonus links**
+
+ * [Facebook is harming our democracy, and Mark Zuckerberg needs to do something about it](http://www.vox.com/new-money/2016/11/6/13509854/facebook-politics-news-bad) by Timothy B. Lee (6 Nov 2016)
+
+ * [When politics and social media
+   collide](https://www.ft.com/content/27a7d6c8-702f-11e6-a0c9-1365ce54b926)
+
+
+<script>
+    function resizeCoke() {
+        var vid = document.getElementById('btwac');
+	vid.height = vid.scrollWidth * 3/4;
+    }
+    window.addEventListener('load', resizeCoke);
+</script>

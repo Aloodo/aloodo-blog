@@ -1,0 +1,119 @@
+[[!meta title="Markets for intent data?"]]
+[[!meta date="Sat Apr 16 08:27:20 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+This is an extended version of a question that I want
+to ask the participants at [VRM Day
+2016](https://www.eventbrite.com/e/vrm-day-2016a-tickets-21117765806).
+
+An idea that keeps coming up is the suggestion that
+prospective buyers should be able to sell purchase
+intent data to vendors directly.  I'm having trouble
+thinking about how this would work.
+
+Here's an offline example.  It's a summer weekend,
+and I'm walking through an anchor store at the mall,
+looking at khaki trousers.
+
+Here are two pieces of intent information.
+
+ * "I'm cutting through the store on the way to buy
+   something else.  I wonder if there are any decent
+   clothes on sale, since I could probably use
+   some extras."
+
+ * "I ripped my last pair of pants and I
+   have a meeting on Monday morning.  I have a lot of
+   stuff to get done and I'm not leaving this store
+   without a new pair."
+
+On a hypothetical intent trading platform, what's my
+incentive to reveal which intent is the true one?
+
+My intent information is worth something to me as
+confidential information going into a negotiation.
+The value could be low (I'm just looking) or high
+(I ripped my last pair).  If a vendor is willing to
+pay me some price for my intent information, then
+in order for me to accept it, that price has to be
+greater than the value of the intent information to me plus the
+transaction costs to me of selling the information.
+
+If I'm "just looking" and don't need the product
+right away, I'm willing to sell intent information
+for almost any price.  But it's of little value to the
+vendor, because it just tells them that my intentions
+are to only accept an incredible bargain.  I even
+have an incentive to spoof my intentions.  If I can
+convince a vendor that I'm not interested, I might
+get a better deal.  And a fraud perpetrator has
+an incentive to simulate a serious buyer.  It seems
+that in any market for user intent data where the
+user gets paid, wrong data will be over-represented.
+
+## So where's the market for purchase intent data?
+
+I can think of a few possibilities.
+
+ * **Consultative sales:** Some sellers are willing to
+   do valuable work for me if I'm serious.  Taking my
+   measurements at a clothing store, or supporting an
+   evaluation for a business IT product.
+
+ * **Controlled circulation:** The basic exchange here
+   is an [old magazine
+   model](https://en.wikipedia.org/wiki/Magazine#Controlled_circulation).
+   Give a free magazine to people who do something to
+   prove that they're in the market for a certain
+   product.  On the Internet, you can make this
+   as fine-grained as you want.  Give the user the
+   ability to share some attribute in exchange for
+   some content.  (For example, a local news site
+   might let you read the music and theater section
+   free, if you can share the fact that you recently
+   bought a ticket for a show&mdash;then the site's ads
+   can command a higher price because they reach known buyers.)
+
+It's not rational for users to "leak" purchase
+intent data without compensation, and therefore it's
+rational to block or spoof any kind of asymmetrical
+data collection.  But are there special cases where
+a trade for purchase intent data can happen?
+
+ * In consultative sales, the sales person can set
+   priorities based on purchase intent&mdash;the
+   more the customer appears likely to spend, the
+   more time and other value he or she can get.
+   There's no up-front payment for intent data, but an
+   ongoing exchange of value for data.
+
+ * In controlled circulation, the marginal cost of
+   adding a subscriber is small.  The 1,001st
+   subscriber costs much less than 0.1% of the total
+   budget to serve.  This is different from directly
+   paying for intent data, where all 1001 prospects
+   (or 1001 copies of the same fraudbot) cost the
+   vendor the same.
+
+So I guess I'm still a Big Data optimist.  Remember,
+when email marketing started, most of the people who
+used email for marketing were spammers.  Today, most
+of the marketing email in the world is still spam,
+but most senders are legit, opt-in email newsletters
+work, and we have a set of technologies and norms
+to separate the two.  But pay-to-spam concepts never
+really worked out.
+
+Are there any other examples of how a market for intent
+data can work?
+
+## Bonus links
+
+ * [Doc Searls on tracking and targeting](https://blogs.harvard.edu/doc/2016/04/14/consumers-to-madison-avenue-please-quit-driving-drunk-on-digital/)
+
+ * [Jason Kint: Meet the
+   Blockers](https://digitalcontentnext.org/blog/2016/04/14/meet-the-blockers/)
+
+ * [David Carroll: Co-owning our News Future](https://medium.com/@profcarroll/co-owning-our-news-future-6ba732df6207#.fmrmatze0)
+

@@ -1,0 +1,166 @@
+[[!meta title="How C.H.E.D.D.A.R. is your browser?"]]
+[[!meta date="Sat Apr 30 06:49:08 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+(Update: switched to BlockAdBlock.)
+
+Doc Searls [writes](https://blogs.harvard.edu/doc/2016/04/09/the-data-bubble-redux/),
+
+> To have a deal, both parties need to come to the table with terms the other can understand and accept. For example, we could come with a term that says, **Just show me ads that aren’t based on tracking me.** (In other words, Just show me the kind of advertising we’ve always had in the offline world — and in the online one before the surveillance-based “interactive” kind gave brain cancer to Madison Avenue.)
+
+Read the whole thing.
+
+"Just show me ads that aren’t based
+on tracking me" is a message that you
+can send and receive today.  You can build
+[C.H.E.D.D.A.R.](http://blog.aloodo.org/posts/new-acronym/)
+ads if you go to the right ad network, or install the
+right ad server.  You can run a C.H.E.D.D.A.R. browser
+today, if you install (for example) Privacy Badger
+and Self-Destructing Cookies on Firefox.
+
+All the pieces of C.H.E.D.D.A.R. exist, but they're
+just not integrated, branded, or made easy to install
+everywhere.
+
+Are you already running a C.H.E.D.D.A.R. browser?
+Let's find out.
+
+<p id="trackcheddar">Detecting...</p>
+
+So, now all the JavaScript programmers have
+done a "View Source" on this page, and you're
+all like, _wtf, that's it?_  A [tracking
+protection detector](/posts/track-js-script/)
+and a [check for a first-party ad
+element](http://fuckadblock.sitexw.fr/blockadblock/)?
+
+Yes, that's it.  You can always write more refined
+versions of these, but the point is that you can
+do C.H.E.D.D.A.R. on the client without waiting
+for any new code on the server side, and you can do
+C.H.E.D.D.A.R. on the server without waiting for any
+new code on the client side.
+
+**Wouldn't C.H.E.D.D.A.R. be better if we added an
+extra layer of protocol, or a special HTTP header,
+or something?**  No, because no server can tell how
+a client is configured.  If a browser or extension
+sends some future new intent message, it doesn't
+reliably tell the site if the user is also running a
+conventional ad blocker. Considering that ad blockers
+are the most popular browser extensions, it's likely
+that many people who install a "we welcome ads not
+based on tracking" extension will also have tried an
+ad blocker, and might not even remember they left it
+on, or not know they have to turn it off.
+
+Actually testing for the delivery of a legit ad,
+or fake ad element, is necessary.  Combine that with
+DNT and tracking detection, and you get a reliable
+"Just show me ads that aren’t based on tracking
+me" message.
+
+That doesn't mean that C.H.E.D.D.A.R. is anywhere
+near done.  If you want to build software around it,
+there are a lot of potential projects.
+
+ * Better tracking protection and tracking detection
+
+ * New ways to test that a DNT-respecting ad has
+   been delivered to a human user
+
+ * DNT-respecting, fraud-resistant web analytics 
+
+ * A "Just show me ads that aren’t based on tracking
+   me" button in privacy tools and ad blockers.
+
+ * C.H.E.D.D.A.R. detection built into web content
+   management systems
+
+The problem with web ads, legit and otherwise, is much
+like the problem of opt-in email newsletters and email
+spam.  Somehow the idea of a "spam-free replacement for
+SMTP" never really caught on. Instead, we got:
+
+ * Legit email is the kind of email that makes it through existing spam filters.
+
+ * A good spam filter is the kind of filter that lets legit email through (but blocks "spam")
+
+The first spam filters got started before legit email
+senders had to be concerned about deliverability&mdash;but because of spam filters, deliverability is
+big business today.
+
+If you write a new spam filter, or set up an email
+service, you have to let through the mail that
+people agree is legit.  If you start a new service
+that sends mail, you have to pass the existing
+spam filters.
+
+Different services have different ToSs, but we can send
+and receive email as ToSs change, because they all
+reflect a common set of norms around what is and isn't
+spam.  And we never actually have to agree on a common
+definition of "spam".
+
+We'll never get the web advertising problem nailed
+down in precise legal and technical terms. There will
+always be a mix of old and new clients and servers,
+a variety of laws and norms, and new inventions and
+business models.  Whatever we come up with will have
+to be messy, imprecise, and resilient in order to
+stand a chance.
+
+
+<script src="http://ad.aloodo.com/track.js"></script>
+<script src="/js/harmless.js"></script>
+<script>
+var tracking = false;
+var adblock = false;
+
+// Function called if a third-party tracker can load
+function trackerDetected() {
+	tracking = true;
+	ga('send', 'event', 'tracking-detected');
+}
+
+// Function called if a adblocker can load
+function abDetected() {
+	adblock = true;
+	ga('send', 'event', 'adblocker-detected');
+}
+
+function replaceMessage() {
+	var el = document.getElementById('trackcheddar');
+	if (tracking) {
+		el.style.backgroundColor = 'pink';
+		el.innerHTML = 'This browser is not C.H.E.D.D.A.R.  Third-party tracking detected. Please get <a href="http://www.aloodo.org/protection/">tracking protection</a>.  (If you are running Privacy Badger and still see this message, <a href="http://www.aloodo.org/test/">take a tracking protection test</a> to train your Privacy Badger.)';
+		return;
+	}
+
+	if (adblock) {
+		el.style.backgroundColor = 'pink';
+		el.innerHTML = 'This browser is not C.H.E.D.D.A.R.  Conventional ad blocker detected. Please get <a href="http://www.aloodo.org/protection/">tracking protection</a> instead.';
+		return;
+	}
+
+	el.style.backgroundColor = 'lightgreen';
+	el.innerHTML = 'This browser is C.H.E.D.D.A.R. (This test covers some of the basics, but no system can test for every kind of data collection.  For more info on protecting yourself online, please see <a href="https://ssd.eff.org/en/playlist/want-security-starter-pack">Want a security starter pack?</a> from the Electronic Frontier Foundation.)';
+
+}
+
+if(typeof blockAdBlock === 'undefined') {
+	abDetected();
+} else {
+	blockAdBlock.onDetected(abDetected);
+}
+
+if(typeof aloodo === 'object') {
+	aloodo.onLoad(trackerDetected);
+}
+
+window.setTimeout(replaceMessage, 12000);
+
+</script>
+

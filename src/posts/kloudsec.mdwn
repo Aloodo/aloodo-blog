@@ -1,0 +1,45 @@
+[[!meta title="HTTPS support, on the Kloudsec CDN"]]
+[[!meta date="Fri Mar 11 06:47:31 PST 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+The [ad.aloodo.com](https://ad.aloodo.com/) site
+is now on the [Kloudsec](https://kloudsec.com/)
+CDN, using Kloudsec's automatic support for [Let's
+Encrypt](https://letsencrypt.org/).
+
+I'm not bragging on my own elite skills
+here. It only took about five minutes of
+actual work.  (Not counting [fixing a problem on our
+side](https://github.com/Aloodo/ad.aloodo.com/commit/8761f57b3d40afa3f04057f03531675f61cc1b7d)
+that one of our users ran into when switching to the
+HTTPS version of Aloodo.)
+
+Why is going encrypted now so simple from the
+webmaster point of view?  Because Kloudsec took
+the great work of the Let's Encrypt project and
+built a straightforward web workflow around it,
+complete with checking and troubleshooting for the
+parts they can't automate, such as setting up the
+right records in DNS.  We use GitHub Pages to host
+ad.aloodo.com, and Kloudsec has [a GitHub Pages
+integration](https://kloudsec.com/github-pages/new)
+to make it even easier.
+
+By the way, we also now have a [global
+CDN](https://kloudsec.com/#/features/speed).
+
+
+## Protecting users from targeted ads
+
+Putting your site on HTTPS can block ad injection
+attacks on users of your site.  I remember the first
+time I went to the Oakland airport and saw injected
+ads on one of my own sites.  Please check out Let's
+Encrypt and Kloudsec to help protect your users.
+
+And of course, another important kind of
+protection you can offer is a tracking protection
+warning, with Aloodo.  [Here's how to get
+started.](http://blog.aloodo.org/misc/howto/)
+

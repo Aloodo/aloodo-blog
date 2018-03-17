@@ -1,0 +1,187 @@
+[[!meta title="Service journalism and the web advertising problem"]]
+[[!meta date="Sun Apr 24 06:57:03 PST 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+> _There's a toenail fungus photo in my morning news._
+
+> _And it looks like it's an ad for some questionable toenail-fungus-treating multi-level-marketing scheme._
+
+> _Yeech. How did that get on there?  Pass the ad blocker already._
+
+> _Forget tracking protection, forget [new standards for responsible advertising](http://blog.aloodo.org/posts/new-acronym/), forget all that.  Gross infected body parts and MLM ads before I have even had my coffee? Burn all this stuff down._
+
+Terrible ads are a big reason why tracking
+protection seems like an incomplete solution to
+the problems of web advertising.  Web users don't
+just block ads because [people are good applied
+behavioral economists, seeking signal and filtering
+noise](https://digitalcontentnext.org/blog/2015/07/06/ad-blocking-why-now/).
+A lot of web ads are just deceptive, annoying, gross,
+or all three.  (Oh, right,
+[some of them carry malware](http://botlab.io/list-premium-publisher-malvertising-attack/), too.)
+
+Even if we could somehow combine the efficiency and
+depth of the web medium with the signaling power of
+print or TV, won't web ads still be crap?  And won't
+people still block them?
+
+It doesn't have to be that way.
+
+
+## Publisher standards
+
+Print ads are less crappy than web ads.
+Why can't publishers enforce better standards
+on the web?  How can a newspaper have memorable,
+well-designed ads in print, while the ads on the
+web site have users [looking for the computer
+sanitizer](https://answers.yahoo.com/question/index?qid=20130127161103AATPwKZ)?
+
+It's hard for publishers to enforce standards
+when an original content site is in direct
+competition with bottom-feeder and fraud sites that claim
+to reach the
+same audience.  And that competition is enabled
+by third-party tracking. As Aram Zucker-Scharff
+[mentions in an interview on the Poynter Institute
+site](http://www.poynter.org/2016/ad-tech-is-broken-heres-how-newsrooms-can-fix-it/407800/),
+the number of third-party trackers on a site grows as
+new advertising deals bring new trackers along
+with them.  All those third-party pixels and
+scripts—and a news site might have 50 to
+70 of them—cause slowness and obvious user
+experience problems.  But the deeper problem, [data
+leakage](http://blog.aloodo.org/posts/what-is-data-leakage/),
+is harder to pick out.  Any of those third parties
+could be leaking audience data into the dark corners
+of the Lumascape until it re-emerges, attached to
+a low-value or fraudulent site that can claim to
+reach the same audience as the original publisher.
+
+Publishers can try to pin down their third parties
+with contractual restrictions, but it's prohibitively
+expensive for a publisher to figure out what any one tracker is up to.
+You know that sign at the corner store, "only
+two high school students in the store at a time"?
+If the storekeeper lets 50-70 kids in, he can't see
+who shoplifted the Snickers bar.  The news site is in
+the same situation on third parties.  Because any one
+publisher has contact with so many intermediaries,
+only the perpetrators can see where data is leaking.
+
+
+## A security point of view
+
+Information security is hard.  When you have to
+maintain software, you fix a bug when you can see
+that there's a bug. You don't wait until someone
+starts exploiting it.  The earlier you fix it, the
+less it costs.
+
+News sites work this way for some issues. If you
+found a bug in your site's content management system
+that would allow a remote user to log in as "editor"
+and change stories, you would fix it. Even if you had
+no evidence that random people were logging in, it's
+not worth taking the chance.  Because it's so hard
+to catch data leakage in the act, it makes sense to
+apply the same bug-fixing principle.
+When there is an emergent bug in the combination of
+your site and the user's browser that allows for data
+leakage, then it is more effective to proactively
+limit it than to try to follow audience
+data through multiple third parties.
+
+That doesn't mean just  walking away from
+all third-party tracking.  Henk Kox, Bas
+Straathof, and Gijsbert Zwart write, in
+[Targeted advertising, platform competition and
+privacy](http://www.cpb.nl/en/publication/targeted-advertising-platform-competition-and-privacy)
+
+> We find that more targeting increases competition and reduces the websites' profits, but yet in equilibrium websites choose maximum targeting _as they cannot credibly commit to low targeting_. [emphasis added] A privacy protection policy can be beneficial for both consumers and websites. 
+
+...
+
+> If websites could coordinate on targeting, proposition 1 suggests that they might want to agree to keep targeting to a minimum. However, we next show that individually, websites win by increasing the accuracy of targeting over that of their competitors, so that in the non- cooperative equilibrium, maximal targeting results.
+
+When publishers lack market power, they have to play
+a game that's rigged against them.
+
+
+## Changing the game
+
+So how to turn web advertising from a
+race to the bottom into a sustainable
+revenue source, like print or TV ads?
+How can the web work better for [high-reputation
+brands](http://blog.aloodo.org/posts/tv-shopping-with-rory-sutherland/)
+that depend on costly
+[signaling](http://blog.aloodo.org/posts/signaling/)?
+
+**[C.H.E.D.D.A.R](http://blog.aloodo.org/posts/new-acronym/)**
+is a basic set of technical choices that make web ads
+work in a signal-carrying way, and restore market power
+to news sites.
+
+Some of the work has to happen on the user side,
+but tracking protection for users can start paying
+off for sites immediately.  Every time a user gets
+protected from third-party tracking, a little bit of
+competing, problematic ad inventory goes away. For
+example, if a chain restaurant wants to advertise
+to people in your town, today they have a choice:
+support local content, or pay intermediaries who
+follow local users to low-value sites.  When the
+users get protected from tracking, opportunites to
+reach them by tracking tend to go away, and market
+power returns to the local news site.
+
+And users see a benefit when a site
+has market power, because the site
+can afford to enforce ad standards.  (and [pay copy
+editors](http://jimromenesko.com/2016/04/22/bay-area-news-group-memo-we-will-be-eliminating-a-layer-of-valuable-editing/),
+but that's another story.)
+
+
+## Service journalism
+
+Users are already concerned and confused about
+web ads.  That's an opportunity.  The more that
+someone learns about how web advertising works,
+the more that he or she is motivated to get
+protected.  A high-reputation publisher can win
+by getting users safely protected from tracking,
+and not caught up in publisher-hostile schemes such as [paid
+whitelisting](http://www.engadget.com/2016/02/12/rip-adblock-plus/),
+[ad
+injection](http://www.businessinsider.com/newspaper-publishers-send-cease-and-desist-to-brave-browser-2016-4), and
+[fake ad
+blockers](https://blog.malwarebytes.org/cybercrime/2015/05/fake-adblocker-bylekh-is-an-lsp-hijacker/).  
+
+Here is a great start, on the _New York Times_ site.
+Read the whole thing:
+
+**[Free Tools to Keep Those Creepy Online Ads From
+Watching You](http://www.nytimes.com/2016/02/18/technology/personaltech/free-tools-to-keep-those-creepy-online-ads-from-watching-you.html) by BRIAN X. CHEN and NATASHA SINGER**
+
+The next step is to make it more interactive.  Use web
+analytics to pick out a reader who is
+
+ * valuable as an audience member
+
+ * vulnerable to third-party tracking
+
+ * using a browser for which you know a good protection
+   tool
+
+and give that reader a nice "click here
+to get protected" button that goes to your
+tool of choice.   There is [JavaScript to do
+this](http://blog.aloodo.org/misc/howto/).
+
+Tracking protection for users means fewer ad impressions
+available at bottom-feeder and fraud sites, which means
+more market power for news sites, which means sites
+gain the ability to enforce standards.  Put it all
+together, and no more toenail fungus ads before breakfast.

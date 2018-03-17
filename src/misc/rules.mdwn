@@ -1,0 +1,42 @@
+[[!meta title="Rules for fixing web advertising"]]
+[[!meta date="Sat May 16 06:49:08 PDT 2015"]]
+
+ 1. __No collective action.__  That's what the
+   adtech people are trying to
+   do on fraud, and it's not working.  ["The
+   Industry"](http://adcontrarian.blogspot.com/2016/02/why-online-ad-industry-cant-reform.html)
+   can't change.  Individuals, browsers, and sites can.
+
+ 2. __No long-term projects.__  The "backlog"
+   never gets done.  Web sites have to work at the
+   speed of `git push`, not the speed of [cheese
+   tweets](http://superpixel.co/45-day-cheese-tweet/).
+
+ 3. __No <q>privacy</q>.__  Privacy is an important
+   philosophical concept, which reasonable people
+   disagree on, and which we do not have time for.
+   We can fix obvious bugs without discovering the
+   meaning of a complicated word.
+
+ 4. __No assuming that users are changing.__ We
+   ignore surveillance marketing people when they say
+   that <q>Consumers want to connect and share with
+   their beloved brands,</q> and we need to ignore 
+   <q>Users are becoming concerned about PII and
+   autonomy</q> just as much.  
+
+ 5. __Work within norms and laws.__ 
+   Doing creepy and/or
+   illegal stuff in order to start a business is over.
+
+ 6. __No complaining.__ When almost everyone in a huge
+    business category is dead wrong about something,
+    that's not a reason to complain, it's a chance to
+    make MAD CASH.  We're not
+    veal calf serfs trapped in a silo,
+    we're people
+    who have just discovered a huge opportunity. Are
+    you in?
+
+[Are you still reading this? Paste this one line of JavaScript to get started.](http://blog.aloodo.org/misc/howto/)
+

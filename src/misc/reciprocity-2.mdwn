@@ -1,0 +1,185 @@
+[[!meta title="Ad blocking: why now?"]]
+[[!meta date="Sun Jun 28 07:38:02 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Users say that they're blocking ads because
+of the annoyance. But ad blocking has only
+recently started to catch on, and ad annoyance
+has been there since the beginning. Distracting
+blinky ads, slow page load times, security
+concerns, the whole enchilada.  For many users,
+web ads in the days of dial-up connections and [pop-up
+windows](http://www.theatlantic.com/technology/archive/2014/08/advertising-is-the-internets-original-sin/376041/?single_page=true)
+were even more annoying than the web ads of today.
+
+The ease of use of ad blocking hasn't
+changed either.  Free, convenient ad blockers
+have been available for more than a decade. But
+[WebWasher](http://www.pcmag.com/article2/0,2817,86574,00.asp),
+[AdSubtract](http://www.pcmag.com/article2/0,2817,14046,00.asp)
+and others earned good reviews, then failed to
+catch on.
+
+Today, though, ad blocking is a thing.  And that's
+not so much because new reasons to block ads are
+appearing, but because reasons not to block are
+going away.
+
+<div style="width:100%; overflow-x: auto">
+<script type="text/javascript" src="//www.google.com/trends/embed.js?hl=en-US&q=%22how+to+block+ads%22,+retargeting&tz=Etc/GMT%2B7&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=600"></script></div>
+
+ * The red line, <q>retargeting</q>, is a query for a
+form of targeted advertising that is easily visible
+to users&mdash;ads that users can see <q>following
+them around.</q>
+
+ * The blue line is a query for <q>how to block
+ads</q>.  Users looking for a solution.
+
+Why does the blue line start to take off only after the
+red line?  Web ads were just as annoying before
+users started to see how they were targeted.
+What is it about _targeted_ ads that changed the
+decision to block?  Why was the 2010 [What They
+Know series in the Wall Street Journal such a big
+deal](http://blogs.law.harvard.edu/doc/2010/07/31/the-data-bubble/)?
+
+Is better targeting causing blocking, or is it just
+an accidental correlation?  Survey data suggests
+that users react differently to ads depending
+on how accurately they are targeted.  In [one
+study](http://repository.upenn.edu/cgi/viewcontent.cgi?article=1138&context=asc_papers),
+66% of adult Americans said they <q>do not want
+marketers to tailor advertisements to their
+interests</q>  And when the researchers explained
+how adtech can target ads to them, the percentage
+saying they don't want targeting went up&mdash;as
+high as 80%.
+
+If you don't believe academic studies, believe the
+company with the best marketing in the world. Would
+Apple really put this copy on the [Safari browser
+page](https://www.apple.com/safari/)...
+
+> The web pages you visit often leave cookies from third-party websites. These cookies can be used to track where you go on the web, target you with ads, or create a profile of your online activities. Safari was the first browser to block these cookies by default.
+
+...if it didn't resonate with users?  If users like
+being tracked, Safari could easily 
+feature _extra_ tracking, to help users <q>connect and
+share with brands.</q>
+
+Are ad blocker users irrationally squicked-out by
+targeting that's actually good for them?  And are
+users just being dishonest by using web content
+without accepting the ads?
+
+## Fair is fair: advertising and the reciprocity norm 
+
+It turns out that ad blocker users are pretty good at
+applied behavioral economics.  If we understand
+what the basic bargain behind advertising is, we can
+understand why people [put up with advertising in some
+media](http://digiday.com/agencies/the-ad-contrarians-digital-reality-check/)
+but block it in others.
+
+Gavin Dunaway at AdMonsters [writes](https://www.admonsters.com/blog/opspov-ad-blockers-gates-%E2%80%93-mobile-safari-opens-door),
+
+> The transaction between most Internet content providers and users is something I’ve always referred to as the “unspoken handshake” – users pay for their content consumption with personal data as well as by allowing advertisers the opportunity to reach them.
+
+That's one kind of fair exchange.  It's the **lead
+generation bargain**.  Fill out this form to WATCH
+OUR FREE WEBINAR!  People choose to reveal personal
+info all the time, every time they enter a sweepstakes
+or swipe a supermarket loyalty card.
+
+But are users _passively_ choosing to share data with
+unknown third parties?  (Quick, name three companies
+that ran trackers on the last news story you read,
+and what they do with your data.)  Studies [suggest
+otherwise](http://www.pewinternet.org/2012/03/09/main-findings-11/).
+
+But advertising isn't just about the lead generation bargain.
+Lead generation can send a special offer to buy a
+product for a lower price...
+
+<img alt="Beacons beam rich-media mobile
+messages to passers-by: 80% OFF"
+width="100%" src="/images/80-percent.jpeg">
+
+...but it can't build a brand that people will be happy
+to pay a _higher_ price for.  That's where signaling
+comes in.
+
+Clearly lead generation is not the point of high-value
+old-school ad media such as TV, radio, and print.
+Nobody gives up any personal data to watch [Knight
+Rider](https://en.wikipedia.org/wiki/Knight_Rider_%281982_TV_series%29)
+on broadcast TV, or buy a copy of
+the newspaper out of a vending machine.  But that
+[impersonal](http://richardstacy.com/2012/08/30/the-great-thing-about-advertising-is-that-no-one-takes-it-personally/)
+advertising is where the money is. Print is trending
+down but [still more valuable than either web or
+mobile](http://zgp.org/targeted-advertising-considered-harmful/#fig1)
+on a per user minute basis.
+
+The bargain that matters in
+advertising's big leagues is the exchange of
+[signal](http://zgp.org/targeted-advertising-considered-harmful/#signaling)
+for a user's attention.  An ad can be a public,
+credible, costly [display of the advertiser's
+intentions in the market](http://www.dotcoma.it/2015/06/22/the-problem-with-targeting.html).  When an ad fails to send a signal, as
+is the case when it's targeted to a user who
+can't tell if it's part of a big campaign or just the
+digital version of a cold call, the ad doesn't hold up
+its end of the **signal-for-attention bargain**, and
+the user starts looking for an opportunity to block it.
+
+One way to look at the blocking problem is to
+accuse ad blocker users of violating a reciprocity
+norm, by entering into an implied lead generation
+bargain and then failing to hold up their end.
+But the other, more valuable deal&mdash;the
+signal-for-attention bargain&mdash;is the one that
+advertisers broke first.
+
+
+How to stick to both bargains?
+------------------------------
+
+One important direction
+is to make the lead generation bargain
+[explicit](http://adage.com/article/datadriven-marketing/brands-transparency-iot-data-tracking-study/299290/),
+not sneaky.  Instead of using malware-like third-party
+tracking techniques, make it easier for users to
+[control](https://blogs.law.harvard.edu/vrm/about/)
+how they share their info.
+
+The other half is of the solution is to
+restore the signal-for-attention bargain.
+Some of the most promising new work from
+web browser developers holds the promise
+of changing the web advertising game to work
+more like signal-carrying print and broadcast media.
+[Firefox](http://monica-at-mozilla.blogspot.com/2015/05/tracking-protection-for-firefox-at-web.html)
+and [Apple
+Safari](https://www.webkit.org/blog/3476/content-blockers-first-look/)
+have tracking protection functionality in progress,
+and [Microsoft Internet Explorer has had it for a
+while](http://windows.microsoft.com/en-us/internet-explorer/products/ie-9/features/tracking-protection).
+
+Tracking protection can displace ad blockers by
+filling users' immediate need to block the low-value
+targeted ads that <q>follow</q> them, while at the
+same time leaving the door open for signal-carrying
+advertising that works better for brands and pays
+better for publishers.
+
+Web publishers today have a choice: get dragged into a
+no-win game of blocking vs. anti-blocking, or change
+the conversation and offer users an alternative that
+works better for everyone.  Instead of just lecturing
+users to <q>turn off your ad blocker,</q> it's time
+to encourage them to enable tracking protection,
+and turn on the signal.
+

@@ -1,0 +1,180 @@
+[[!meta title="Mail for independent webmasters"]]
+[[!meta date="Sat May 23 06:49:08 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+A long-lived Internet bug is spreading malware,
+enabling fraud, and taking financial support away
+from important cultural goods.  I'm writing to ask
+you, as the maintainer of an independent web site,
+to take a few minutes to help fix it.
+
+The bug I'm talking about is the problem of
+third-party user tracking. It's left over from
+some quick-and-dirty web security decisions
+of the 1990s.  When users can be tracked from
+site to site, most of the value created by
+web advertising is shifted [away from sites and
+users](http://blog.aloodo.org/posts/signaling/), and
+toward criminals and companies that collect user data.
+
+Surveillance marketing, such as <q>behavioral</q> and
+<q>retargeted</q> advertising that appears to follow
+users from site to site, has negative externalities.
+The costs of malware, data leakage and identity
+theft are paid by the people whose information is
+compromised, not by the companies that choose to
+collect personal data.
+
+Even if you, as an individual web expert, are able
+to install and use tools to protect yourself, your site
+will do better when you can help protect others. Every
+minute and every dollar that your web site visitors
+lose to surveillance marketing is a minute or a dollar
+that can't go to support creative activity on the web.
+
+
+How an independent site can help
+--------------------------------
+
+The good news is that the tracking protection tools
+we need to fix the problem are already available,
+and improving every day. Users just need to
+turn them on.  Your site can inform, nudge, or
+reward each user to turn on or install a [tracking
+protection](http://www.aloodo.org/protection/) tool
+that works for his or her own browser.  Every time a
+user gets protected, the web works a little better.
+Tracking protection discourages the forms of
+advertising that have negative externalities, and
+helps shift ad budgets to ads that have positive
+externalities.
+
+If you are already running ads on your site, and
+are concerned about ad blocking by users, offer them
+tracking protection as an alternative.  Tracking
+protection helps stop the 
+<q>creepy</q>-looking and malware-carrying
+ads that [motivate users to run ad
+blockers](http://blog.aloodo.org/posts/turn-off-your-ad-blocker/).
+
+Without protection,
+an advertiser can take advantage of [data
+leakage](http://zgp.org/targeted-advertising-considered-harmful/#targeting-failure-legit-sites-lose-intermediarieswin)
+to track users away from your site and
+reach them elsewhere&mdash;which often results in
+supporting malware
+and deceptive sites.  With tracking
+protection, those low-quality ad impressions disappear
+from the market, pushing up the value of high-quality
+ads.
+
+
+One line of JavaScript
+----------------------
+
+The simplest way to help is to add the Aloodo script
+to your site.
+
+	<script src="https://ad.aloodo.com/ad.js"></script>
+
+It will pop up a tracking warning when it detects
+that a visitor is unprotected.  (Different tracking
+protection systems work in different ways, so a user
+has to visit several sites that include the script
+in order to get a warning.)
+
+Users who are already protected from tracking will
+not experience any increase in page load times or
+other changes.  The ad.aloodo.com site is already
+blocked by the popular tracking protection lists.
+
+
+See it in action
+----------------
+
+The simplest way to see a tracking warning is to
+start up an unprotected browser and:
+
+1. Take a [tracking protection
+test](http://www.aloodo.org/test/), so that the system
+can figure out that your browser can be tracked from
+site to site.
+
+2. Visit a [page with the script already
+installed](http://zgp.org/targeted-advertising-considered-harmful/).
+You should see a warning.
+
+
+Warnings in your own words
+--------------------------
+
+If you want a customized warning,
+like the one on the [Aloodo.org privacy
+page](http://www.aloodo.org/privacy/), you can add
+the script and make any HTML element with an id of
+`tracking-warning-block` or `tracking-warning-inline`
+and a style of `display: none`.   The script will show
+your warning (change display to `block` or `inline`)
+instead of adding the default warning.
+
+A [minimal one-line warning](/posts/mini-warning/)
+is easy to cut and paste onto any page or template.
+[More detailed info on custom warnings](/misc/howto/)
+is also available.
+
+The [Aloodo home page](http://www.aloodo.org/) has
+an example of a fixed-position warning that stays in
+place as the page scrolls. (It won't show up unless
+the system can see that you're trackable, as happens
+when you fail the tracking test.)
+
+
+Conclusion
+----------
+
+Aloodo is an easy-to-use platform that webmasters
+can use to educate users about third-party tracking
+on the web, and encourage unprotected users to turn
+on or install tracking protection.
+
+Aloodo code is open source.  You are welcome to
+fork, clone, send pull requests, or make new issues.
+Or use all or part of it to make your own system to
+help your users get protected.
+
+Whether or not your site carries advertising, **some
+forms of advertising have positive externalities that
+are good for you.**  When you read an anthology of
+short stories collected from old magazines, or watch
+old episodes of TV shows, you benefit from the power
+of advertising to support cultural goods.
+
+We can make web ads work more like the magazine
+ads that support quality content, and less like
+direct mail.
+
+Thank you in advance for your help.
+
+
+More info
+---------
+
+ * [Howto](/misc/howto/)
+
+ * [Tracking Protection Test](http://www.aloodo.org/test/)
+
+ * [Targeted Advertising Considered
+   Harmful](http://zgp.org/targeted-advertising-considered-harmful/)
+
+ * [ad.aloodo.com project on
+   GitHub](https://github.com/Aloodo/ad.aloodo.com)
+
+ * [The Shariff
+   project](https://github.com/heiseonline/shariff),
+   sponsored by German computer magazine
+   <cite>c't</cite> and <cite>heise online</cite>,
+   is a safe way to add social sharing buttons to a
+   page.  Users can <q>like</q> or <q>tweet</q> a page
+   without leaking all page visits to third parties.
+   (Shariff powers the social buttons on this blog.)

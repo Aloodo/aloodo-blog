@@ -1,0 +1,88 @@
+[[!meta title="And the most facepalm-worthy (and accurate) web ad prediction for 2017 is..."]]
+[[!meta date="Sun Dec 11 05:49:08 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+In the news:
+
+<blockquote class="twitter-tweet" data-lang="en"><p
+lang="en" dir="ltr">many advertisers say they don&#39;t
+know where their online ads appear <a
+href="https://t.co/6U1PcSYJwI">https://t.co/6U1PcSYJwI</a>
+via <a
+href="https://twitter.com/WSJ">@WSJ</a></p>&mdash; Jack
+Marshall (@JackMarshall) <a
+href="https://twitter.com/JackMarshall/status/805791782667698176">December
+5, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js"
+charset="utf-8"></script>
+
+Want to get a little more info on the brand-unsafe ad problem?
+Two minutes, easy experiment.
+
+ * Get a fresh browser, not one you normally use.
+If you're on Safari or Chrome, try this in Firefox, or
+vice versa.  (Don't pick a browser such as Brave that
+has a built-in ad blocker.  This is about the ads.)
+
+ * Go to your favorite&mdash;or least favorite&mdash;jihadi, white nationalist, or shitlord site.
+
+ * Look at the ads.
+
+<img src="/images/shitlord-ad.png" width="100%">
+
+That's the kind of thing I get based on the above
+site's ability to get ads based on its content.
+Crappy ads from advertisers that will settle for any
+impression, anywhere, whether brand-safe or not.
+
+I don't see any reputable brands showing up when
+I do this with a fresh browser.  How about you?
+[LMK on Twitter](https://twitter.com/dmarti/) which
+seems to be the place to talk about this stuff.
+
+So why is the [Sleeping Giants
+campaign](https://twitter.com/slpng_giants) even
+a thing?  Why are people finding real brand ads on
+brand-unsafe sites?
+
+The problem is that browsers have old bugs, some left
+over from the 1990s browser wars, that let information
+leak from one site to another.  "Your ad on a site
+we know is crap" is pretty much worthless to an ad
+agency, but they will pay for "your ad to a known
+user" and pretend the brand safety issues don't exist.
+
+But putting brand safety last, and trying to hack
+around it when people complain, can't work when the
+other side just has better hackers.
+
+Here's the most facepalm-worthy but also totally
+accurate 2017 web advertising prediction so far:
+
+<blockquote class="twitter-tweet" data-lang="en"><p
+lang="en" dir="ltr">Ad tech’s big marketing pitch in
+2016 was offering “fraud free” guarantees. In 2017,
+it’s going to be “fake news free”
+guarantees.</p>&mdash; Lara O&#39;Reilly (@larakiara)
+<a
+href="https://twitter.com/larakiara/status/805789035285377024">December
+5, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js"
+charset="utf-8"></script>
+
+Really?  A brand-new service rushed out the door,
+by companies that never cared about shitlords
+before, is going to have a chance?  When shitlords
+consistently have better skills, and out-hack
+the entire Lumascape, without even mussing their
+["dapper"](http://www.salon.com/2016/12/03/dapper-and-dangerous-the-ugly-history-of-glamorizing-white-nationalism/)
+outfits?  Good luck with that.
+
+Maybe there's a better way. Brands, legit
+sites, and users can stop playing a losing
+game, and it starts with a [few lines of
+JavaScript](http://blog.aloodo.org/misc/howto/).
+
+Bonus link: [Without these ads, there wouldn't be money in
+fake news](http://www.chicagotribune.com/business/ct-fake-news-ads-20161209-story.html)

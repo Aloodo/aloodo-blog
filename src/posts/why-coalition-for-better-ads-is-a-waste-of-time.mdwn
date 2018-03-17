@@ -1,0 +1,94 @@
+[[!meta title="Why the Coalition for Better Ads is a complete waste of time"]]
+[[!meta date="Sun Sep 18 05:59:24 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+[Business Insider reports that
+Google is planning to "rid the web of bad
+ads"](http://www.businessinsider.com/coaltion-for-better-ads-launched-by-iab-google-unilever-2016-9)
+with yet another new industry organization.
+
+> On a website announcing the Coalition, the group says it will develop the criteria based on consumer research, which will look into the kind of online ads people love and hate. The first iteration of the scoring system is expected to be released in the fourth quarter of this year...
+
+([read the whole thing](http://www.businessinsider.com/coaltion-for-better-ads-launched-by-iab-google-unilever-2016-9))
+
+Really?  Big Data and algorithms to analyze why
+web ads are somehow crappier than print ads?
+
+Web ads did not end up being so annoying because
+agencies designed them willy-nilly and had no
+idea of how much they were getting on people's
+nerves.  Ad agencies employ humans who
+can tell a magazine-style ad apart from a [crappy web
+ad](https://thesocietypages.org/socimages/2009/07/14/evolution-of-evony-video-game-ads/comment-page-6/)
+as well as anyone else can.  The people
+who make web ads already know when they're
+crappy.  [A lot of crappy ads just get
+clicks.](http://blog.aloodo.org/posts/what-do-you-mean-we/)
+
+Web ads did not end up being so annoying because
+Data-Driven Marketing masters have failed to do
+some magickal research that would quantify user
+irritation. Any web editor who has ever moderated
+a comment section knows what the problem ads are.
+Web sites would start refusing those problem ads
+tomorrow if they had the market power to do it.
+The annoying ads persist because publishers don't
+have the market power to enforce quality standards,
+they way they can in print.  If a high-reputation
+site won't run a marginally too-crappy ad, the ad
+agency can go buy (what is supposed to be) the same
+audience on a marginally lower-reputation site.
+
+The publishers of sites with quality level "9"
+don't want to accept an ad of quality level "8"
+but they know they'll lose it to a lower-quality
+site if they don't run the ad and the third-party
+scripts that come along with it.  And by accepting
+the third-party scripts, the publisher is giving up
+data and making it easier for the next, even crappier,
+ad to squeeze them even more.
+
+So even if all the "9" and above sites could get together in some
+coalition against crappy ads, then the crappy
+ads&mdash;which both get clicks and provoke
+blocking&mdash;just go to non-coalition sites.
+And the incentives to defect from the coalition are
+obvious and powerful.  The lowest-reputation site
+remaining in the coalition can always make more money
+right away by leaving.
+
+**The privacy nerd solution doesn't work either**
+
+By now the privacy nerds are popping up to propose
+the classic privacy nerd solution: high-reputation
+sites should just unilaterally stop running
+third-party tracking that leaks their audience data
+to low-reputation sites.
+
+Unfortunately, [that doesn't
+work](http://zgp.org/targeted-advertising-considered-harmful/#solution-flight-to-quality).
+In today's web ad environment, where users
+are trackable from site to site, intermediaries have
+the power over high-reputation sites that they need
+to extract cooperation.
+
+What high-reputation publishers need is some kind
+of "clerk cannot open safe" sign for audience data in
+the form of client-side tracking protection.
+The game _does_ work out to winnable by the publisher
+if the cross-site tracking options are limited.
+A site has to be able to tell an ad agency, "Even
+if we did include that data-leakage-perpetrating,
+battery-sucking, fraud-enabling script you want us to
+include?  Our users are tracking protected.  Want to
+reach our audience?  Do it our way. Without the crap."
+
+## Bonus links
+
+ * [Why data leakage protection is good for brands](http://blog.aloodo.org/posts/tv-shopping-with-rory-sutherland/)
+
+ * The Ad Contrarian: [GOOG, FB, P&G Create Coalition To Do Nothing](http://adcontrarian.blogspot.com/2016/09/goog-fb-p-create-coalition-to-do-nothing.html)
+
+ * [On Digital Content Next: how service journalism can help](https://digitalcontentnext.org/blog/2016/04/27/service-journalism-and-the-web-advertising-problem/)
+

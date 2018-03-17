@@ -1,0 +1,98 @@
+[[!meta title="Adblock Plus and deceptive dark patterns"]]
+[[!meta date="Sun Jun 25 05:59:24 PDT 2017"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Some sites recommend Adblock Plus (or
+just "an ad blocker," for which Adblock
+Plus is often the first search result)
+as a privacy or security tool.  But [Adblock
+Plus](https://www.engadget.com/2016/02/12/rip-adblock-plus/)
+uses deceptive "[dark
+patterns](https://darkpatterns.org/types-of-dark-pattern)"
+to avoid offering real privacy or security to users.
+
+**Please do not recommend either Adblock Plus or
+"an ad blocker" to users who are concerned about web
+privacy or security.**
+
+Adblock Plus runs a [paid
+whitelisting program called "Acceptable
+Ads"](http://www.businessinsider.com/criteo-pays-adblock-plus-to-appear-on-its-acceptable-ads-whitelist-2015-12).
+The "Acceptable" criteria include no rules against
+common user privacy and security concerns, such
+as malvertising and PII misuse.  And configuring
+Adblock Plus to actually provide tracking protection
+is complicated.
+
+ * Go to "Filter Preferences" in the ABP menu.
+
+ * Click "Add filter subscription"
+
+ * No privacy lists appear on the main drop-down.  You will have to hunt for them behind "Add a different subscription".
+
+ * Scroll down and eventually find the "EasyPrivacy" entry from a long list.
+
+ * Click "Add subscription".
+
+So far, it's time-consuming and deliberately
+complicated, but not deceptive.  (Keep this in mind
+when Adblock Plus proponents talk about how users
+are mad about annoying ads but don't mind tracking.
+If users don't mind tracking, why did Adblock Plus
+make it so hard to make the choice?)
+
+Turning on a privacy list is enough of a maze to
+discourage users, but not _deceptive_ deceptive.
+That's found in another place.
+
+
+## Now for the deceptive part.
+
+Even after you go through the above
+five-step (!) process to find and
+turn on "EasyPrivacy", you're still not
+protected. This is not clear unless you read the
+fine print.  The ["Acceptable Ads" paid whitelisting
+program](https://www.theguardian.com/technology/2016/feb/25/adblock-plus-opens-up-acceptable-ads-work)
+actually _overrides_ your explicit EasyPrivacy
+choice, to allow tracking by Google, Criteo, and
+other companies.
+
+In order to make your tracking protection choice take
+effect, you also have to turn off "Acceptable Ads"
+using a different option, which is labeled "Allow
+some non-intrusive advertising."
+
+<a href="/images/abp-allow.png"><img width="100%"
+  src="/images/abp-allow.png"
+  alt="whitelisting screenshot" /></a>
+
+**To really block trackers, un-check a box with a
+label that says nothing about trackers at all.**
+
+The checkbox is not even labeled "Acceptable
+Ads," maybe just in case a user has heard
+of "Acceptable Ads" and knows about
+the [controversial paid whitelisting
+program](https://pagefair.com/blog/2017/eyeos-toothless-acceptable-ads-committee/).
+
+
+## What to do instead
+
+The good news is that alternatives are available.
+
+ * Instead of recommending "an ad blocker," link to
+   a list of legit [tracking protection
+   tools](https://www.aloodo.org/protection/),
+   or make your own list of tools that
+   work well with your site.  It's easy to
+   use a JavaScript browser detector like
+   [bowser](https://github.com/lancedikson/bowser)
+   to recommend an appropriate one for the user.
+
+ * If you maintain a directory of web software,
+   please do not list Adblock Plus in a privacy or
+   security category.
+
+**More:** [Aloodo for Web Publishers](https://www.aloodo.org/publishers/)

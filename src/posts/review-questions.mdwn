@@ -1,0 +1,65 @@
+[[!meta title="Basic tech questions for agencies"]]
+[[!meta date="Sun Jun 15 18:38:02 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Bob Hoffman
+[asks](http://adcontrarian.blogspot.com/2015/06/whats-value-of-creativity.html),
+
+> Why are we so obsessed with the delivery systems when
+> they offer so little leverage, and so complacent
+> with mediocrity in the product when it offers such a
+> large upside?
+
+Good question.  Brands are paying a lot of attention 
+to technical infrastructure, when a creative ad can
+make a much bigger difference than getting a little
+more efficiency from the delivery system.
+
+But we still have to ask some potentially awkward
+questions about the technology side.  That's because,
+on the web, the delivery system can't build a
+brand, but it can help damage one.  In the search
+for an agency, how can you reduce the chances that
+you end up with [your beer commercial on an ISIS
+video](http://myfox8.com/2015/03/04/isis-video-runs-with-ads-from-major-brands/)?
+
+So here are a few basic technology questions.  A good
+agency already has someone thinking about this stuff,
+and should be able to give you understandable answers,
+without complicated computer science terms or acronym
+alphabet soup.
+
+1. If I see one of my ads running on a
+[copyright-infringing](http://www.mediapost.com/publications/article/251638/how-madison-avenue-can-stop-funding-piracy.html)
+or other illegal or
+[fraudulent](http://www.slideshare.net/augustinefou/state-of-digital-ad-fraud-q1-2015-update-by-augustine-fou)
+site, who is the one person I can call to get it
+taken down and get a credit?
+
+2.  [Apple
+Safari](https://www.webkit.org/blog/3476/content-blockers-first-look/),
+[Microsoft Internet
+Explorer](http://ie.microsoft.com/testdrive/Browser/TrackingProtectionLists/faq.html),
+and [Mozilla
+Firefox](https://support.mozilla.org/en-US/kb/tracking-protection-firefox)
+all have built-in tracking protection support
+available or coming soon, and tracking protection is
+available for Google Chrome as an add-on.  How will
+the rise of tracking protection as a [basic security
+tool](/posts/end-user-security/) help your agency
+work better online?  What are you changing to take
+advantage of this trend?
+
+3. Does your agency work with <q>[ad
+injection](http://research.google.com/pubs/pub43346.html)</q>,
+<q>[potentially unwanted
+software](https://www.microsoft.com/security/portal/mmpc/shared/objectivecriteria.aspx)</q>
+or other malicious software (<q>malware</q>), either
+directly or indirectly?  How do you know that the
+companies you work with are not supporting malware?
+
+When an agency can give you clear answers on those,
+you can go back to talking about the creative, where
+the upside is.
+

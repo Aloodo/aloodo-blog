@@ -1,0 +1,131 @@
+[[!meta title="Let's make an acronym."]]
+[[!meta date="Sun Apr 10 06:57:03 PST 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+The IAB has come up with 
+["L.E.A.N."](http://blog.aloodo.org/posts/lean-beef/)
+and
+["D.E.A.L."](http://www.iab.com/iab-tech-lab-publisher-ad-blocking-primer/)
+for strategies to face down the ad blocking
+problem.  But if that's all we do, we would be wasting
+a crisis here.  Worse, we have the adfraud crisis
+happening at the same time, so we would be wasting
+two crises.
+
+The big problem from the web publisher point of
+view is:
+
+**The same content brings in an order of magnitude less
+ad revenue on the web than in print.**
+
+<a
+href="http://zgp.org/targeted-advertising-considered-harmful/#fig1"><img alt="" width="100%"
+src="http://zgp.org/targeted-advertising-considered-harmful/minutes.svg"></a>
+
+From the advertiser point of view, that looks like:
+
+**The web is a low-value advertising medium.**
+
+Making changes around the edges to try to slow down
+ad blocking won't help that.  Web advertising
+is still on the downward slope of the [peak
+advertising curve](http://peakads.org/) that any
+targetable ad medium goes through.  For example.
+the "E" in "D.E.A.L." is a weak link.  Explaining
+how web ads work today is likely to build more
+interest in blocking.  The more targetable an ad
+is, the more rational it is to ignore, block,
+or regulate it.  It's only 
+[good behavioral economics to pay attention to
+advertising](http://blog.aloodo.org/posts/tv-shopping-with-rory-sutherland/)
+when the ad medium can carry a hard-to-repudiate signal.
+
+We can't get web ads out of the ad blocking rut, but
+there are ways to make the web work as a low-fraud,
+high-signal medium and get it off the peak advertising
+curve entirely.  Doc Searls
+[writes](https://medium.com/@dsearls/the-data-bubble-771005823f31),
+
+> For example, we could come with a term that says,
+> _Just show me ads that aren’t based on tracking me._ 
+
+Good idea.  We can take the qualities that
+next-generation web advertising must have, and make
+them spell out a word.  Best if the word makes
+it clear that we're working on the core problem.
+We don't have an "ad blocking problem" and an "ad
+fraud problem". We have one problem, and ad blocking
+and ad fraud are two symptoms.
+
+So, acronym.  Right. Let me take a whack at it.
+
+**CNAMEs:** Ads, and other third-party resources
+such as analytics scripts, served from what looks
+to the browser like a subdomain of the publisher's
+domain, not from a third-party domain that appears
+on multiple publisher sites.  This is a small
+change for third parties, but a big barrier to
+<q>cookie licking</q> fraud.   And [responsible
+privacy tools](http://www.aloodo.org/protection/)
+won't block a dedicated subdomain that can't be used
+to track users across sites.
+
+**HTML5:** avoid the malvertising risks of
+<q>vintage</q>
+plugins by using web standards only.  Maintaining a
+reasonably secure device on today's Internet is hard
+enough. Users can't maintain
+problematic software just to see the ads.
+
+**Encryption:** Limit the ability of ISPs and other
+observers to gather user data that can be used for
+targeting later.
+
+**Data leakage protection:** Many users are still
+unprotected from web tracking.   When appropriate,
+[notify them and offer incentives to get
+protected](http://blog.aloodo.org/misc/howto/).
+(This is especially important for brands in
+data-sensitive categories such as health care,
+and for high-reputation brands that compete with
+low-reputation ones in categories such as financial
+services and travel.)
+
+**DNT:** Respect user norms on tracking across
+sites.  (Update 26 April 2016: Show that you do this by
+hosting a copy of the [EFF
+DNT policy](https://www.eff.org/dnt-policy) on
+the ad server.)  Respecting DNT is better than tricking
+users into giving up information, because [eventually,
+users figure out what they're uncomfortable
+with](http://www.bloomberg.com/news/articles/2016-04-07/facebook-said-to-face-decline-in-people-posting-personal-content)
+and take steps to protect themselves.  Meet the users
+where they are instead of trying to move norms.
+
+**Accountability:** accurate WHOIS info for
+everything.  No anonymous registrations.
+[Rob Leathern explains this better than I
+can](https://medium.com/@robleathern/deception-funds-your-online-news-86926a2dfbbe#.g5ycatk9w).
+Malvertising and fraud are [too
+easy](http://blog.aloodo.org/posts/worst-heist-movie-ever/)
+otherwise.  (**Update:** important for
+publisher sites too because of the [brand-supported
+piracy](https://thetrichordist.com/2013/01/28/over-50-major-brands-supporting-music-piracy-its-big-business/)
+problem.  Any real solution to brand-supported piracy
+depends on cleaning up both third-party tracking, to
+protect users from being tracked to infringing sites,
+and contact info for any site where an ad can appear.)
+
+**Reciprocity:** Now you have an ad medium that's
+worth something to both ends.  It restores the
+essential bargain of advertising: an offer of
+**signal** from the advertiser for **attention**
+from the audience.  The result is an ad system that's
+harder for scammers to defraud, valuable for the
+advertisers who pay for it, and rational for users
+to accept.
+
+So does **C.H.E.D.D.A.R.** work
+for you?  Let me know, or just [get
+started](http://blog.aloodo.org/misc/site-request/).

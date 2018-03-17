@@ -1,0 +1,92 @@
+[[!meta title="Consumer privacy tool, not so much"]]
+[[!meta date="Wed Sep 21 18:59:24 PDT 2016"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+**Update 7 Nov. 2016: As of today, privacy claims and
+the "disable tracking" switch have
+been removed from the Adblock Plus first install
+page.** (Get real [tracking
+protection](http://www.aloodo.org/protection/).)
+
+
+_Consumer Reports_ has just published
+["66 Ways to Protect Your Privacy Right
+Now"](http://www.consumerreports.org/privacy/66-ways-to-protect-your-privacy-right-now/).
+
+Many of those suggestions look good. But that should
+probably be more like 65 ways.
+
+One piece of software linked
+to from the CR story is [Adblock
+Plus](https://www.engadget.com/2016/02/12/rip-adblock-plus/),
+which would be a better fit for CR's ["Selling
+it"](http://www.consumerreports.org/cro/selling/selling-it/selling-it-ov.htm)
+feature on sneaky offers, weasel wording, and other
+examples of gray-hat marketing.
+
+## What's so bad about Adblock Plus?
+
+When you first install Adblock Plus, the privacy
+option looks good.  It says "Adblock Plus can do
+more than block ads." Scroll down to the bottom
+of the page, and you see
+
+> Browse privately by disabling tracking - hiding your tracks from ad companies that would track your every move.
+
+Looks good, so flip the "Disable Tracking" switch.
+
+<a href="/images/abp-disable.png"><img width="100%"
+  src="/images/abp-disable.png"
+  alt="disable tracking screenshot" /></a>
+
+**Protected from tracking, right?  Wrong.**
+
+It looks like you made the [responsible
+choice](http://zgp.org/targeted-advertising-considered-harmful/#solution-tracking-protection),
+and now you're protected. 
+
+But start web-surfing with your browser's developer
+tools open, and you'll see third-party trackers
+from, for example, `googleads.g.doubleclick.net`.
+What's up with that?  **How could it be that even
+when you deliberately turn on "Disable Tracking"
+you still get trackers?**
+
+That's the tricky part.
+The company's ["Acceptable Ads" whitelisting
+program](https://www.theguardian.com/technology/2016/feb/25/adblock-plus-opens-up-acceptable-ads-work)
+actually _overrides_ the other choices made
+by the user, including that nifty little
+"Disable Tracking" switch.  [Google and other
+companies pay Adblock Plus for "Acceptable
+Ads"](http://www.businessinsider.com/google-microsoft-amazon-taboola-pay-adblock-plus-to-stop-blocking-their-ads-2015-2?ashmanov).
+
+Want to make your decision to block trackers actually
+take effect? You'll find the other option that you
+need in order to protect yourself in a different
+dialog, cleverly but not helpfully labeled "Allow
+some non-intrusive advertising".
+
+<a href="/images/abp-allow.png"><img width="100%"
+  src="/images/abp-allow.png"
+  alt="whitelisting screenshot" /></a>
+
+**To really disable trackers, un-check a box that
+has a label that says nothing about trackers at all.**
+
+It is possible for a user to configure AdBlock
+Plus to block trackers.  And fixing something by
+changing an option in one obvious place and again
+in a not-so-obvious place is not really that bad, by
+the standards of instructions for computer hobbyists.
+
+But this isn't about a story in _Puzzles for
+Computer Nerds Reports_, it's about _Consumer Reports_,
+and "Consumers" probably expect things to be more
+a little more straightforward.
+
+**Next steps:** There are better ways to deal with
+problem web ads, and [sites can help recommend them to
+users](http://blog.aloodo.org/posts/service-journalism/).
+

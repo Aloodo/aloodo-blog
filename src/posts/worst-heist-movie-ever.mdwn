@@ -1,0 +1,87 @@
+[[!meta title="Why adtech fraud would make the worst heist movie ever"]]
+[[!meta date="Sun Apr 26 05:59:24 PDT 2015"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Adtech fraud is [costing advertisers
+billions](http://adcontrarian.blogspot.com/2014/12/what-every-ceo-needs-to-know-about.html).
+Computer hacking, big corporations losing big
+money&mdash;should be a formula for an awesome heist
+movie, right?  Not quite.  Screenwriters, you might
+want to stick to cash, cars, and _objets d'art_.
+Here's why.
+
+ * __Getting the crew together?__  Forget it.  All the
+   parts of adfraud can be [done
+   independently and connected on the free
+   market](http://digiday.com/publishers/ad-farming-adventures/).
+   There go a whole bunch of great scenes for
+   introducing characters.
+
+ * __Split-second timing?__ Try split year. There are
+   hundreds of ad networks out there, and they're
+   vulnerable to different attacks at different
+   times. If your movie's cyber-felons miss one
+   opportunity, they could just connect to a
+   different network later and still get paid.
+   Where's the drama?
+
+ * __Hard-boiled detectives trying to catch the gang?__
+   More like over easy.  The adtech
+   industry <q>[committed $1.5 million in
+   funding](http://adage.com/article/digital/industry-anti-fraud-group-ceo-months/297449/)</q>
+   (and set up a 24-member committee!) to fight a
+   $6-10 billion problem.  Adfraud isn't taking
+   candy from a baby, it's taking candy from _a dude
+   whose job is giving away candy_.  More fraud means
+   more money for adtech intermediaries. How hard
+   are they going to chase your characters, really?
+
+ * __Elite skills?__ The audience wants to see your
+   larcenous (anti)heroes pull off a great
+   feat of skill.  Adfraud, not so
+   much. There's even [phone support for it
+   now](http://www.themediabriefing.com/article/who-are-the-fraudsters-costing-the-ad-industry-billions).
+
+ * __Seriously, a decent movie would have
+   _somebody_ guarding the safe.__ An
+   owner who cares, preferably a badass who's
+   going to come down hard on your protagonists
+   if he catches them.  Can't help you here.  Somebody is stealing [this
+   guy](http://adage.com/article/digitalnext/setting-record-straight-viewability-fraud/295955/)'s
+   money, and he's all like, <q>Come on, everybody,
+   we need to work together as an industry on stealing
+   less of my money.</q>
+
+ * __Dramatic risk of getting caught?__ Not a
+   chance of going to prison&mdash;the worst that
+   happens is that some of your characters get their accounts banned,
+   and they have to log in with their other ones.  Your movie's
+   production designer is going to have to work awful hard
+   to make that <q>Access denied</q> screen look cool
+   enough to keep the audience awake.
+
+ * __Will crime pay?__ A good
+   heist movie gets the audience to like the
+   criminal masterminds, and hope they get away with
+   something. Adfraud?  A lot of the time, __It's not even illegal.__
+
+To sum it up, the money's there, but
+the drama isn't.  Brands are losing billions to a
+[broken](http://zgp.org/targeted-advertising-considered-harmful/#how-signaling-breaks-down)
+advertising system. Third-party tracking causes data
+leakage, and data leakage results in massive fraud,
+malvertising, revenue loss for sites, and signal
+loss for brands. But the whole story is about as
+movie-worthy as, I don't know, brands losing billions
+of dollars worth of carpet to leaking toilets or
+something.
+
+The good news is that we're going to fix a lot
+of the fraud problem, as
+we can get more of our web users to turn on [tracking
+protection](http://www.aloodo.org/protection/)
+in their browsers.  Maybe, if we're lucky, tracking
+protection will make fraud hard enough and
+unusual enough to be worth making a movie about.
+
