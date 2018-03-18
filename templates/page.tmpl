@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
 <TMPL_IF DYNAMIC>
 <TMPL_IF FORCEBASEURL><base href="<TMPL_VAR FORCEBASEURL>" /><TMPL_ELSE>
@@ -26,12 +26,12 @@ initial-scale=1, maximum-scale=1, minimum-scale=1" />
 </TMPL_IF>
 
 <link
-href='http://fonts.googleapis.com/css?family=Source+Code+Pro&subset=latin,latin-ext'
+href='https://fonts.googleapis.com/css?family=Source+Code+Pro&subset=latin,latin-ext'
 rel='stylesheet' type='text/css'>
 <link
-href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700italic,700,400italic&subset=latin,latin-ext'
+href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700italic,700,400italic&subset=latin,latin-ext'
 rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Vollkorn:700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Vollkorn:700' rel='stylesheet' type='text/css'>
 
 <TMPL_UNLESS DYNAMIC>
 <TMPL_IF EDITURL>
@@ -49,30 +49,13 @@ rel='stylesheet' type='text/css'>
 </TMPL_LOOP>
 </TMPL_UNLESS>
 
-<script src="http://ad.aloodo.com/ad.js" defer></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-58022911-2', 'auto');
-  ga('send', 'pageview');
-
-  function pingGoogle(ev) {
-        if (ev.data !== 'tracking detected') {
-                return;
-        }
-	ga('send', 'event', 'tracking-detected');
-  }
-  window.addEventListener("message", pingGoogle, false);
-</script>
+<script src="https://ad.aloodo.com/ad.js" defer></script>
 
 </head>
 <body>
 
 	<div id="warning-outer"><div id="tracking-warning-block"><a
-	href="http://www.aloodo.org/protection/"><img
+	href="https://www.aloodo.org/protection/"><img
 	src="http://zgp.org/targeted-advertising-considered-harmful/i/tach.gif"
 	width="100%" alt=""><br>If you see a cheesy
 	ad here, you are vulnerable to third-party
@@ -177,24 +160,22 @@ Links:
 <TMPL_IF HTML5></article><TMPL_ELSE></div></TMPL_IF>
 
 <nav id="bottom-nav">
-	<a href="http://www.aloodo.org">Aloodo home</a>
-	&middot;
-	<a href="http://ad.aloodo.com/">code</a>
+	<a href="//www.aloodo.org">Aloodo home</a>
 	&middot;
 	<a href="/index.rss"><img
 	style="width: 1em; height: 1em; vertical-align: baseline"
 	src="//aloodo.org/images/feed.svg"
         alt="RSS"></a>
 	&middot;
-	<a href="http://www.aloodo.org/privacy/">privacy</a>
+	<a href="//www.aloodo.org/privacy/">privacy</a>
 	&middot;
 	<a style="display: none;" id="tracking-warning-inline"
-	href="http://www.aloodo.org/protection/">3rd-party tracking detected</a>
+	href="//www.aloodo.org/protection/">3rd-party tracking detected</a>
 
 	<span id="tracking-safety">Third-party tracking
 	not&nbsp;detected</span>
 
-	<a target="_blank" href="http://www.aloodo.org/test/">(test)</a>
+	<a target="_blank" href="//www.aloodo.org/test/">(test)</a>
 </nav>
 
 <script type="text/javascript" defer>
