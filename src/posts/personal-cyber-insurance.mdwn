@@ -1,4 +1,4 @@
-[[!meta title="Use case sighting: Personal cyber insurance"
+[[!meta title="Use case sighting: Personal cyber insurance"]]
 [[!meta date="Sat Jul  1 11:38:02 PDT 2017"]]
 [[!meta author="Don Marti"]]
 [[!meta authorurl="/people/dmarti/"]]
