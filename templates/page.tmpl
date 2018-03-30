@@ -17,7 +17,6 @@ initial-scale=1, maximum-scale=1, minimum-scale=1" />
 <TMPL_IF FAVICON>
 <link rel="icon" href="<TMPL_VAR BASEURL><TMPL_VAR FAVICON>" type="image/x-icon" />
 </TMPL_IF>
-<link rel="stylesheet" href="<TMPL_VAR BASEURL>shariff.complete.css" type="text/css" />
 <link rel="stylesheet" href="<TMPL_VAR BASEURL>style.css" type="text/css" />
 <TMPL_IF LOCAL_CSS>
 <link rel="stylesheet" href="<TMPL_VAR BASEURL><TMPL_VAR LOCAL_CSS>" type="text/css" />
@@ -53,15 +52,6 @@ rel='stylesheet' type='text/css'>
 
 </head>
 <body>
-
-	<div id="warning-outer"><div id="tracking-warning-block"><a
-	href="https://www.aloodo.org/protection/"><img
-	src="http://zgp.org/targeted-advertising-considered-harmful/i/tach.gif"
-	width="100%" alt=""><br>If you see a cheesy
-	ad here, you are vulnerable to third-party
-	tracking.  Bad web ads don't just annoy you&mdash;they can 
-	spread malware and fraud. Click to protect
-	yourself and your favorite sites.</a></div></div>
 
 <h1 id="blogtitle"><a href="/">blog.aloodo.org</a></h1>
 
@@ -106,7 +96,7 @@ individual post pages -->
 <TMPL_VAR CTIME>
 <a href="<TMPL_VAR PERMALINK>">#</a>
 </span>
-<div class="shariff" data-lang="en"></div>
+
 </TMPL_IF>
 
 <TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
@@ -191,6 +181,5 @@ function fixTitle () {
 }
 window.addEventListener('load', fixTitle, false);
 </script>
-<script type="text/javascript" src="/shariff.complete.js"></script>
 </body>
 </html>
