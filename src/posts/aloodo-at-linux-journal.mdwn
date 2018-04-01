@@ -1,0 +1,100 @@
+[[!meta title="Aloodo at Linux Journal"]]
+[[!meta date="Sat Mar 31 06:57:03 PST 2018"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Doc Searls [writes, at Linux
+Journal,](https://www.linuxjournal.com/content/help-us-cure-online-publishing-its-addiction-personal-data)
+about the site's re-launch plans.  Linux Journal is
+moving to an all-subscription model.
+
+> We believe the only cure is code that gives publishers ways to do exactly what readers want, which is not to bare their necks to adtech's fangs every time they visit a website.
+
+> We're doing that by reversing the way terms of use work. Instead of readers always agreeing to publishers' terms, publishers will agree to readers' terms.
+
+The Linux audience tends to be early adopters of
+privacy tools, which means that brands need new kinds
+of metrics.  When you're trying to reach niche early
+adopters such as the open source and devops audiences
+that <cite>Linux Journal</cite> serves, conventional
+adtech and martech aren't enough.
+
+The readers of <cite>Linux Journal</cite> have
+overwhelmingly rejected web advertising. This
+is strange, because as a former editor there
+back when they had a print magazine, I recall
+that readers didn't have much of a problem with
+the print ads.  We got the usual bragging that
+<q>ads don't work on me,</q> but [print ads don't
+work the way that most people think they work
+anyway](https://www.meltingasphalt.com/ads-dont-work-that-way/).
+
+The <cite>Linux Journal</cite> ads got crappy when they
+went web-only.  Instead of a sustainable revenue
+source, the ad game became a race to the bottom.
+And [LJ almost lost that
+game](https://blog.zgp.org/purple-box-claims-another-victim/).
+
+The good news is that the game is
+changing because of hard work happening
+on the browser side.  Every time a user
+turns on a privacy feature such as [Firefox Tracking
+Protection](https://support.mozilla.org/en-US/kb/tracking-protection#w_how-to-turn-tracking-protection-on),
+or installs a protection tool such as [Better
+by ind.ie](https://ind.ie/) or [EFF Privacy
+Badger](https://www.eff.org/privacybadger), a
+little bit of problematic ad inventory goes away.
+When tracking protection tools keep ad money out
+of the nasty corners of the internet, legit sites
+can win.  Here's how Aloodo plans to help LJ, and is
+available to help other sites too.
+
+**Measure the tracking-protected audience.** Tracking
+protection is a powerful sign of a human audience. A
+legit site can report a tracking protection percentage
+for its audience, and any adtech intermediary who
+claims to offer advertisers the same audience,
+but delivers a suspiciously low tracking protection
+number, is clearly pushing a mismatched or bot-heavy
+audience and is going to have a harder time getting
+away with it.  Showing prospective advertisers your
+tracking protection data lets you reveal the tarnish
+on the adtech "Holy Grail"&mdash;the promise of
+high-value eyeballs on crappy sites.
+
+Tracking protection is hard to
+measure accurately, because there are
+many different kinds.  What works for detecting [AVG
+Crumble](https://chrome.google.com/webstore/detail/crumble-%E2%80%93-online-privacy/icpfjjckgkocbkkdaodapelofhgjncoh?hl=en)
+might not work to detect [Privacy
+Badger](https://www.eff.org/privacybadger).
+[But now anyone with basic web metrics and
+JavaScript skills can do the measurement
+with the Aloodo un-tracking pixel and
+scripts](http://blog.aloodo.org/misc/howto/).
+
+**Use data to sell brands on Flight
+to Quality.** [Real, high-quality
+sites have branding advantages over generic
+eyeball-buying](http://www.comscore.com/Insights/Presentations-and-Whitepapers/2016/The-Halo-Effect-How-Advertising-on-Premium-Publishers-Drives-Higher-Ad-Effectiveness),
+and [adfraud is becoming a mainstream
+concern](http://www.wsj.com/articles/doubts-about-digital-ads-rise-over-new-revelations-1474674323).
+The complex adtech that tracking protection protects
+against is also the place where fraud hides.  (Adtech
+also tends to [drag brands into Internet poo-flinging
+contests by attaching them to controversial
+sites](https://www.nytimes.com/2016/12/02/business/media/breitbart-vanguard-ads-follow-users-target-marketing.html),
+but that's another story.)
+
+Higher-reputation publishers need
+more and better data to take to numbers-craving CMOs.
+Much of that data will have to come from the
+tracking-protected audience.  When quality sites
+share tracking protection data with advertisers, 
+that helps expose the [adfraud that intermediaries 
+have no incentive to track
+down](http://blog.aloodo.org/posts/thank-you-for-supporting-fraud/).
+
+We look forward to working with <cite>Linux
+Journal<cite> and the LJ readers.
+
