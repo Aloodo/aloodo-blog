@@ -6,6 +6,7 @@ SRCFILES = $(shell find src | sort)
 
 public/index.html : ${TEMPLATES} ${SRCFILES}
 	ikiwiki --setup AloodoBlog.setup --verbose --rebuild
+	cp -a src/.well-known public
 
 deploy : public/index.html
 	ssh ${HOST} mkdir -p ${DESTPATH}

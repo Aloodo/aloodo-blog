@@ -1,0 +1,57 @@
+==================================================================
+https://keybase.io/dmarti
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blog.aloodo.org
+  * I am dmarti (https://keybase.io/dmarti) on keybase.
+  * I have a public key ASDKTCylRz-EMSqoq2JW26HWD-Ngu1QcLMMUYBeJAPh9cwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01012e1e580926417ac5f065bc91d412e0e1b4c67be55836b108eecb48bcdad8ad280a",
+      "host": "keybase.io",
+      "kid": "0120ca4c2ca5473f84312aa8ab6256dba1d60fe360bb541c2cc31460178900f87d730a",
+      "uid": "b70b46040b481ce4ce800af51fa49800",
+      "username": "dmarti"
+    },
+    "merkle_root": {
+      "ctime": 1523296353,
+      "hash": "9be6b7af66e96267d217862f41279bb827124da3c129393761fe1e19cd5a74c9cc4730321ea1556e149f4b158b7203581c054985cc0562401e3858b6856447d0",
+      "hash_meta": "b2198ea7c23cedbb1a0a2af0d5c42e441c0aac721c5183172544da78dbcf4b30",
+      "seqno": 2360240
+    },
+    "service": {
+      "entropy": "MQBjoYJE+IryLK7+ch/Wv8bH",
+      "hostname": "blog.aloodo.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.47"
+  },
+  "ctime": 1523296368,
+  "expire_in": 504576000,
+  "prev": "638ba06e34cefa2ddca067cd3aceca44ab44a1a7de0527c4746f5304380d4bc4",
+  "seqno": 85,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgykwspUc/hDEqqKtiVtuh1g/jYLtUHCzDFGAXiQD4fXMKp3BheWxvYWTESpcCVcQgY4ugbjTO+i3coGfNOs7KRKtEoafeBSfEdG9TBDgNS8TEIEqqmZmBzGgEzKseUMONZ+rusBPDnGdvAlcbvxM5WEY+AgHCo3NpZ8RAaIrLWKbAPUSQ5pIfxEtcWZOh1RNkJZPeWWuQ6DAiwFa5U3aMcy6IZzUOJ9lltuWnTEFl2mCjBQ1gcawqLDJ8AKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEID4DlGluWjgO84R/HMeINxSgifs+xRMvZGpk24xn1VHAo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dmarti
+
+==================================================================
+
