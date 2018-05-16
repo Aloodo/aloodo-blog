@@ -1,0 +1,60 @@
+[[!meta title="Amazon ads and playing defense"]]
+[[!meta date="Wed May 16 06:49:08 PDT 2018"]]
+
+In today's marketing news, [Amazon
+is introducing a new ad retargeting
+service](http://business.financialpost.com/technology/amazon-muscles-in-on-googles-billion-dollar-territory-with-new-display-ad-tool).
+
+> The tool lets merchants selling on Amazon’s online marketplace to purchase spots that will follow shoppers around the web to lure the consumers back to Amazon to buy. 
+
+So far, pretty straightforward.  But the big question
+for brand advertisers is: how does this new feature
+interact with Amazon's
+[notorious](https://www.theatlantic.com/technology/archive/2018/04/amazon-may-have-a-counterfeit-problem/558482/)
+[counterfeit](https://sellercentral.amazon.com/forums/t/be-careful-amazon-com-directly-selling-counterfeits-of-our-products/349116)
+[products](https://www.cnet.com/news/ceo-jeff-bezos-called-out-on-amazons-counterfeit-products-problem/)
+[problem](https://www.theguardian.com/technology/2018/apr/27/amazon-site-awash-with-counterfeit-goods-despite-crackdown)?
+
+> Amazon said it can help merchants target shoppers who have viewed their products or similar ones, according to an invitation to try the new tool that was viewed by Bloomberg News.
+
+This clearly presents a problem for legit brands.
+
+ 1. Brand offers a product on Amazon.
+
+ 2. Some deceptive seller offers a counterfeit version.
+
+ 3. Shopper visits a page for the legit product.
+
+ 3. Deceptive seller out-bids the legit brand for
+    retargeted ad impressions (which they can easily
+    afford to do, because they're shipping
+    a crappy product)
+
+ 4. Shopper returns to Amazon and buys the counterfeit
+    product.
+
+Amazon and the deceptive seller win; the original brand
+and the customer lose.
+
+For brands using a reputation-based
+strategy, conventional data-driven marketing
+tactics can only do so much to help here.
+Today's adtech and martech platforms are optimized for
+<q>[game-changing](https://blog.zgp.org/this-is-why-we-can-t-have-nice-brands/)</q>
+interactions that tie marketers to third-party data
+sources, not for brand building.  Targeted advertising
+[tends to give an unfair advantage to deceptive
+sellers](https://blog.aloodo.org/posts/tv-shopping-with-rory-sutherland/),
+and the tools available to legit brands are less
+well known.
+
+Does this mean that ad agencies that create
+value by helping to build brands now have an
+opportunity (or even a responsibility) to include
+tracking protection for customers as part of an
+integrated strategy?  I know that the upcoming
+[Nudgestock](http://www.nudgestockfestival.co.uk/)
+is not just a marketing conference, but I'll be
+speaking there and would be happy to discuss this
+kind of thing if it comes up.
+
