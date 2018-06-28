@@ -1,0 +1,66 @@
+[[!meta title="Beware of averages: why you need a local tracking protection metric"]]
+[[!meta date="Thu Jun 28 06:38:02 PDT 2018"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+According to conventional adtech and martech, exactly
+0% of users are blocking tracking by conventional
+adtech and martech.
+
+You can look at ad blocking rates by market to get an
+idea of how many "invisible" users there are, but the
+"headline rate" for ad blocking has two problems.
+
+ * The ad blocking rate mixes up users of three kinds
+ of software: tracking protection tools that block
+ only third-party tracking (such as Privacy Badger),
+ pure ad blockers that block both third-party trackers
+ and ads (such as uBlock Origin) and ad blockers that
+ run paid whitelisting schemes (such as Adblock Plus).
+
+ * Ad blocking and tracking protection percentages
+   are vastly different from site to site.  Some
+   sites serve a community of practice whose members
+   install a lot of privacy tools.  Some sites don't.
+
+For example, several sites that cover web development
+and devops are getting tracking protection rates
+around 30%.  One site is around 40%.  But if you look
+at the average tracking protection rate for a country,
+you don't see how much of a brand's audience is less
+trackable.  (You can't walk across a river that is
+an average of two feet deep.) What does this mean for
+brands?
+
+ * If you're not reaching people, you're not reaching
+   them.  Most of today's web advertising is invisible
+   to users of some privacy tools and ad blockers.
+
+ * Higher blocking rates don't necessarily mean you
+   get billed less for ad impressions. They can mean
+   that more of the impressions you do get billed for
+   are bots.
+
+ * Data-driven marketing decisions get you the wrong
+   answers if real customers get consistently missed.
+
+What can brands do?  The first step is to figure
+out if a brand has the kind of protected customers
+who make it necessary to do something.  If all the
+customers are neatly trackable, that brand probably
+has higher priorities. (protip: brand safety)
+
+If you run the test and the customers are better
+protected from tracking than the average, that's
+where the opportunity comes in.
+
+While the competition wastes their budget on reaching
+the wrong people, or bots, they're not getting to the
+tracking-protected audience.  Knowing if you have
+tracking-protected customers is the first step in
+building creative ways to reach them.
+
+[Next steps: JavaScript
+instructions](https://www.aloodo.org/sites/), or
+contact us using the form below.
+
