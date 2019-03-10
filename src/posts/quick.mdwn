@@ -1,0 +1,26 @@
+[[!meta title="Quick analytics for built-in tracking protection"]]
+[[!meta date="Sat Mar  9 06:57:03 PST 2019"]]
+[[!meta author="Don Marti"]]
+[[!meta authorurl="/people/dmarti/"]]
+
+Tracking protection is still hard to measure
+accurately, because there are many different
+kinds.  The Aloodo project can pick up everything,
+including lesser-known vintage tools such as [AVG
+Crumble](https://chrome.google.com/webstore/detail/crumble-%E2%80%93-online-privacy/icpfjjckgkocbkkdaodapelofhgjncoh?hl=en)
+and even behavior-based tools like [Privacy
+Badger](https://www.eff.org/privacybadger) that take
+a while to get <q>trained</q> and start blocking.
+
+The biggest protection tools are the browser
+built-ins.  Apple Safari has had Intelligent Tracking
+Prevention, and Mozilla Firefox is testing Enhanced
+Tracking Protection.  We have added a quick test that
+should cover both of these.  Now there is an
+`onBlocked` callback to take action when we can detect
+right away that a user has this form of protection
+because a third-party cookie won't persist.
+
+Code: [Add "cookie blocked" message · Aloodo/ad.aloodo.com@1915f0b](https://github.com/Aloodo/ad.aloodo.com/commit/1915f0b4025a864a9a762b43e03b963b4bb6fd0e)
+
+
