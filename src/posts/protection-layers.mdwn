@@ -3,6 +3,8 @@
 [[!meta author="Don Marti"]]
 [[!meta authorurl="/people/dmarti/"]]
 
+_(update 17 Mar 2020: Add link to Cookie AutoDelete to replace
+Self-Destructing Cookies)_
 
 Joe Marchese [writes, in the Wall Street
 Journal](http://www.wsj.com/articles/outside-voices-id-like-to-teach-the-world-to-ad-block-1448454601),
@@ -93,9 +95,10 @@ for its "yellowlist" domains.)
 
 If a tracking cookie or other identifier
 does get through, delete or scramble it on
-leaving the site or later, as the [Self-Destructing
-Cookies](https://addons.mozilla.org/En-us/firefox/addon/self-destructing-cookies/)
-extension does. This layer of protection matters in
+leaving the site or later, as the
+[Cookie AutoDelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
+extension (similar to the old <q>Self-Destructing Cookies</q>)
+does. This layer of protection matters in
 two important situations.
 
  * Clean up browser state after a site visit in which
